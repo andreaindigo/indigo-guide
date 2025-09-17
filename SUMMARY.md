@@ -19,6 +19,8 @@
     * [🤝 Handover Block](getting-started/blocks-and-variables/action-blocks/handover-block.md)
     * [📎 Upload Block](getting-started/blocks-and-variables/action-blocks/upload-block.md)
     * [🌐 API Block](getting-started/blocks-and-variables/action-blocks/api-block.md)
+    * [Hang up Block](getting-started/blocks-and-variables/action-blocks/hang-up-block.md)
+    * [Transfer call Block](getting-started/blocks-and-variables/action-blocks/transfer-call-block.md)
   * [Logic Blocks](getting-started/blocks-and-variables/logic-blocks/README.md)
     * [🔀 Reroute Block](getting-started/blocks-and-variables/logic-blocks/reroute-block.md)
     * [🔣 Condition Block](getting-started/blocks-and-variables/logic-blocks/condition-block.md)
