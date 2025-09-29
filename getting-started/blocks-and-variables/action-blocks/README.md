@@ -16,5 +16,9 @@ Below are the five types of Action Blocks available in the platform:
   Enables users and human operators to upload files (documents, images, PDFs) during the chat—perfect for customer support or application processes.
 * [**🌐 API Block**](api-block.md)\
   Connects your assistant to external systems by making real-time API calls. You can retrieve or send data from/to CRMs, databases, or other tools—enabling your assistant to take actions based on live business data.
+* [**Hang up Block**](hang-up-block.md)\
+  Terminates a voice call and optionally triggers a post-call workflow.
+* [**Transfer call Block**](transfer-call-block.md)\
+  Transfers a voice call to an external number with waiting and fallback management.
 
 Click on each block name to explore its full functionality and discover how to use it effectively in your own assistant workflows.
