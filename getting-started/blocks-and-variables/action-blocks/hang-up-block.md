@@ -33,8 +33,18 @@ The reroute action linked to a Hang up block can only happen if the call is stil
 This means that:
 
 * If you add more than one Hang up block in the same workflow, only the first one will actually close the call and (optionally) trigger a post-call workflow.
-* If the post-call workflow started by a Hang up block also contains another Hang up, that second block won’t do anything—because the call has already ended.\
+* If the post-call workflow started by a Hang up block also contains another Hang up, that second block won’t do anything—because the call has already ended.
 
+{% hint style="info" %}
+**In short**: once the call is closed, it’s not possible to trigger new flows with other Hangup blocks. Each Hangup can be used only once to end the call and optionally start a post-call workflow.
+{% endhint %}
 
-💡 **In short**: once the call is closed, it’s not possible to trigger new flows with other Hangup blocks. Each Hangup can be used only once to end the call and optionally start a post-call workflow.
+### Use case example
+
+Imagine a support line where a virtual assistant handles initial user requests. At the end of the conversation, a Hangup block can be used to close the call and automatically trigger a post-call workflow that:
+
+* Classifies the conversation (e.g., “billing issue,” “technical problem,” “general inquiry”),
+* Logs the interaction into a CRM system.
+
+This ensures the call is properly closed while enabling automated follow-up actions that improve reporting and customer support efficiency.
 

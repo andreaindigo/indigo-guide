@@ -367,6 +367,18 @@ Choose how your agent should respond when it fails to generate a reply: for exam
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-07-07 alle 14.23.44.png" alt="" width="234"><figcaption></figcaption></figure>
 
+#### Configuring Tools in an Agent
+
+Within each Agent block, you’ll find a **Tools** section that allows you to connect the agent with external services.\
+Only the tools previously enabled in the **Integrations** settings are available for selection.
+
+* Use the first dropdown to select the **provider** (e.g., Google Calendar).
+* Use the second dropdown to select the **action** made available by that provider (e.g., _Create a new event_).
+
+You can add more than one integration to the same agent by clicking the **+ Add tool** button.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 ## 📌 Configuring the General Agent
 
 In the previous sections, we covered the configuration of the Jewelry Pre-Sales Assistant, a specialized agent designed to assist customers of Lumine Jewels, a luxury jewelry brand.

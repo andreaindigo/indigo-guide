@@ -63,7 +63,7 @@ All the details on the new variables are available here: [#deep-dive-map-and-lis
 
 ### 🔗 Updated API Documentation
 
-This release is powered by our newly overhauled [**indigo.ai Platform API**](../../integrating-with-our-platform-api.md), built on GraphQL and designed for speed, flexibility, and enterprise-scale integrations.
+This release is powered by our newly overhauled [**indigo.ai Platform API**](../../integrating-with-our-platform-api/), built on GraphQL and designed for speed, flexibility, and enterprise-scale integrations.
 
 Check out our updated API documentation to:
 
@@ -76,3 +76,6 @@ Check out our updated API documentation to:
 {% hint style="info" %}
 API access is a **premium feature** and may require a license upgrade. [Contact our Customer Success team](../../need-help/our-customer-success-team.md) to activate External Triggers in your workspace.
 {% endhint %}
+
+👉 **Want to see how to set it up step by step?**\
+Check out our technical guide to[ Non-Conversational Triggers](../../integrating-with-our-platform-api/non-conversational-triggers.md) — with REST endpoints, webhook setup examples, and advanced variable management.

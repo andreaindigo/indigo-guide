@@ -43,16 +43,17 @@ Chats initiated from within the workspace (e.g., during testing) appear in the �
 
 To simplify the search and analysis of chats, you can apply a series of filters. These filters allow you to quickly find the conversation you're looking for based on various variables:
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-03 alle 08.29.32.png" alt="" width="259"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/filtri disponibili.png" alt=""><figcaption></figcaption></figure>
 
-* **Date** – View chats from a specific time range.
-* **CSAT (Customer Satisfaction Score)** – Filter by score (equals, not equals, more than, less than).
-* **CSAT Comment** – Filter chats with or without user comments.
-* **Feedback** – Sort by user feedback (👍 or 👎: only positive, only negative, more positive than negative, etc.).
-* **Agent/Workflow** – Filter by which agent or workflow was involved in the conversation.
-* **User Email** – Filter chats with or without user email addresses.
-* **Keyword** – Search chats for specific words or phrases.
-* **Need Support** – Quickly identify chats flagged as needing help from a human operator.
+* **Variables:** Filter conversations by the value of one or more variables used in the interaction.
+* **CSAT (Customer Satisfaction Score):** Filter by score (equals, not equals, more than, less than).
+* **CSAT Comment:** Filter chats with or without user comments.
+* **Feedback**: Sort by user feedback (👍 or 👎: only positive, only negative, more positive than negative, etc.).
+* **Agent/Workflow**: Filter by which agent or workflow was involved in the conversation.
+* **User Email**: Filter chats with or without user email addresses.
+* **Keyword**: Search chats for specific words or phrases.
+* **Need Support**: Quickly identify chats flagged as needing help from a human operator.
+* **Date:** View chats from a specific time range.
 
 ### Sorting Options
 

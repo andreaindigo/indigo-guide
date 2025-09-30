@@ -39,7 +39,7 @@ Whether you're in a pre-production testing phase or monitoring live conversation
 
 ## Key Features
 
-### 📌 Centralized [Dashboard](../../getting-started/workspace-sections/issue-tracker.md)
+### 📌 Centralized [Dashboard](../../getting-started/workspace-sections/utilities/issue-tracker.md)
 
 <figure><img src="../../.gitbook/assets/issues.png" alt=""><figcaption></figcaption></figure>
 
@@ -60,7 +60,7 @@ Create issues directly from multiple areas of the platform:
 
 <figure><img src="../../.gitbook/assets/create issue from chat.png" alt=""><figcaption></figcaption></figure>
 
-* [**Issue Tracker Page**](../../getting-started/workspace-sections/issue-tracker.md): Click the "+ Create Issue" button to log feedback not tied to a specific interaction.
+* [**Issue Tracker Page**](../../getting-started/workspace-sections/utilities/issue-tracker.md): Click the "+ Create Issue" button to log feedback not tied to a specific interaction.
 
 <figure><img src="../../.gitbook/assets/issues header create.png" alt=""><figcaption></figcaption></figure>
 

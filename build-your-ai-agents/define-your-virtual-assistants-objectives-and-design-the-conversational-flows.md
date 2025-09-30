@@ -84,7 +84,7 @@ As you design each flow, it’s crucial to determine what **information the assi
 
 * **User-provided inputs** (e.g., email, order number, preferences)
 * Content from your [**knowledge base**](create-your-knowledge-base/) (e.g., FAQs)
-* Dynamic data retrieved through [**external integrations**](../getting-started/integrations.md), like product catalogs or CRM databases.&#x20;
+* Dynamic data retrieved through [**external integrations**](../getting-started/integrations/), like product catalogs or CRM databases.&#x20;
 
 Mapping out these data points and dependencies in advance ensures that the assistant asks the right questions and pulls the right information at the right time.
 

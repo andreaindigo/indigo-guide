@@ -53,7 +53,7 @@ The Issue Tracker replaces the need for external spreadsheets by allowing tester
 #### Here’s how to use it:
 
 * **Flag issues from** [**Chats**](../getting-started/workspace-sections/chats/#issue-creation) **or the AI Preview:** During testing or review, hover over any message to create an issue. You can specify a title, description, priority, tags (e.g., Bug, Improvement), and assign it to a team member or your indigo.ai Customer Success Manager.
-* [**Dashboard View**](../getting-started/workspace-sections/issue-tracker.md)**:** All flagged issues are collected in a centralized dashboard where you can sort, filter, and manage them based on priority, tag, assignee, or status.
+* [**Dashboard View**](../getting-started/workspace-sections/utilities/issue-tracker.md)**:** All flagged issues are collected in a centralized dashboard where you can sort, filter, and manage them based on priority, tag, assignee, or status.
 * **Comment and Track Progress:** Use the dashboard to leave comments, track status updates, and ensure every issue is followed through to resolution.
 
 This built-in system brings structure and speed to your testing process, making it easier to collect and act on feedback.

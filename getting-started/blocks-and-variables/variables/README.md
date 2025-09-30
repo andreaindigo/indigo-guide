@@ -198,3 +198,7 @@ This can be achieved by including parameters in the web chat script's URL. Doing
 {% hint style="info" %}
 For detailed instructions on setting this up, refer to this article: [web-chat-integration-dynamic-interaction-and-data-exchange-with-your-website.md](../../../tech-deep-dives/web-chat-integration-and-customization-on-your-website/web-chat-integration-dynamic-interaction-and-data-exchange-with-your-website.md "mention").
 {% endhint %}
+
+### Variables in Chats
+
+Variables can also be used in the [Chats](../../workspace-sections/chats/) section as filters, allowing you to quickly find conversations based on their values.

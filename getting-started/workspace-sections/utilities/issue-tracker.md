@@ -8,14 +8,14 @@ The Issue Tracker is your control center for **monitoring and managing issues re
 
 {% hint style="warning" %}
 **New Feature**\
-The Issue Tracker was released in **June 2025** and is currently in **beta testing**. Learn more about this new feature here: [issue-tracker-for-tests-and-improvements.md](../../product-updates/latest-product-releases/issue-tracker-for-tests-and-improvements.md "mention")
+The Issue Tracker was released in **June 2025** and is currently in **beta testing**. Learn more about this new feature here: [issue-tracker-for-tests-and-improvements.md](../../../product-updates/latest-product-releases/issue-tracker-for-tests-and-improvements.md "mention")
 {% endhint %}
 
 ### 🔍 The Issue Tracker Dashboard
 
 The dashboard offers a streamlined view of all open, in-progress, and resolved items in your workspace.
 
-<figure><img src="../../.gitbook/assets/issues.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/issues.png" alt=""><figcaption></figcaption></figure>
 
 Each issue is displayed in a table format with key details:
 
@@ -37,7 +37,7 @@ You can also:
 
 Click the **“+ Create Issue”** button at the top right of the dashboard.
 
-<figure><img src="../../.gitbook/assets/issues header create (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/issues header create (1).png" alt=""><figcaption></figcaption></figure>
 
 From here, you'll access a form where you can enter all necessary details:
 
@@ -53,7 +53,7 @@ From here, you'll access a form where you can enter all necessary details:
 
 You can edit or delete any issue using the respective **“Edit”** or **“Delete Issue”** options at the bottom of the issue detail view.
 
-<figure><img src="../../.gitbook/assets/issue scheda.png" alt="" width="388"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/issue scheda.png" alt="" width="388"><figcaption></figcaption></figure>
 
 ### 🔄 Managing and Prioritizing Work
 

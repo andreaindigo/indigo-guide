@@ -4,7 +4,7 @@ Quick Replies are a valuable feature for improving user interaction within a vir
 
 While our interface and agents are powered by conversational and generative AI, there are still instances where **offering the user a limited set of clear options** can improve the experience. By offering choices that are easy to select, Quick Replies streamline the conversation and make navigation more efficient.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-25 alle 17.54.14.png" alt=""><figcaption><p>The Quick Reply Block</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/quick replies 1.png" alt="The Quick Reply Block"><figcaption><p>The Quick Reply Block</p></figcaption></figure>
 
 **Use Cases Examples**
 
@@ -22,7 +22,7 @@ The **maximum number of buttons supported** per response is **10**. Quick Replie
 * **An Agent or Workflow**: This helps create a smooth, intuitive navigation flow in the conversation.
 * **A Phone Number**: For instance, to connect users to customer support contacts. Example: "Call Customer Support" (links to a phone number).
 * **An External Web Page**: You can create buttons that redirect users to external websites for more detailed resources. Example: "Visit Our FAQ" (links to an FAQ page).
-* **A** [**Variable**](../variables/): For example, a button that pulls in a user-specific discount code.
+* **A** [**Variable**](../variables/) <mark style="color:$danger;">**of Agent or Workflow type**</mark>: can reference dynamic content such as an Agent or Workflow, making actions flexible and context-dependent.
 * **An Email Address**: For sharing an email. You would set the button to the link format: `mailto://emailaddress@domain.xxx`. Example: "Email Us" (links to the support team’s email).
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-25 alle 18.03.30.png" alt="" width="375"><figcaption><p>Quick Reply Connection Options</p></figcaption></figure>
@@ -30,6 +30,16 @@ The **maximum number of buttons supported** per response is **10**. Quick Replie
 The **titles** of Quick Replies are automatically filled in based on the title of the response they are connected to. However, these titles can be edited anytime by clicking on them.&#x20;
 
 You can also remove a Quick Reply connection by clicking the X next to the Quick Reply box.
+
+## Using Quick Replies with variables
+
+In addition to linking buttons to external actions, Quick Replies can also be used to save the value of a variable<mark style="color:$danger;">.</mark> For example, imagine a Quick Reply asking “How old are you?” and showing three buttons with different age ranges (e.g., “Under 18”, “18–30”, “Over 30”). Each button is linked to the variable age, and depending on the user’s choice, can assume a different value. Consequently, the conversation flow can branch into different paths, allowing the assistant to personalize the experience based on the selected age range.
+
+{% hint style="info" %}
+Example:
+
+{ "text": "How old are you?", "quick\_replies": \[ { "title": "Under 18", "set\_variable": { "age": "under\_18" } }, { "title": "18–30", "set\_variable": { "age": "18\_30" } }, { "title": "Over 30", "set\_variable": { "age": "over\_30" } } ] }
+{% endhint %}
 
 ## Best Practices
 

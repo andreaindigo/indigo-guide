@@ -46,7 +46,7 @@ _**Example 2: Integration with CRM (e.g., Salesforce)**_\
 * Start by setting up the **API integration** to connect your AI Agent with your internal tools (e.g., Salesforce, Shopify).
 
 {% hint style="info" %}
-For detailed guidance, refer to this section: [integrations.md](../../getting-started/integrations.md "mention").
+For detailed guidance, refer to this section: [integrations](../../getting-started/integrations/ "mention").
 {% endhint %}
 {% endstep %}
 

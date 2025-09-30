@@ -3,7 +3,7 @@
 The API Block is one of the most powerful and flexible tools available on the indigo.ai platform. It allows you to **connect your virtual assistant with external systems**—such as CRMs, ERPs, e-commerce platforms, or internal databases—by **sending and receiving real-time data via standard API calls**.
 
 {% hint style="info" %}
-Want to see what kind of systems you can connect to? Learn more about all available integrations here: [integrations.md](../../integrations.md "mention").&#x20;
+Want to see what kind of systems you can connect to? Learn more about all available integrations here: [integrations](../../integrations/ "mention").&#x20;
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-04-02 alle 10.50.02.png" alt=""><figcaption></figcaption></figure>
@@ -154,3 +154,17 @@ The integration supports parameters such as:
 {% hint style="info" %}
 To access this internal service, please [contact us](../../../need-help/our-customer-success-team.md).
 {% endhint %}
+
+#### Using Integration Tools in the API Block
+
+
+
+The API block supports not only custom API calls but also **preconfigured actions** from the tools enabled in the **Integrations** section.\
+To use them, activate the **Use integrations** toggle inside the API block.
+
+Once the toggle is on, you can select a **provider** and the **specific action** to execute.\
+Keep in mind that each API block can run **only one action per integration**.
+
+<figure><img src="../../../.gitbook/assets/API (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

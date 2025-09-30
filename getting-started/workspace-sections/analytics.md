@@ -117,5 +117,5 @@ Key information includes:
 {% hint style="warning" %}
 #### 📊 Exporting Data
 
-Currently, data cannot be downloaded directly from the platform. However, you can access analytics data through the **platform's API** for further reporting and analysis. If you require access to API data, please see this documentation for more information: [integrating-with-our-platform-api.md](../../integrating-with-our-platform-api.md "mention").&#x20;
+Currently, data cannot be downloaded directly from the platform. However, you can access analytics data through the **platform's API** for further reporting and analysis. If you require access to API data, please see this documentation for more information: [integrating-with-our-platform-api](../../integrating-with-our-platform-api/ "mention").&#x20;
 {% endhint %}

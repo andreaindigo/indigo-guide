@@ -35,7 +35,7 @@ While the **Mail Block** provides a lot of flexibility, there are a few customiz
 * **Modification of the "From" Address**: To send emails from an address other than @indigo.ai, a specific configuration on Postmark is required.
 
 {% hint style="info" %}
-This article contains more information on integrating with the indigo.ai API: [integrating-with-our-platform-api.md](../../../integrating-with-our-platform-api.md "mention")
+This article contains more information on integrating with the indigo.ai API: [integrating-with-our-platform-api](../../../integrating-with-our-platform-api/ "mention")
 {% endhint %}
 
 ### Handling Outcomes

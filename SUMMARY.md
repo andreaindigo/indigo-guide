@@ -36,8 +36,12 @@
     * [Debugging](getting-started/workspace-sections/chats/debugging.md)
   * [Analytics](getting-started/workspace-sections/analytics.md)
   * [Settings](getting-started/workspace-sections/settings.md)
-  * [Issue Tracker](getting-started/workspace-sections/issue-tracker.md)
-* [Integrations](getting-started/integrations.md)
+  * [📏Utilities](getting-started/workspace-sections/utilities/README.md)
+    * [Conversation Logs](getting-started/workspace-sections/utilities/conversation-logs.md)
+    * [Evaluators](getting-started/workspace-sections/utilities/evaluators.md)
+    * [Issue Tracker](getting-started/workspace-sections/utilities/issue-tracker.md)
+* [Integrations](getting-started/integrations/README.md)
+  * [Tools](getting-started/integrations/tools.md)
 * [Communication Channels](getting-started/communication-channels/README.md)
   * [Voice](getting-started/communication-channels/voice.md)
 * [Multilingual Capabilities](getting-started/multilingual-capabilities.md)
@@ -73,6 +77,7 @@
   * [Voice in Web Chat: More Accessible Conversations](product-updates/latest-product-releases/voice-in-web-chat-more-accessible-conversations.md)
   * [Issue Tracker for Tests & Improvements](product-updates/latest-product-releases/issue-tracker-for-tests-and-improvements.md)
   * [Non-Conversational Triggers](product-updates/latest-product-releases/non-conversational-triggers.md)
+  * [New Utilities: Conversation Logs & Evaluators](product-updates/latest-product-releases/new-utilities-conversation-logs-and-evaluators.md)
   * [Workspace Updates - Q1 2025](product-updates/latest-product-releases/workspace-updates-q1-2025.md)
   * [The Next-Generation Web Chat](product-updates/latest-product-releases/the-next-generation-web-chat.md)
   * [A New Version of Our Platform](product-updates/latest-product-releases/a-new-version-of-our-platform.md)
@@ -91,7 +96,8 @@
 
 ***
 
-* [Integrating with Our Platform API](integrating-with-our-platform-api.md)
+* [Integrating with Our Platform API](integrating-with-our-platform-api/README.md)
+  * [Non-Conversational Triggers](integrating-with-our-platform-api/non-conversational-triggers.md)
 * [Troubleshooting Common Issues](troubleshooting-common-issues.md)
 
 ## News

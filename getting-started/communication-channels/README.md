@@ -87,7 +87,7 @@ Your virtual assistant can be seamlessly integrated into the web chat interface 
 
 * indigo.ai offers a **native integration with Zendesk** for seamless deployment and support within its ecosystem.
 * To integrate your virtual assistant with **other CRM platforms** (such as Salesforce), you can use our **Chat API** for full flexibility.
-* If you also want your assistant to interact with the **CRM's ticketing system or knowledge base**, you'll need to set up an integration with that external system. Learn more about available integrations in this article: [integrations.md](../integrations.md "mention").
+* If you also want your assistant to interact with the **CRM's ticketing system or knowledge base**, you'll need to set up an integration with that external system. Learn more about available integrations in this article: [integrations](../integrations/ "mention").
 {% endhint %}
 
 ## 3. **📱** WhatsApp

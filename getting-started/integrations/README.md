@@ -7,7 +7,7 @@ icon: puzzle-piece
 
 Integrating your AI assistant with your existing business systems is key to unlocking its full potential. indigo.ai offers a comprehensive suite of integration options, enabling connections with Customer Relationship Management (CRM) platforms, e-commerce systems, Enterprise Resource Planning (ERP) tools, and other essential applications. These integrations facilitate real-time data exchange, streamline operations, and enhance both user and operator interactions.
 
-All integrations are managed through our powerful [**API Block**](blocks-and-variables/action-blocks/api-block.md), a core component in the conversational flow builder. This feature allows your assistant to **read from and write to third-party systems**, enabling **real-time data exchange and dynamic responses**.
+All integrations are managed through our powerful [**API Block**](../blocks-and-variables/action-blocks/api-block.md), a core component in the conversational flow builder. This feature allows your assistant to **read from and write to third-party systems**, enabling **real-time data exchange and dynamic responses**.
 
 ## Available Integrations
 
@@ -56,7 +56,7 @@ By **integrating your KB via API**, you enable your **assistant to access real-t
 This setup ensures your assistant always delivers responses that are not only relevant and consistent but also aligned with current business operations.
 
 {% hint style="info" %}
-Learn more about best practices for setting up your KB in this section of the guide: [create-your-knowledge-base](../build-your-ai-agents/create-your-knowledge-base/ "mention"), and explore how to implement API-based content integrations in detail in this article: [integrating-your-kb-via-api.md](../build-your-ai-agents/create-your-knowledge-base/integrating-your-kb-via-api.md "mention").
+Learn more about best practices for setting up your KB in this section of the guide: [create-your-knowledge-base](../../build-your-ai-agents/create-your-knowledge-base/ "mention"), and explore how to implement API-based content integrations in detail in this article: [integrating-your-kb-via-api.md](../../build-your-ai-agents/create-your-knowledge-base/integrating-your-kb-via-api.md "mention").
 {% endhint %}
 
 ## Integration with User Authentication
@@ -65,4 +65,4 @@ Kick off conversations with personalized data by integrating your chatbot with y
 
 This setup enables you to prefill variables, **personalize assistant responses, and tailor the experience based on who's interacting with your virtual assistant**.
 
-For a technical deep dive, check out this article that explains **how to pass data directly to the web chat** using URL parameters in the web chat script: [#id-2.-passing-parameters-to-the-assistant](../tech-deep-dives/web-chat-integration-and-customization-on-your-website/web-chat-integration-dynamic-interaction-and-data-exchange-with-your-website.md#id-2.-passing-parameters-to-the-assistant "mention").&#x20;
+For a technical deep dive, check out this article that explains **how to pass data directly to the web chat** using URL parameters in the web chat script: [#id-2.-passing-parameters-to-the-assistant](../../tech-deep-dives/web-chat-integration-and-customization-on-your-website/web-chat-integration-dynamic-interaction-and-data-exchange-with-your-website.md#id-2.-passing-parameters-to-the-assistant "mention").&#x20;

@@ -14,9 +14,8 @@ Here’s a brief overview of each section:&#x20;
   In the Analytics section, you can monitor performance through key metrics such as user engagement, CSAT scores, traffic, and feedback. Leverage these insights to optimize your virtual assistant’s performance.
 * [⚙️ **Settings**](settings.md)\
   The Settings section enables you to manage workspace configurations, user roles, security settings, and web chat customization. Control access and ensure your virtual assistant aligns perfectly with your organizational standards.
-*   [**🚩 Issue Tracker**](issue-tracker.md) **🆕**
-
-    The Issue Tracker is your centralized dashboard designed to effortlessly manage, monitor, and resolve issues and improvement points identified during the testing and optimization phase of your virtual assistants. Gain immediate visibility into what needs attention, collaborate seamlessly, and streamline the path from issue identification to resolution.
+* 🛠️ **Utilities**\
+  The Utilities section provides advanced tools to monitor and improve conversation quality. Here you can review detailed [**Conversation Logs**](utilities/conversation-logs.md), configure [**Evaluators**](utilities/evaluators.md) to measure performance, and track issues through the [**Issue Tracker**](utilities/issue-tracker.md), ensuring every interaction meets expectations.
 
 {% hint style="info" %}
 Currently, this feature is in beta testing with selected clients.

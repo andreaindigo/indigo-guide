@@ -37,7 +37,7 @@ Authorization: Bearer pat-*your_pat_value*
 ```
 
 {% hint style="warning" %}
-If you're interested in getting access to our API, please [contact us](need-help/our-customer-success-team.md)!&#x20;
+If you're interested in getting access to our API, please [contact us](../need-help/our-customer-success-team.md)!&#x20;
 
 Note that API access is a premium feature and incurs an additional cost.
 {% endhint %}
