@@ -8,6 +8,12 @@ Here you’ll find an overview of all our quarterly newsletters—packed with ne
 
 Not receiving our emails? [Contact us](../need-help/our-customer-success-team.md) and we’ll make sure to add you to the mailing list.
 
+## Q3 - 2025
+
+Sent on: October 2, 2025
+
+{% embed url="https://conversational.indigo.ai/novit%C3%A0-dellultimo-trimestre-anteprima-roadmap-q3-1" %}
+
 ## Q2 - 2025
 
 Sent on: July 10, 2025

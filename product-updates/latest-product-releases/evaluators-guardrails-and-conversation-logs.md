@@ -1,10 +1,11 @@
 ---
+description: Released in September 2025
 layout:
   width: default
   title:
     visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:

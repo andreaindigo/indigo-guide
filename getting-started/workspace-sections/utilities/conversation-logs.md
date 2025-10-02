@@ -11,6 +11,11 @@ icon: comment-lines
 Conversation Logs provide a centralized place in the indigo.ai platform where you can view the full list of chatbot conversations and their corresponding Evaluator results.\
 This section allows teams to **analyze every single conversation,** understand how evaluators and guardrails performed, and start any necessary debugging flows.
 
+{% hint style="warning" %}
+**New Feature**\
+Conversation Logs were released in **September 2025**. Learn more about it here: [evaluators-guardrails-and-conversation-logs.md](../../../product-updates/latest-product-releases/evaluators-guardrails-and-conversation-logs.md "mention")
+{% endhint %}
+
 ## ✅ Benefits
 
 * Detailed visibility → review all conversations in one place, with full evaluator and guardrail outcomes.
@@ -104,7 +109,7 @@ When you open a log in the side panel, you can:
 
 ## 🔄️ Chats vs. Conversations
 
-The Chats section now also displays the individual conversations within each chat.\
+The [Chats section](../chats/) now also displays the individual conversations within each chat.\
 From here, you can:
 
 * Navigate between conversations in the same chat using the right-hand sidebar or search bar.

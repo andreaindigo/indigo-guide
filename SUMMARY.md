@@ -36,7 +36,7 @@
     * [Debugging](getting-started/workspace-sections/chats/debugging.md)
   * [Analytics](getting-started/workspace-sections/analytics.md)
   * [Settings](getting-started/workspace-sections/settings.md)
-  * [📏Utilities](getting-started/workspace-sections/utilities/README.md)
+  * [Utilities](getting-started/workspace-sections/utilities/README.md)
     * [Conversation Logs](getting-started/workspace-sections/utilities/conversation-logs.md)
     * [Evaluators and Guardrails](getting-started/workspace-sections/utilities/evaluators-and-guardrails.md)
     * [Issue Tracker](getting-started/workspace-sections/utilities/issue-tracker.md)

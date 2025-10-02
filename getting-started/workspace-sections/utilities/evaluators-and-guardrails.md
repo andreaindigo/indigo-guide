@@ -27,6 +27,11 @@ They help measure key aspects such as response relevance, dialogue coherence, to
 
 Evaluators work together with Guardrails, which act as preventive checks during live conversations. Together, they provide a complete framework for monitoring, improving, and governing chatbot quality.
 
+{% hint style="warning" %}
+**New Feature**\
+Evaluators and Guardrails were released in **September 2025**. Learn more about it here: [evaluators-guardrails-and-conversation-logs.md](../../../product-updates/latest-product-releases/evaluators-guardrails-and-conversation-logs.md "mention")
+{% endhint %}
+
 ## ✅ Benefits
 
 * Objective and fast evaluations → continuous quality monitoring, independent from human judgment.
