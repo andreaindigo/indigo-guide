@@ -81,6 +81,7 @@
   * [Workspace Updates - Q1 2025](product-updates/latest-product-releases/workspace-updates-q1-2025.md)
   * [The Next-Generation Web Chat](product-updates/latest-product-releases/the-next-generation-web-chat.md)
   * [A New Version of Our Platform](product-updates/latest-product-releases/a-new-version-of-our-platform.md)
+  * [Voice gets smarter: try the new Hang up and Transfer Call Blocks](product-updates/latest-product-releases/voice-gets-smarter-try-the-new-hang-up-and-transfer-call-blocks.md)
 * [Platform Updates](product-updates/platform-updates.md)
 * [Roadmap of Upcoming Product Developments](product-updates/roadmap-of-upcoming-product-developments.md)
 
