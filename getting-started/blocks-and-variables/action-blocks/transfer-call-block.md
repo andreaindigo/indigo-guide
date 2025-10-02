@@ -46,7 +46,7 @@ This block is designed to provide operational flexibility, a customizable experi
 * In text chats or web calls, the block is automatically skipped and the user is informed.
 * A transfer can only succeed if the destination number is valid and available at the time of execution.
 
-### ✅Best Practice
+### ✅ Best Practice
 
 {% hint style="info" %}
 Always configure a fallback path: if the transfer cannot be completed, make sure the user is redirected to an alternative flow instead of being left with a dropped call.

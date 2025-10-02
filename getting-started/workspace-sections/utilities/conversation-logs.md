@@ -6,18 +6,18 @@ icon: comment-lines
 
 ### How to track and analyze chatbot interactions
 
-## 📌Overview
+## 📌 Overview
 
 Conversation Logs provide a centralized place in the indigo.ai platform where you can view the full list of chatbot conversations and their corresponding Evaluator results.\
 This section allows teams to **analyze every single conversation,** understand how evaluators and guardrails performed, and start any necessary debugging flows.
 
-## ✅Benefits
+## ✅ Benefits
 
 * Detailed visibility → review all conversations in one place, with full evaluator and guardrail outcomes.
 * Operational efficiency → quickly identify issues, user feedback, or API errors without switching tools.
 * Debug-ready → inspect conversations in detail, including errors and triggers, to improve the chatbot’s performance.
 
-## 💬What is a ConversationLog?
+## 💬 What is a Conversation Log?
 
 A Conversation Log represents one interaction between a chatbot and an end-user.
 
@@ -25,7 +25,7 @@ A Conversation Log represents one interaction between a chatbot and an end-user.
 * Multiple conversations together form a chat.
 * In the Conversation Logs view, you can browse the list of conversations and check how evaluators and guardrails performed for each one.
 
-## ⚙️How to access and use Conversation Log
+## ⚙️ How to access and use Conversation Log
 
 You can find Conversation Logs in the Indigo.ai platform under the Utilities section of the left-hand menu.
 
@@ -39,7 +39,7 @@ You can find Conversation Logs in the Indigo.ai platform under the Utilities sec
 
 💡**Tip**: Combine property filters with date ranges to quickly isolate relevant conversations (e.g., all production conversations from the past week where API errors occurred).
 
-## 📂Logs list
+## 📂 Logs list
 
 Each row in the logs list corresponds to a single conversation.\
 Columns display both **conversation properties** and **Evaluator outcomes**.
@@ -68,7 +68,7 @@ There is one column for each evaluator output:
 * **Guardrail** → activated / not activated.
 * **Label** → zero, one, or multiple labels.
 
-## ⚙️Actions available in the Logs table
+## ⚙️ Actions available in the Logs table
 
 * Sort conversations (ascending/descending).
 * View conversation details.
@@ -78,7 +78,7 @@ There is one column for each evaluator output:
 * Refresh the list to load new conversations.
 * Open a detailed log view to analyze evaluator results.
 
-## 🔎Log details
+## 🔎 Log details
 
 When you open a log in the side panel, you can:
 
@@ -102,7 +102,7 @@ When you open a log in the side panel, you can:
    1. Evaluators → review evaluation results, with error conditions highlighted first.
    2. CSAT → view user satisfaction scores, comments, and feedback timestamps.
 
-## 🔄️Chats vs. Conversations
+## 🔄️ Chats vs. Conversations
 
 The Chats section now also displays the individual conversations within each chat.\
 From here, you can:

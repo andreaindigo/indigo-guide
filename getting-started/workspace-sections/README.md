@@ -15,7 +15,7 @@ Here’s a brief overview of each section:&#x20;
 * [⚙️ **Settings**](settings.md)\
   The Settings section enables you to manage workspace configurations, user roles, security settings, and web chat customization. Control access and ensure your virtual assistant aligns perfectly with your organizational standards.
 * 🛠️ **Utilities**\
-  The Utilities section provides advanced tools to monitor and improve conversation quality. Here you can review detailed [**Conversation Logs**](utilities/conversation-logs.md), configure [**Evaluators**](utilities/evaluators.md) to measure performance, and track issues through the [**Issue Tracker**](utilities/issue-tracker.md), ensuring every interaction meets expectations.
+  The Utilities section provides advanced tools to monitor and improve conversation quality. Here you can review detailed [**Conversation Logs**](utilities/conversation-logs.md), configure [**Evaluators**](utilities/evaluators-and-guardrails.md) to measure performance, and track issues through the [**Issue Tracker**](utilities/issue-tracker.md), ensuring every interaction meets expectations.
 
 {% hint style="info" %}
 Currently, this feature is in beta testing with selected clients.

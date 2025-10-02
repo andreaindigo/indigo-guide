@@ -1,19 +1,33 @@
 ---
 icon: shield
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
-# Evaluators
+# Evaluators and Guardrails
 
-### Hot to measure and improve conversation quality
+### Measuring, controlling and improving conversation quality
 
-### 📌Overview
+## 📌 Overview
 
 Evaluators (or evals) are automated tools in indigo.ai that analyze and assess chatbot–user conversations.\
 They help measure key aspects such as response relevance, dialogue coherence, tone, and topics, providing objective, timely, and scalable evaluations without relying on manual reviews.
 
 Evaluators work together with Guardrails, which act as preventive checks during live conversations. Together, they provide a complete framework for monitoring, improving, and governing chatbot quality.
 
-## ✅Benefits
+## ✅ Benefits
 
 * Objective and fast evaluations → continuous quality monitoring, independent from human judgment.
 * Operational efficiency → reduce manual effort, freeing resources for higher-value tasks.

@@ -38,7 +38,7 @@
   * [Settings](getting-started/workspace-sections/settings.md)
   * [📏Utilities](getting-started/workspace-sections/utilities/README.md)
     * [Conversation Logs](getting-started/workspace-sections/utilities/conversation-logs.md)
-    * [Evaluators](getting-started/workspace-sections/utilities/evaluators.md)
+    * [Evaluators and Guardrails](getting-started/workspace-sections/utilities/evaluators-and-guardrails.md)
     * [Issue Tracker](getting-started/workspace-sections/utilities/issue-tracker.md)
 * [Integrations](getting-started/integrations/README.md)
   * [Tools](getting-started/integrations/tools.md)
@@ -73,15 +73,15 @@
 ## Product Updates
 
 * [Latest Product Releases](product-updates/latest-product-releases/README.md)
+  * [Voice gets smarter: new Hang up and Transfer Call Blocks](product-updates/latest-product-releases/voice-gets-smarter-new-hang-up-and-transfer-call-blocks.md)
+  * [Evaluators, Guardrails & Conversation Logs](product-updates/latest-product-releases/evaluators-guardrails-and-conversation-logs.md)
   * [Workspace Updates - Q2 2025](product-updates/latest-product-releases/workspace-updates-q2-2025.md)
   * [Voice in Web Chat: More Accessible Conversations](product-updates/latest-product-releases/voice-in-web-chat-more-accessible-conversations.md)
   * [Issue Tracker for Tests & Improvements](product-updates/latest-product-releases/issue-tracker-for-tests-and-improvements.md)
   * [Non-Conversational Triggers](product-updates/latest-product-releases/non-conversational-triggers.md)
-  * [New Utilities: Conversation Logs & Evaluators](product-updates/latest-product-releases/new-utilities-conversation-logs-and-evaluators.md)
   * [Workspace Updates - Q1 2025](product-updates/latest-product-releases/workspace-updates-q1-2025.md)
   * [The Next-Generation Web Chat](product-updates/latest-product-releases/the-next-generation-web-chat.md)
   * [A New Version of Our Platform](product-updates/latest-product-releases/a-new-version-of-our-platform.md)
-  * [Voice gets smarter: try the new Hang up and Transfer Call Blocks](product-updates/latest-product-releases/voice-gets-smarter-try-the-new-hang-up-and-transfer-call-blocks.md)
 * [Platform Updates](product-updates/platform-updates.md)
 * [Roadmap of Upcoming Product Developments](product-updates/roadmap-of-upcoming-product-developments.md)
 
