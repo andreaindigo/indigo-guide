@@ -152,7 +152,7 @@ When using a Map in a Condition block, you must refer to the **entire map**; you
 A **List** variable holds an array of elements — such as strings, numbers, or even maps. For example:
 
 ```json
-["item1", 42, {"field": "value"}]
+lista = ["stringa”, 1, {”key”: “value”}]
 ```
 
 #### Writing to a List
@@ -161,21 +161,54 @@ Lists are created and updated using the same **JSON editor** as maps. Like maps,
 
 #### Reading from a List
 
-Use **index notation** to retrieve values:
+You can access the elements of a list using the syntax `listName[index]`.\
+Using the example above:
 
-* `lista[0]` → `"item1"`
-* `lista[1]` → `42`
-* `lista[2]` → `{ "field": "value" }`
-* `lista[2].field` → `"value"`
+* `list[0] = "string"`
+* `list[1] = 1`
+* `list[2] = {"key": "value"}`
 
-#### Using List Variables in Condition Blocks
+You can also access the values of **objects inside a list**.\
+For example:
 
-Supported operations include:
+* `list[2].key = "value"`
 
-* **IS / IS NOT**: Checks if two lists are (or aren’t) identical — order matters!
-* **IS NULL / IS NOT NULL**: Returns true if the list is null (not just empty `[]`)
-* **CONTAINS / DOES NOT CONTAIN**: Checks if a value exists within the list
-  * Example: `lista CONTAINS "item1"` → `true`
+⚠️ **Limitation**: Due to a Drop limitation, when printing or passing a variable of type _List_ as a parameter, it is handled as a single concatenated string containing all list values.
+
+Example:
+
+```json
+list = [1, 2, 3, "four"]
+```
+
+will be treated as:
+
+```json
+"123four"
+```
+
+✅ **Workaround**: Use the `format_list` function.
+
+### **Conditional Block – Supported Operations for Lists**
+
+When using _List_ variables as conditions in a Conditional block, the following operations are supported:
+
+* **IS**: checks if two lists are equal (**order matters**).
+  * Example:
+    * `list1 = [1,2,3]`
+    * `list2 = [2,1,3]`
+    * `list1 IS list2` → `false`
+* **IS NOT**: the negation of **IS**.
+* **IS NULL**: checks if the value is **NULL**.
+  * Example: if the list is empty `[]`, then `IS NULL` → `false`.
+* **IS NOT NULL**: the negation of **IS NULL**.
+* **CONTAINS**: checks if a **value** is contained in a list.
+  * Example:
+    * `list = ["string", 1, {"key": "value"}]`
+    * `list CONTAINS "string"` → `true`
+* **DOES NOT CONTAIN**: the negation of **CONTAINS**.
+
+💡 **Tip**: When comparing lists with **IS**, the order of elements always matters. Two lists with the same values but in a different order are considered different.
 
 ## Best Practices
 
