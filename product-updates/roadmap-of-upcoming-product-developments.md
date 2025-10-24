@@ -24,8 +24,9 @@ Each quarter, we host a webinar that dives deep into the product features and im
 
 <figure><img src="../.gitbook/assets/Product Roadmap Q4 - Banner Firma.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="warning" %}
-* **Link per registrarsi**: [Clicca qui](https://indigo.ai/it/webinar/product-roadmap-q4)
+{% hint style="success" %}
+* **Evento registrato**: [Clicca qui](https://4016767.fs1.hubspotusercontent-na1.net/hubfs/4016767/Recordings/202510-WB-Product-UpdateQ4.mp4)
+* **Slides**: [Link alla presentazione](https://pitch.com/v/indigoai-product-update-x-q4---23-ott-2025-jcv789)
 {% endhint %}
 
 #### Info Webinar
@@ -34,13 +35,13 @@ Each quarter, we host a webinar that dives deep into the product features and im
 * **Speaker**: Andrea Tangredi, Chief Product Officer e co-founder
 * **Descrizione**:&#x20;
 
-L'ultimo trimestre del 2025 porta novità importanti sul mondo voce e funzionalità enterprise: non vediamo l’ora di condividerle con te!
+L'ultimo trimestre del 2025 porta novità importanti sul mondo voce e funzionalità enterprise.
 
 Nel webinar scoprirai:\
 \- Come stiamo **potenziando gli assistenti vocali** con nuove capacità native in piattaforma per **ridurre latenza** e **dipendere sempre meno da provider esterni**.\
 \- Le **nuove funzioni di governance e sicurezza**: audit logs per monitorare ogni attività e un controllo avanzato degli accessi basato sui ruoli, integrato con Single Sign-On (SSO) per semplificare la gestione degli utenti.
 
-Andrea Tangredi, Chief Product Officer, ti guiderà in anteprima nella roadmap Q4 di indigo.ai. Non mancare!
+***
 
 ### Product Roadmap Q3, 2025
 
