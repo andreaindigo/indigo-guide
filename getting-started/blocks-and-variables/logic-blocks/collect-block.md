@@ -76,6 +76,19 @@ Each value has two fields:
 
 This helps standardize the output and improves accuracy, especially for structured inputs like product types, categories, or regions.
 
+**5. Use Shots**
+
+The Use shots feature allows you to define example conversations between the User and the Assistant to guide the model’s behavior.\
+Each shot represents a sample interaction made up of one or more message exchanges.
+
+* User Message: contains the input the user would provide.
+* Assistant Message: contains the expected response from the assistant.\
+  You can add multiple examples using + Add shot, or expand a single shot with additional dialogue lines using +.
+
+This section helps demonstrate how the model should respond in similar situations, improving consistency and tone in its answers.
+
+<figure><img src="../../../.gitbook/assets/use shots.png" alt=""><figcaption></figcaption></figure>
+
 ### 🛠️ Tips for Building
 
 * Use **simple, natural descriptions** in the prompt to guide what the assistant should collect.
