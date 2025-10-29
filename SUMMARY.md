@@ -11,7 +11,7 @@
   * [Global Agent Settings](getting-started/agents-workflows-and-triggers/global-agent-settings.md)
   * [Workflows](getting-started/agents-workflows-and-triggers/workflows.md)
 * [Blocks & Variables](getting-started/blocks-and-variables/README.md)
-  * [🧩 Variables](getting-started/blocks-and-variables/variables/README.md)
+  * [Variables](getting-started/blocks-and-variables/variables/README.md)
     * [System Variables](getting-started/blocks-and-variables/variables/system-variables.md)
   * [Message Blocks](getting-started/blocks-and-variables/message-blocks.md)
   * [Action Blocks](getting-started/blocks-and-variables/action-blocks/README.md)

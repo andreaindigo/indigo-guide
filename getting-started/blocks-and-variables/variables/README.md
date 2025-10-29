@@ -1,4 +1,4 @@
-# 🧩 Variables
+# Variables
 
 Variables play a central role in **shaping the flow of a conversation** with your virtual assistant.
 
