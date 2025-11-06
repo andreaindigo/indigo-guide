@@ -8,7 +8,7 @@ icon: share-nodes
 
 Our platform offers **4 types of workflow blocks:**
 
-1. [**Message blocks**](message-blocks.md) allow you to **deliver static content**, such as **text, images, videos, or cards**, to the user at specific points in the conversation flow, providing engaging, structured content that follows a predefined format.&#x20;
+1. [**Message blocks**](message-blocks/) allow you to **deliver static content**, such as **text, images, videos, or cards**, to the user at specific points in the conversation flow, providing engaging, structured content that follows a predefined format.&#x20;
 2. [**Action blocks**](action-blocks/) allow both users and the virtual assistant to **perform specific actions within the conversation flow,** such as sending emails, selecting from multiple predefined options, uploading documents, speaking with a human operator, **ending a voice call**, or **transferring a call** to an external number.
 3. [**Logic blocks**](logic-blocks/) allow you to **control and shape the flow of the conversation based on conditions, user inputs, or data from external systems**. They enable your virtual assistant to make decisions, collect and process information, assign values, and connect with APIs—ensuring dynamic, responsive, and intelligent conversational experiences.
 4. [**Utility blocks**](utility-blocks/) support behind-the-scenes functionality by enhancing how your assistant processes information and how your team collaborates. They include **tools for generating structured outputs with AI** (like **prompts**) and for **adding internal documentation within workflows** (like notes), helping you build more organized and intelligent assistants.

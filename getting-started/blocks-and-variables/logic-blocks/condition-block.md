@@ -128,5 +128,5 @@ We want the assistant to address users by their name, but only ask for it once. 
 1. Create a name variable (text type) to store the user’s name. Initially, the name variable will be empty (null) - this should be defined with a [Set Values](set-values-block.md) block at the beginning of the workflow.
 2. Drag the Condition Block into the workflow and define the condition: If name is null.\
    If true, ask the user for their name using the [Capture Block](capture-block.md) and store it in the name variable. \
-   After that, send a welcome message using the [Message Block](../message-blocks.md).&#x20;
+   After that, send a welcome message using the [Message Block](../message-blocks/).&#x20;
 3. Add another condition to check if the user already provided their name (condition: name is not null). If true, send a "Welcome back" message without asking for their name again.
