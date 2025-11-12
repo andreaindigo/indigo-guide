@@ -109,7 +109,7 @@ To test and deploy your virtual assistant, use the buttons in the top-right corn
 > * _Understand core concepts and functionalities essential for virtual assistant configuration in these two fundamental guides:_ [agents-workflows-and-triggers](../agents-workflows-and-triggers/ "mention")_,_ [blocks-and-variables](../blocks-and-variables/ "mention")_._&#x20;
 > * _Get practical, hands-on guidance for building your digital agents independently (applying the concepts covered in the articles above) here:_ [Broken link](broken-reference "mention")_._
 
-### 🤖 Agents Global Settings
+### 🤖 Agents Settings
 
 This section allows you to centrally manage settings for all agents, including for example creativity levels, LLM model preferences, and more.
 
