@@ -6,10 +6,6 @@ description: >-
 
 # Workflows
 
-
-
-## ⛓️ Workflows
-
 Workflows are **conversational paths that define how the chatbot responds to specific questions and manages various scenarios**. They are used to validate user responses, determine how to reply, and define conditions that trigger different responses based on user input, among other things.
 
 Workflows are **structured processes that guide how the virtual assistant interacts with users**. Before an agent responds or the assistant takes action, the workflow ensures all necessary steps are followed. These steps are designed to react to both direct (explicit) and indirect (implicit) user inputs.&#x20;
