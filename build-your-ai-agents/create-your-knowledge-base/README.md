@@ -60,7 +60,7 @@ indigo.ai offers **two primary methods** for integrating your Knowledge Base int
 
 ### 1. 📄 **Static Document Uploads**&#x20;
 
-This method allows you to **upload files such as PDFs, DOCs, spreadsheets, and even web pages (URLs)** directly into your Knowledge Base. It's an ideal solution for storing and managing fixed information like FAQs, company policies, and product manuals.
+This method allows you to **upload files such as PDFs, DOCs, spreadsheets, and even web pages (URLs)** directly into your [Knowledge Base](../../getting-started/workspace-sections/docs-and-urls.md). It's an ideal solution for storing and managing fixed information like FAQs, company policies, and product manuals.
 
 **Key benefits:**\
 ✅ Quick and easy setup, no technical integration required.\
