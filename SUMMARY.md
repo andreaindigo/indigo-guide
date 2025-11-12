@@ -39,6 +39,7 @@
 * [Workspace Sections](getting-started/workspace-sections/README.md)
   * [Chats](getting-started/workspace-sections/chats/README.md)
     * [Debugging](getting-started/workspace-sections/chats/debugging.md)
+  * [Docs & URLs](getting-started/workspace-sections/docs-and-urls.md)
   * [Analytics](getting-started/workspace-sections/analytics.md)
   * [Settings](getting-started/workspace-sections/settings.md)
   * [Utilities](getting-started/workspace-sections/utilities/README.md)

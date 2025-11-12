@@ -8,7 +8,7 @@ We’ve [**recently upgraded**](../../product-updates/latest-product-releases/a-
 If your workspace URL starts with “app.indigo.ai,” you’re still on the old version. We highly recommend switching to the new one for a better experience. Want to try out all the cool new features? [Reach out to us!](../../need-help/our-customer-success-team.md)
 {% endhint %}
 
-#### 🛠️ **User-Friendly, No-Code Interface**
+#### 🛠️ **User-Friendly, Low-Code Interface**
 
 With our platform, you can effortlessly build, customize, and manage AI Agents—**no coding skills required**. Its intuitive design allows anyone to create effective virtual assistants in just a few clicks.
 
