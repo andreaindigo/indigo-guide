@@ -81,16 +81,17 @@ To remove a user from your workspace:
 
 By following these steps, you can efficiently manage your workspace users, ensuring the appropriate permissions and responsibilities are assigned.
 
-#### Integration Settings
+## ⚙️Integration Settings
 
 A new Integrations section allows you to connect external tools and make them available inside your workspace. You can choose from a list of enabled tools.
 
 Once an integration is enabled, it can be used in different parts of the product:
 
 * In Agents, under the new Tools section.
-
-In the API Block, by enabling the Use integration toggle.
+* In the API Block, by enabling the Use integration toggle.
 
 ## 🌐 Installation / Web Chat
+
+Here, you can personalize your widget interface to better suit your preferences and needs.
 
 For detailed guidance on configuring and customizing your **Web Chat**, including installation and going live with your virtual assistants, refer to our step-by-step guide in this article: [configure-and-install-the-web-chat.md](../../build-your-ai-agents/configure-and-install-the-web-chat.md "mention").&#x20;
