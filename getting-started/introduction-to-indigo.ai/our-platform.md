@@ -90,6 +90,12 @@ The Analytics section provides comprehensive metrics to evaluate your virtual as
 
 > _Learn more about our built-in Analytics and how to gain valuable insights into your agents' performance and user behavior here:_ [analytics.md](../workspace-sections/analytics.md "mention")_._
 
+### 📏Utilities
+
+The Utilities section gives you access to advanced tools that help you analyze, evaluate, and optimize your virtual assistant. It is designed for teams who need deeper insights into conversations and effective ways to improve performance.
+
+> _Learn more about Conversation Logs, Evaluators and Guardrails and Issue Tracker here:_ [utilities](../workspace-sections/utilities/ "mention")_._
+
 ### ⚙️ Configuration Area
 
 Below the primary sections, the Configuration Area is where you build and manage your AI agents. This space is divided into two environments:
