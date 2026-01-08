@@ -33,8 +33,7 @@ This block is designed to provide operational flexibility, a customizable experi
 <figure><img src="../../../.gitbook/assets/kb_transfer_availability2.png" alt=""><figcaption></figcaption></figure>
 
 * **Error handling:**
-  * If the transfer fails (e.g., due to invalid number, unreachable line, or system error), the block can trigger an alternative reroute.\
-
+  * If the transfer fails (e.g., due to invalid number, unreachable line, or system error), the block can trigger an alternative reroute.<br>
 
 <figure><img src="../../../.gitbook/assets/kb_transfer 4.png" alt=""><figcaption></figcaption></figure>
 

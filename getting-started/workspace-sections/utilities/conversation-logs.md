@@ -94,8 +94,7 @@ When you open a log in the side panel, you can:
    4. Number of exchanged messages.
    5. User feedback (👍/👎).
    6. API errors.
-   7. Guardrail activations (e.g., jailbreak detected).\
-
+   7. Guardrail activations (e.g., jailbreak detected).<br>
 2.  **Inspect the conversation**
 
     1. Read the full exchange between the user and the assistant.

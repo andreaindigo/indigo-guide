@@ -40,7 +40,7 @@ The workflow trigger functions similarly to an agent trigger, determining **when
 As mentioned in [.](./ "mention"), a trigger should only be configured if the workflow is a primary process that the mother agent should delegate user requests to. For secondary workflows or those supporting other processes, triggers are unnecessary; these workflows can be activated in an alternative way, using a [reroute block](../blocks-and-variables/logic-blocks/reroute-block.md).
 
 {% hint style="info" %}
-For detailed guidance on creating workflows and building your virtual assistant, refer to this article: [Broken link](broken-reference "mention").
+For detailed guidance on creating workflows and building your virtual assistant, refer to this article: [Broken link](/broken/pages/DQeY10e3ZGK3N4RsW0lq "mention").
 {% endhint %}
 
 **What You Can Specify in the Trigger:**

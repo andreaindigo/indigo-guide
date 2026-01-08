@@ -136,32 +136,28 @@ The platform includes a built-in **user management interface** that allows you t
 This ensures that only authorized personnel can make changes or access critical components—enhancing both security and governance.
 
 {% hint style="info" %}
-To know more about managing workspace access and roles, visit this page for detailed instructions: [settings.md](../getting-started/workspace-sections/settings.md "mention")
+To know more about managing workspace access and roles, visit this page for detailed instructions: [settings](../getting-started/workspace-sections/settings/ "mention")
 {% endhint %}
 
 ## FAQs
 
 1. **Where is the indigo.ai platform hosted, and can you guarantee data residency within the EU?**
 
-Yes. All core services, including application logic, AI processing, and data storage, are hosted in **IBM Cloud (Frankfurt)** and **AWS (Frankfurt)**—ensuring **full EU data residency**. This setup guarantees compliance with **GDPR** and EU-specific data localization requirements.\
-
+Yes. All core services, including application logic, AI processing, and data storage, are hosted in **IBM Cloud (Frankfurt)** and **AWS (Frankfurt)**—ensuring **full EU data residency**. This setup guarantees compliance with **GDPR** and EU-specific data localization requirements.<br>
 
 2. **Is indigo.ai hosted on your own infrastructure?**
 
-Yes. The SaaS platform operates on **indigo.ai–managed infrastructure**, primarily in IBM Cloud (Frankfurt) and AWS (Frankfurt) for select services (e.g., Neon DB). There’s no shared hosting with other SaaS providers.\
-
+Yes. The SaaS platform operates on **indigo.ai–managed infrastructure**, primarily in IBM Cloud (Frankfurt) and AWS (Frankfurt) for select services (e.g., Neon DB). There’s no shared hosting with other SaaS providers.<br>
 
 3. **How does indigo.ai ensure multi-tenancy isolation between clients?**
 
-Each client operates within an **isolated Workspace environment**, with logically separated data and access controls. We enforce strict **role-based access controls** (RBAC) and use unique encryption keys per tenant to prevent unauthorized cross-access.\
-
+Each client operates within an **isolated Workspace environment**, with logically separated data and access controls. We enforce strict **role-based access controls** (RBAC) and use unique encryption keys per tenant to prevent unauthorized cross-access.<br>
 
 4. **How does indigo.ai handle sensitive data collected by AI Agents?**
 
 All user data is **securely stored within our platform infrastructure, hosted in the EU**. **Sensitive data is never shared** between agents or stored by third-party processors. It is used only for the intended session and discarded immediately if processed externally.
 
-👉 For detailed security policies, certifications, and compliance info, visit our [**Security, Compliance & Trust**](https://guide.indigo.ai/getting-started/security-compliance-and-trust) page.\
-
+👉 For detailed security policies, certifications, and compliance info, visit our [**Security, Compliance & Trust**](https://guide.indigo.ai/getting-started/security-compliance-and-trust) page.<br>
 
 5. **Are user conversations recorded and stored? For how long?**
 
@@ -169,24 +165,20 @@ Yes, user conversations are recorded and securely stored in a **PostgreSQL datab
 
 Each conversation is linked to a unique identifier (**UUID**) that allows for session tracking without exposing personally identifiable information. This UUID can be **regenerated** if a user clears their data from their device, supporting user-controlled privacy.
 
-By default, conversation data is retained for **30 days**, after which it is automatically deleted. However, this retention period can be customized based on your specific data governance policies.\
-
+By default, conversation data is retained for **30 days**, after which it is automatically deleted. However, this retention period can be customized based on your specific data governance policies.<br>
 
 6. **Does indigo.ai use data collected during sessions to train or improve its AI models?**
 
-**No**. Data processed by AI Agents is **never used** to train models beyond the configured assistant. There is no cross-assistant learning or global model training on client data—ensuring full control and confidentiality.\
-
+**No**. Data processed by AI Agents is **never used** to train models beyond the configured assistant. There is no cross-assistant learning or global model training on client data—ensuring full control and confidentiality.<br>
 
 7. **Is indigo.ai compliant with GDPR?**&#x20;
 
-Yes. Our platform is fully **GDPR compliant**. All processing takes place in EU-based data centers, and we follow strict data handling rules, including transparency, purpose limitation, and user consent management. Our platform also supports compliance with the **EU AI Act** through transparency measures, audit logs, and traceability, tools detailed on our [**Security, Compliance & Trust**](https://guide.indigo.ai/getting-started/security-compliance-and-trust) page.\
-
+Yes. Our platform is fully **GDPR compliant**. All processing takes place in EU-based data centers, and we follow strict data handling rules, including transparency, purpose limitation, and user consent management. Our platform also supports compliance with the **EU AI Act** through transparency measures, audit logs, and traceability, tools detailed on our [**Security, Compliance & Trust**](https://guide.indigo.ai/getting-started/security-compliance-and-trust) page.<br>
 
 8. **How are security audits conducted?**
 
-We conduct regular internal vulnerability scans and static code analysis, perform **third-party audits** (ISO 27001 aligned), and carry out **quarterly access reviews**. Ongoing threat detection and monitoring are also in place. Explore our audit and certification details in our [**Trust Center**](https://trust.indigo.ai/). \
-
+We conduct regular internal vulnerability scans and static code analysis, perform **third-party audits** (ISO 27001 aligned), and carry out **quarterly access reviews**. Ongoing threat detection and monitoring are also in place. Explore our audit and certification details in our [**Trust Center**](https://trust.indigo.ai/). <br>
 
 9. **What is the process for applying patches and updates?**
 
-We follow a continuous deployment strategy with automated CI/CD pipelines. Security patches are validated and applied as soon as possible, with real-time monitoring and rollback capabilities to ensure stability.\
+We follow a continuous deployment strategy with automated CI/CD pipelines. Security patches are validated and applied as soon as possible, with real-time monitoring and rollback capabilities to ensure stability.<br>

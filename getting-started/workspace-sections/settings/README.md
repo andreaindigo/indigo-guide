@@ -4,7 +4,7 @@ icon: sliders
 
 # Settings
 
-The Settings section in your workspace is the central hub for configuring and managing various aspects of your environment: from workspace-level preferences to user permissions, data security, and now, conversational accessibility features like [Voice in Web Chat](../../product-updates/latest-product-releases/voice-in-web-chat-more-accessible-conversations.md).
+The Settings section in your workspace is the central hub for configuring and managing various aspects of your environment: from workspace-level preferences to user permissions, data security, and now, conversational accessibility features like [Voice in Web Chat](../../../product-updates/latest-product-releases/voice-in-web-chat-more-accessible-conversations.md).
 
 {% embed url="https://screen.studio/share/t6Zm1vQQ?_loop=1&autoplay=1" %}
 
@@ -94,4 +94,4 @@ Once an integration is enabled, it can be used in different parts of the product
 
 Here, you can personalize your widget interface to better suit your preferences and needs.
 
-For detailed guidance on configuring and customizing your **Web Chat**, including installation and going live with your virtual assistants, refer to our step-by-step guide in this article: [configure-and-install-the-web-chat.md](../../build-your-ai-agents/configure-and-install-the-web-chat.md "mention").&#x20;
+For detailed guidance on configuring and customizing your **Web Chat**, including installation and going live with your virtual assistants, refer to our step-by-step guide in this article: [configure-and-install-the-web-chat.md](../../../build-your-ai-agents/configure-and-install-the-web-chat.md "mention").&#x20;

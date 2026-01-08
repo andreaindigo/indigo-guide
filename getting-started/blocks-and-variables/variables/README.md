@@ -217,7 +217,7 @@ When using _List_ variables as conditions in a Conditional block, the following 
 It’s a best practice to initialize all variables (usually to `null`) at the beginning of the conversation, in the [Welcome workflow](https://indigo-ai.gitbook.io/indigo.ai-guide/build-your-ai-agents/configure-your-ai-agents#configuring-a-welcome-message). This ensures that the **virtual assistant doesn't retain values from a previous user interaction**.&#x20;
 
 {% hint style="info" %}
-For more on configuring your agents, refer to this article: [Broken link](broken-reference "mention").
+For more on configuring your agents, refer to this article: [Broken link](/broken/pages/DQeY10e3ZGK3N4RsW0lq "mention").
 {% endhint %}
 
 ### Passing User Information or Other Data to Your Web Chat

@@ -24,8 +24,7 @@ Supported formats: .pdf, .docx, .txt, .csv, .xlsx
 To add a web page:
 
 1. Paste the URL into the field.
-2. Click Add URL.\
-
+2. Click Add URL.<br>
 
 Once uploaded, you can **assign a Tag** to each document or URL.
 
@@ -45,8 +44,7 @@ You can:
 
 * Replace an existing document with an updated version.
 * Delete documents or URLs that are no longer needed.
-* Refresh linked web pages to update the content used by your Agent.\
-
+* Refresh linked web pages to update the content used by your Agent.<br>
 
 💡 If you make changes to a linked webpage, remember to click Refresh to ensure your Agent uses the latest version.
 
@@ -56,8 +54,7 @@ You can:
 
 * Document: Product\_Manual.pdf – contains detailed descriptions of product features and pricing.
 * Tag: product\_info
-* Agent usage: When the Agent receives a question such as “How does the premium plan work?”, it retrieves the answer from Product\_Manual.pdf using the product\_info tag.\
-
+* Agent usage: When the Agent receives a question such as “How does the premium plan work?”, it retrieves the answer from Product\_Manual.pdf using the product\_info tag.<br>
 
 **Example 2 – URL**
 

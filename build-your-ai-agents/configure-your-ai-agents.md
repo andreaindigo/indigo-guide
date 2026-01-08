@@ -8,7 +8,7 @@ icon: '3'
 ​Configuring AI Agents on the indigo.ai platform is a streamlined process designed to be accessible to users without requiring advanced technical skills. By leveraging the platform's intuitive interface, you can design, customize, and deploy AI Agents that elevate customer interactions and optimize business operations.&#x20;
 
 {% hint style="info" %}
-This article offers practical guidance to help you get started. For a complete reference on each configuration field and the functionality of all workflow blocks, refer to this detailed pages of the guide: [Broken link](broken-reference "mention"), [blocks-and-variables](../getting-started/blocks-and-variables/ "mention").&#x20;
+This article offers practical guidance to help you get started. For a complete reference on each configuration field and the functionality of all workflow blocks, refer to this detailed pages of the guide: [Broken link](/broken/pages/DQeY10e3ZGK3N4RsW0lq "mention"), [blocks-and-variables](../getting-started/blocks-and-variables/ "mention").&#x20;
 {% endhint %}
 
 ## Getting Started in Your Workspace

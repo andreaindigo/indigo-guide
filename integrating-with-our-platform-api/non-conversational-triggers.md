@@ -15,8 +15,7 @@ Indigo.ai provides two REST endpoints for triggering:
   https://platform.indigo.ai/rest/trigger/async/\{{project\_token\}}
   * Returns HTTP status 200 immediately upon receiving the request.
   * Does not wait for the execution of the agent or workflow.
-  * Use case: when you don’t need the agent’s response.\
-
+  * Use case: when you don’t need the agent’s response.<br>
 
 **Example response:**  {"status": true}
 
@@ -24,8 +23,7 @@ Indigo.ai provides two REST endpoints for triggering:
   https://platform.indigo.ai/rest/trigger/sync/\{{project\_token\}}
   * Waits until the agent/workflow has completed execution.
   * Returns the generated response.
-  * Use case: when immediate feedback is required (validation, content generation, forwarding to another system).\
-
+  * Use case: when immediate feedback is required (validation, content generation, forwarding to another system).<br>
 
 **Example response:**\
 {
@@ -61,8 +59,7 @@ Enter the Indigo endpoint: https://platform.indigo.ai/rest/trigger/\{{type\}}/\{
 4. Select events → check Merge Request events (or Releases events, Deployment events, etc., depending on your needs).
 5. Add a payload including:
    1. target → the label of the agent/workflow to be triggered (use the DB label, not the platform display name. Example: Merge Request → merge\_request).
-   2. data → the information to pass into Indigo.ai, available in the platform as variables.\
-
+   2. data → the information to pass into Indigo.ai, available in the platform as variables.<br>
 
 **Example payload:**\
 \
@@ -87,8 +84,7 @@ Enter the Indigo endpoint: https://platform.indigo.ai/rest/trigger/\{{type\}}/\{
 }
 
 6. &#x20;No need to predefine these variables in the platform.
-7. Save and test → verify that the event correctly triggers the target agent or workflow (e.g., by adding an API block or email block).\
-
+7. Save and test → verify that the event correctly triggers the target agent or workflow (e.g., by adding an API block or email block).<br>
 
 ### 🔄 Other integrations
 
@@ -96,8 +92,7 @@ Besides GitLab, many external platforms can trigger Indigo.ai agents:
 
 * Zapier → trigger on new emails, tickets, or Google Calendar updates using Webhook by Zapier → POST.
 * Calendars (Google, Outlook) → trigger when a meeting starts (via Zapier or Make).
-* CRM & Help Desk (e.g., Zendesk, Hubspot) → trigger on ticket creation or updates.\
-
+* CRM & Help Desk (e.g., Zendesk, Hubspot) → trigger on ticket creation or updates.<br>
 
 ### 📊 Advanced: new variable types
 
@@ -106,8 +101,7 @@ To support more complex payloads, Indigo.ai introduces two new variable types:
 * **List** → an ordered collection of values (integers, strings, lists, or maps).
   * Example: \[1, "two", \[3], {"value": 4}]
 * **Map** → a set of key–value pairs, where values can be integers, strings, lists, or maps.
-  * Example: {"key\_1": 1, "key\_2": "value"}\
-
+  * Example: {"key\_1": 1, "key\_2": "value"}<br>
 
 ℹ️ These variables behave like any other in the platform and can be inspected in the debugger.\
 For details, see the[ Variable Guide](https://www.notion.so/Variabili-c8f99e8009d94af1a84f7c7066fdef06?pvs=21).

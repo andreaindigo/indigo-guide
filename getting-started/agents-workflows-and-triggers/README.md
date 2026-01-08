@@ -84,6 +84,6 @@ In essence, the Mother Agent assigns user queries to top-level agents, which can
 
 This may seem complex, but in reality, it’s quite straightforward. The best way to approach it is by thinking in terms of **conversation flow**: the main entry points and key topics that the virtual assistant handles should have a trigger, the supporting ones not.
 
-That is why, to make this process easier, the first step in our AI Agents creation guide ([Broken link](broken-reference "mention")) is designing the conversation flow.&#x20;
+That is why, to make this process easier, the first step in our AI Agents creation guide ([Broken link](/broken/pages/DQeY10e3ZGK3N4RsW0lq "mention")) is designing the conversation flow.&#x20;
 
 &#x20;
