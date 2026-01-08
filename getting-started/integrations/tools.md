@@ -57,3 +57,18 @@ Creating a custom tool allows your agents to connect with any external API servi
    The custom tool is now available in your workspace and can be assigned to agents or used in API blocks.
 
 <figure><img src="../../.gitbook/assets/edit custom tools.png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Multi-tool orchestration within a single interaction
+
+It is now possible to invoke multiple tools within a single interaction, with orchestration handled directly by the LLM.
+
+Depending on the context and the goal of the request, the LLM can:
+
+* invoke multiple tools in **parallel**, when actions are independent;
+* invoke multiple tools **sequentially**, when the execution of one tool depends on the output of a previous one.
+
+This approach goes beyond invoking a single tool per request and enables the creation of composed, dynamic, and adaptive action flows, without the need to define a rigid workflow in advance.
+
+The result is **greater flexibility**, improved agent decision-making, and more effective use of tools within a single conversation.
