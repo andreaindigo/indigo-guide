@@ -110,6 +110,7 @@
 
 * [Integrating with Our Platform API](integrating-with-our-platform-api/README.md)
   * [Non-Conversational Triggers](integrating-with-our-platform-api/non-conversational-triggers.md)
+* [Enterprise Architecture](enterprise-architecture.md)
 * [Troubleshooting Common Issues](troubleshooting-common-issues.md)
 
 ## News
