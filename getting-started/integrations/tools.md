@@ -12,11 +12,11 @@ A key benefit of Tools is that tool usage is dynamically decided by the LLM, dep
 
 #### Key benefits
 
-1. **More capable and reliable virtual assistants**   \
-   Tools enable agents to access real data and execute actions when needed, reducing hallucinations and improving response accuracy. As a result, assistants become more useful in real scenarios, not only informative but also actionable.
+**More capable and reliable virtual assistants**\
+Tools enable agents to access real data and execute actions when needed, reducing hallucinations and improving response accuracy. As a result, assistants become more useful in real scenarios, not only informative but also actionable.
 
-* **More natural conversations, fewer rigid flows**  \
-  Instead of relying on predefined workflows containing API Blocks, the LLM can decide when and how to use tools based on the user’s intent. This improves the agent’s ability to handle variations in user requests, making the overall experience smoother, more flexible, and closer to human-like assistance.
+**More natural conversations, fewer rigid flows**\
+Instead of relying on predefined workflows containing API Blocks, the LLM can decide when and how to use tools based on the user’s intent. This improves the agent’s ability to handle variations in user requests, making the overall experience smoother, more flexible, and closer to human-like assistance.
 
 #### Tools Settings
 
