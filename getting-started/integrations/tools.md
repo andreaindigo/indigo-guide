@@ -1,5 +1,23 @@
 # Tools
 
+#### Overview
+
+Tools enable Agents to go beyond static conversational flows by connecting them to external systems and actionable services. With Tools, Indigo Agents can retrieve real-time information and execute operations directly from a conversation—such as querying databases, creating calendar events, or triggering external workflows—without requiring hardcoded paths for every user request.
+
+\
+Tools are configured centrally in Tools settings (under Agent settings) and can be based on any API service documented with the OpenAPI standard. Once created, tools become reusable building blocks: they can be assigned to specific Agents or leveraged inside API blocks, making integrations easier to manage, scalable across projects, and consistent across the workspace.
+
+\
+A key benefit of Tools is that tool usage is dynamically decided by the LLM, depending on the user’s intent and conversation context. This allows Agents to respond more flexibly to variations in user input and to handle a wider range of real-world requests. In addition, Indigo supports multi-tool orchestration within a single interaction, enabling the agent to invoke multiple tools either in parallel or sequentially to accomplish complex tasks—without the need to design rigid workflows in advance.
+
+#### Key benefits
+
+1. **More capable and reliable virtual assistants**   \
+   Tools enable agents to access real data and execute actions when needed, reducing hallucinations and improving response accuracy. As a result, assistants become more useful in real scenarios, not only informative but also actionable.
+
+* **More natural conversations, fewer rigid flows**  \
+  Instead of relying on predefined workflows containing API Blocks, the LLM can decide when and how to use tools based on the user’s intent. This improves the agent’s ability to handle variations in user requests, making the overall experience smoother, more flexible, and closer to human-like assistance.
+
 #### Tools Settings
 
 The Tools settings section, located under **Agent settings**, allows you to transform any API service documented with the OpenAPI standard into a tool.\
