@@ -33,8 +33,9 @@ This architecture is a well-established best practice because it:
 
 #### Summary table
 
-| **DEV**        | Development           | Implementation / Developers | Variable and editable environment |
+| Environment    | Purpose               | Users                       | Notes                             |
 | -------------- | --------------------- | --------------------------- | --------------------------------- |
+| **DEV**        | Development           | Implementation / Developers | Variable and editable environment |
 | **TEST**       | Technical validation  | QA / Testers                | Automated and integration testing |
 | **UAT**        | Functional validation | Business / Owners           | Requirement verification          |
 | **STAGING**    | Pre-production        | DevOps / Final QA           | Production replica                |
