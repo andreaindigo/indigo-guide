@@ -2,6 +2,8 @@
 
 System variables are **predefined, read-only variables** that are automatically managed by the indigo.ai platform. Unlike custom variables, they **cannot be edited** using blocks like [Set Value](../logic-blocks/set-values-block.md) or [Capture](../logic-blocks/capture-block.md). Instead, they provide **real-time context** about the user, session, platform environment, and conversation history, allowing you to create more intelligent and personalized experiences.
 
+**They are always identified by the prefix `$`, e.g. `$project_id`.**
+
 System variables help your AI Agents:
 
 * Identify users, channels, and environments
@@ -53,6 +55,24 @@ A “chat” refers to messages from the latest session, while a “conversation
 
 * `$context_1` to `$context_5` – Store the last 1 to 5 pairs of user and assistant messages in plain text. Ideal for use in prompts or as input for LLMs.
 
+#### Behavior of the $last\_user\_message variable
+
+**The `last_user_message` variable has a specific behavior:**
+
+* It is aligned with other system variables by adding the `$` prefix → **`$last_user_message`**.
+* It updates automatically:
+  * after each user message,
+  * even after a **capture block**.
+* It can be used in agents and prompts always with the latest consistent value.
+
+**Exception in the capture block**
+
+If a capture block collects exactly the value of **`$last_user_message`**:
+
+* a **dummy variable** is used,
+* its only purpose is to allow the capture block to work,
+* the captured value is **not** used later in the flow.
+
 ### 📚 Content & Workflow State
 
 * **`$documents`** – A list of documents retrieved from your knowledge base. Use this to:
@@ -65,3 +85,10 @@ A “chat” refers to messages from the latest session, while a “conversation
 ### ✅ Utility
 
 * **`$true`** – A constant that always returns `true`. Handy for testing or creating unconditional branches in [Condition Blocks](../logic-blocks/condition-block.md).&#x20;
+
+{% hint style="info" %}
+It is possible to create **custom variables with the same name as a system variable**, but:
+
+* modifying them does not update the system variable
+* using them is not linked to the corresponding system variable
+{% endhint %}
