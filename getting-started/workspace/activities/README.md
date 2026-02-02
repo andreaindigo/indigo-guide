@@ -4,8 +4,8 @@ icon: folders
 
 # Activities
 
-Workspace activities group together features that help you manage conversations, knowledge sources, and analytical insights across the workspace.\
-They support monitoring and operational tasks and are independent from agent and workflow configuration.
+Workspace activities include a set of features that support day-to-day operations within the workspace.\
+These features allow you to **review conversations**, **manage knowledge sources**, a**nalyze usage data**, and **access supporting utilities**.
 
 Here’s a brief overview of each feature:&#x20;
 
