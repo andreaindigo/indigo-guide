@@ -106,7 +106,7 @@ As a best practice, it is recommended to disable feedback requests for intermedi
 {% endhint %}
 
 {% hint style="info" %}
-📊 Want to learn more about collecting and analyzing feedback? Check out our Analytics guide: [analytics.md](../workspace-sections/analytics.md "mention").&#x20;
+📊 Want to learn more about collecting and analyzing feedback? Check out our Analytics guide: [analytics.md](../workspace-activities/analytics.md "mention").&#x20;
 {% endhint %}
 
 #### Typebar Settings&#x20;

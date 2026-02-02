@@ -125,7 +125,7 @@ As a best practice, it is recommended to disable feedback requests for intermedi
 {% endhint %}
 
 {% hint style="info" %}
-📊 Want to learn more about collecting and analyzing feedback? Check out our Analytics guide: [analytics.md](../workspace-sections/analytics.md "mention").&#x20;
+📊 Want to learn more about collecting and analyzing feedback? Check out our Analytics guide: [analytics.md](../workspace-activities/analytics.md "mention").&#x20;
 {% endhint %}
 
 #### Typebar Settings&#x20;
@@ -273,9 +273,8 @@ The “**Pick Examples Dynamically**” feature, when activated, selects only th
 
 * User: Hi, I need help finding a necklace for a formal event.
 * AI: Of course! For a formal event, elegant and timeless pieces work best. Are you looking for something classic like a pearl necklace or something modern with gemstones?
-
-- User: What’s a good anniversary gift?&#x20;
-- AI: An anniversary is a perfect occasion for something meaningful! A classic choice is a diamond pendant, but a personalized piece with an engraving can add sentimental value. Would you like recommendations based on your partner’s style?
+* User: What’s a good anniversary gift?&#x20;
+* AI: An anniversary is a perfect occasion for something meaningful! A classic choice is a diamond pendant, but a personalized piece with an engraving can add sentimental value. Would you like recommendations based on your partner’s style?
 
 </details>
 

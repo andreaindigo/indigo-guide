@@ -52,7 +52,7 @@ In simple terms:
 indigo.ai provides both built-in evaluators and guardrails (ready-to-use “black boxes”), and the **ability to design custom ones for specific use cases**.
 
 {% hint style="info" %}
-For more details read the full guide: [evaluators-and-guardrails.md](../../getting-started/workspace-sections/utilities/evaluators-and-guardrails.md "mention")
+For more details read the full guide: [evaluators-and-guardrails.md](../../getting-started/workspace-activities/utilities/evaluators-and-guardrails.md "mention")
 {% endhint %}
 
 ## Conversation Logs
@@ -81,5 +81,5 @@ A Conversation Log represents one interaction between an AI Agent and an end-use
 In the Conversation Logs view, you can browse the list of conversations and check how evaluators and guardrails performed for each one.
 
 {% hint style="info" %}
-For more details read the full guide: [conversation-logs.md](../../getting-started/workspace-sections/utilities/conversation-logs.md "mention")
+For more details read the full guide: [conversation-logs.md](../../getting-started/workspace-activities/utilities/conversation-logs.md "mention")
 {% endhint %}

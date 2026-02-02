@@ -10,7 +10,7 @@ Congratulations on deploying your AI agents! However, the journey doesn't end he
 
 Once your assistant is live and handling a high volume of conversations, your focus should shift to **analyzing real user interactions**. Reviewing actual chats helps you assess whether responses are accurate, relevant, and helpful.&#x20;
 
-Use the [**Chat section**](../getting-started/workspace-sections/chats/) in the platform to browse conversation history and take advantage of the [debugging tools](../getting-started/workspace-sections/chats/debugging.md) to trace how each response was generated. You can also apply the structured feedback collection process outlined in our pre-go-live testing guide: [testing-and-debugging.md](testing-and-debugging.md "mention").&#x20;
+Use the [**Chat section**](../getting-started/workspace-activities/chats/) in the platform to browse conversation history and take advantage of the [debugging tools](../getting-started/workspace-activities/chats/debugging.md) to trace how each response was generated. You can also apply the structured feedback collection process outlined in our pre-go-live testing guide: [testing-and-debugging.md](testing-and-debugging.md "mention").&#x20;
 
 Categorize issues by type and priority, then act quickly: adjust workflows and **publish updates** to continuously improve the user experience in your production environment.
 
@@ -23,7 +23,7 @@ Leverage analytics to gain insights into your assistant's performance. Key metri
 * **Human Handover Instances:** If human intervention is enabled, monitor **how often and why conversations are escalated to human agents**. Analyzing these instances can reveal areas where the virtual assistant needs improvement.​
 * **User Satisfaction (CSAT):** At the end of a conversation, **users can rate their experience** using a five-point emoji scale. Keep in mind that response rates are typically low and tend to capture more negative feedback, as users are more likely to respond when dissatisfied. [Contact us](../need-help/our-customer-success-team.md) for strategies to encourage more user participation in CSAT surveys.​
 
-For a detailed explanation of analytics data and metrics, refer to this section of our platform guide: [analytics.md](../getting-started/workspace-sections/analytics.md "mention").&#x20;
+For a detailed explanation of analytics data and metrics, refer to this section of our platform guide: [analytics.md](../getting-started/workspace-activities/analytics.md "mention").&#x20;
 
 ## Implementing Improvements
 
