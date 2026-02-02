@@ -34,7 +34,7 @@ Here's how it works:
 This tool is invaluable for advanced users who need to ensure that their agents are working correctly and efficiently. It also helps quickly pinpoint any issues, making it easier to improve the quality of your virtual assistant.
 
 {% hint style="info" %}
-Learn more about the new feature in our detailed article: [debugging.md](../../getting-started/workspace-activities/chats/debugging.md "mention").
+Learn more about the new feature in our detailed article: [debugging.md](../../getting-started/workspace/activities/chats/debugging.md "mention").
 {% endhint %}
 
 ## 2. New Mail Block
@@ -64,7 +64,7 @@ The Upload Block **allows users to upload files**—such as documents, images, o
 * **Custom Workflow Placement**\
   You can insert the Upload Block at any point in your workflow, customizing the moment and context in which file sharing is enabled to match your business logic.
 * **File Access & Reuse**\
-  **Uploaded files can be viewed, downloaded, or reused in downstream workflows** directly from the [Chat section](../../getting-started/workspace-activities/chats/) of the workspace. This allows you to incorporate uploaded content into subsequent actions or decision points within your assistant's logic.
+  **Uploaded files can be viewed, downloaded, or reused in downstream workflows** directly from the [Chat section](../../getting-started/workspace/activities/chats/) of the workspace. This allows you to incorporate uploaded content into subsequent actions or decision points within your assistant's logic.
 * **Operator File Sharing**\
   **Human operators can also upload and send files during a live chat**. After taking over a conversation from the virtual assistant, an operator can attach and deliver documents directly to the user, ensuring seamless, real-time support.
 

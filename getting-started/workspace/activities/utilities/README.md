@@ -26,4 +26,4 @@ Inside Utilities you’ll find:
 * [**Evaluators**](evaluators-and-guardrails.md) → tools to measure the quality of interactions, track sentiment, satisfaction, and other key aspects, with both built-in and custom options.
 * [**Issue Tracker**](issue-tracker.md) → a centralized dashboard to capture, monitor, and resolve issues whenever a conversation doesn’t meet expectations.
 
-<figure><img src="../../../.gitbook/assets/utilities.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/utilities.png" alt=""><figcaption></figcaption></figure>

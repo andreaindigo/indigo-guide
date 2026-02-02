@@ -13,7 +13,7 @@ This section allows teams to **analyze every single conversation,** understand h
 
 {% hint style="warning" %}
 **New Feature**\
-Conversation Logs were released in **September 2025**. Learn more about it here: [evaluators-guardrails-and-conversation-logs.md](../../../product-updates/latest-product-releases/evaluators-guardrails-and-conversation-logs.md "mention")
+Conversation Logs were released in **September 2025**. Learn more about it here: [evaluators-guardrails-and-conversation-logs.md](../../../../product-updates/latest-product-releases/evaluators-guardrails-and-conversation-logs.md "mention")
 {% endhint %}
 
 ## ✅ Benefits
@@ -34,7 +34,7 @@ A Conversation Log represents one interaction between a chatbot and an end-user.
 
 You can find Conversation Logs in the Indigo.ai platform under the Utilities section of the left-hand menu.
 
-<figure><img src="../../../.gitbook/assets/conversation log 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/conversation log 3.png" alt=""><figcaption></figcaption></figure>
 
 ### Available features
 

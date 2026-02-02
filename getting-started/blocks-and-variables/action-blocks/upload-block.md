@@ -54,7 +54,7 @@ The Upload Block is designed to be simple to configure and easy for users to int
 
 ### Downloading Uploaded Files
 
-The files uploaded by users can be downloaded directly from the conversation in the platform’s [chat area](../../workspace-activities/chats/). There, you’ll find the exchanged messages along with a link to download the uploaded document.
+The files uploaded by users can be downloaded directly from the conversation in the platform’s [chat area](../../workspace/activities/chats/). There, you’ll find the exchanged messages along with a link to download the uploaded document.
 
 ## User Experience: Process Flow
 

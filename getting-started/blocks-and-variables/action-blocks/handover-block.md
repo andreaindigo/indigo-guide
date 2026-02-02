@@ -5,7 +5,7 @@ Efficiently **handle sensitive requests** by **transferring the conversation to 
 The Handover Block is designed to manage requests that require further support beyond the capabilities of the virtual assistant. It enables a smooth handoff from the AI agent to a human operator, who can directly take over the conversation through the dedicated functionality in the chat section of our platform.&#x20;
 
 {% hint style="info" %}
-To learn more about how to take over conversations, refer to the guide for the chat area in our platform here: [chats](../../workspace-activities/chats/ "mention").
+To learn more about how to take over conversations, refer to the guide for the chat area in our platform here: [chats](../../workspace/activities/chats/ "mention").
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-25 alle 18.29.50.png" alt=""><figcaption><p>The Handover Block</p></figcaption></figure>
@@ -52,5 +52,5 @@ In our Analytics section, you can track and monitor key metrics related to the H
 * **Chats with Requests**: The number of chats where the user requested human assistance.
 
 {% hint style="info" %}
-For more information on these and other performance metrics, refer to the guide: [analytics.md](../../workspace-activities/analytics.md "mention").
+For more information on these and other performance metrics, refer to the guide: [analytics.md](../../workspace/activities/analytics.md "mention").
 {% endhint %}

@@ -39,7 +39,7 @@ Whether you're in a pre-production testing phase or monitoring live conversation
 
 ## Key Features
 
-### 📌 Centralized [Dashboard](../../getting-started/workspace-activities/utilities/issue-tracker.md)
+### 📌 Centralized [Dashboard](../../getting-started/workspace/activities/utilities/issue-tracker.md)
 
 <figure><img src="../../.gitbook/assets/issues.png" alt=""><figcaption></figcaption></figure>
 
@@ -56,11 +56,11 @@ The dashboard also shows at-a-glance counters for each issue state, helping you 
 
 Create issues directly from multiple areas of the platform:
 
-* [**Chats Section**](../../getting-started/workspace-activities/chats/#issue-creation): Hover over any message to flag it, triggering a right-side panel where you can add the issue title, description, priority, tag, and assignee.
+* [**Chats Section**](../../getting-started/workspace/activities/chats/#issue-creation): Hover over any message to flag it, triggering a right-side panel where you can add the issue title, description, priority, tag, and assignee.
 
 <figure><img src="../../.gitbook/assets/create issue from chat.png" alt=""><figcaption></figcaption></figure>
 
-* [**Issue Tracker Page**](../../getting-started/workspace-activities/utilities/issue-tracker.md): Click the "+ Create Issue" button to log feedback not tied to a specific interaction.
+* [**Issue Tracker Page**](../../getting-started/workspace/activities/utilities/issue-tracker.md): Click the "+ Create Issue" button to log feedback not tied to a specific interaction.
 
 <figure><img src="../../.gitbook/assets/issues header create.png" alt=""><figcaption></figcaption></figure>
 

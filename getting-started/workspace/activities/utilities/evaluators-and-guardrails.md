@@ -29,7 +29,7 @@ Evaluators work together with Guardrails, which act as preventive checks during 
 
 {% hint style="warning" %}
 **New Feature**\
-Evaluators and Guardrails were released in **September 2025**. Learn more about it here: [evaluators-guardrails-and-conversation-logs.md](../../../product-updates/latest-product-releases/evaluators-guardrails-and-conversation-logs.md "mention")
+Evaluators and Guardrails were released in **September 2025**. Learn more about it here: [evaluators-guardrails-and-conversation-logs.md](../../../../product-updates/latest-product-releases/evaluators-guardrails-and-conversation-logs.md "mention")
 {% endhint %}
 
 ## ✅ Benefits
@@ -94,7 +94,7 @@ Once created, custom items appear in the same screen as the built-in ones and ca
 
 Evaluators can be managed directly from the indigo.ai platform.
 
-<figure><img src="../../../.gitbook/assets/add evaluator step 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/add evaluator step 1.png" alt=""><figcaption></figcaption></figure>
 
 1. In the left-hand side menu, go to the Utilities section (top area).
 2. Click on Add Evaluator.
@@ -106,16 +106,16 @@ Evaluators can be managed directly from the indigo.ai platform.
 
 * A list of available built-in evaluators will open.
 
-<figure><img src="../../../.gitbook/assets/add evaluator suggested1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/add evaluator suggested1.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/add evaluator suggested2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/add evaluator suggested2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/add evaluator suggested3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/add evaluator suggested3.png" alt=""><figcaption></figcaption></figure>
 
 * Click on the one you want to use: it will then appear in your Evaluators screen.
 * To enable it, click Activate.
 
-<figure><img src="../../../.gitbook/assets/attiva evaluator.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/attiva evaluator.png" alt=""><figcaption></figcaption></figure>
 
 ### If you choose Custom Evaluators
 
@@ -126,7 +126,7 @@ You can create your own evaluator by selecting one of the four available types:
 * **Boolean Evaluator** → checks whether the conversation meets a preset condition, returning true or false.
 * **Guardrail** → runs in real time to ensure the chatbot behaves as intended, preventing harmful or undesired outputs.
 
-<figure><img src="../../../.gitbook/assets/add evaluator custom.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/add evaluator custom.png" alt=""><figcaption></figcaption></figure>
 
 **Each evaluator type comes with its own setup fields that need to be configured (e.g., categories for the Label Evaluator, scoring parameter for the 1–10 Evaluator).**&#x20;
 
@@ -139,7 +139,7 @@ When you add an evaluator, you can decide whether its results should also appear
 * Evaluators screen → after creating or adding an evaluator, you’ll see a toggle/option to enable Show in Analytics.
 * Analytics tab → located in the same screen as the Evaluators, on the right-hand side. Here you can track the performance of evaluators you’ve chosen to display.
 
-<figure><img src="../../../.gitbook/assets/view analytics.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/view analytics.png" alt=""><figcaption></figcaption></figure>
 
 This allows you to:
 

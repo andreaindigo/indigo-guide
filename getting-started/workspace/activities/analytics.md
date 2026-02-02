@@ -13,7 +13,7 @@ With Analytics, you can **gain actionable insights into how users interact with 
 
 The Analytics section is divided into several insightful **modules**, each designed to provide specific data points related to user interactions, performance, and more.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-03 alle 09.14.36.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-03 alle 09.14.36.png" alt=""><figcaption></figcaption></figure>
 
 ## 👥 Users
 
@@ -55,7 +55,7 @@ This module helps you track user engagement and retention by distinguishing betw
 * **New Users**: Represents the number of users who interacted with the assistant for the first time.
 * **Returning Users**: Users who have previously interacted and return to chat again.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-03 alle 09.15.19.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-03 alle 09.15.19.png" alt=""><figcaption></figcaption></figure>
 
 ## 👍👎 Feedback
 
@@ -84,13 +84,13 @@ The **User Satisfaction** module allows you to view:
 
 ## 🚦 Traffic
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-04-03 alle 09.16.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-03 alle 09.16.08.png" alt=""><figcaption></figcaption></figure>
 
 The **Traffic** module shows the frequency of messages exchanged over a specified period. You can see which days of the week and which hours have the highest levels of interaction, helping you understand peak times and user engagement patterns.
 
 ## 👆 Clicks
 
-<figure><img src="../../.gitbook/assets/Clicks1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Clicks1.png" alt=""><figcaption></figcaption></figure>
 
 Track the performance of any clickable elements within your chatbot. This includes links, quick replies, and other clickable items.
 
@@ -105,7 +105,7 @@ Filters allow you to focus on specific clicks, and you can sort data by click vo
 
 ## 🤖 Agents/Workflows
 
-<figure><img src="../../.gitbook/assets/Clicks4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Clicks4.png" alt=""><figcaption></figcaption></figure>
 
 In the Agents/Workflows module, you can analyze the **most frequently triggered agents or workflows**. This gives you insight into which areas of your AI Agents are being **interacted with the most** and **how well they are performing**.
 
@@ -117,5 +117,5 @@ Key information includes:
 {% hint style="warning" %}
 #### 📊 Exporting Data
 
-Currently, data cannot be downloaded directly from the platform. However, you can access analytics data through the **platform's API** for further reporting and analysis. If you require access to API data, please see this documentation for more information: [integrating-with-our-platform-api](../../integrating-with-our-platform-api/ "mention").&#x20;
+Currently, data cannot be downloaded directly from the platform. However, you can access analytics data through the **platform's API** for further reporting and analysis. If you require access to API data, please see this documentation for more information: [integrating-with-our-platform-api](../../../integrating-with-our-platform-api/ "mention").&#x20;
 {% endhint %}

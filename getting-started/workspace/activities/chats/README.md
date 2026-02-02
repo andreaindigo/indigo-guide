@@ -16,7 +16,7 @@ The Chat Area
 
 ### Chat Details
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-03 alle 08.37.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-03 alle 08.37.10.png" alt=""><figcaption></figcaption></figure>
 
 This section collects and organizes every user conversation, offering essential details for each chat:
 
@@ -26,7 +26,7 @@ This section collects and organizes every user conversation, offering essential 
 
 ### Chat Categories
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-03 alle 08.25.53.png" alt="" width="258"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-03 alle 08.25.53.png" alt="" width="258"><figcaption></figcaption></figure>
 
 You can browse conversations by the following categories:
 
@@ -43,7 +43,7 @@ Chats initiated from within the workspace (e.g., during testing) appear in the �
 
 To simplify the search and analysis of chats, you can apply a series of filters. These filters allow you to quickly find the conversation you're looking for based on various variables:
 
-<figure><img src="../../../.gitbook/assets/filtri disponibili.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/filtri disponibili.png" alt=""><figcaption></figcaption></figure>
 
 * **Variables:** Filter conversations by the value of one or more variables used in the interaction.
 * **CSAT (Customer Satisfaction Score):** Filter by score (equals, not equals, more than, less than).
@@ -66,7 +66,7 @@ You can sort conversations by:
 
 ### Advanced Search
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-03 alle 08.34.50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-03 alle 08.34.50.png" alt=""><figcaption></figcaption></figure>
 
 Looking for something specific? Use the **keyword search** to locate particular themes, user messages, or recurring issues across all conversations.
 
@@ -78,7 +78,7 @@ The Chats section of your workspace isn't just for browsing conversation history
 
 Human Takeover **allows your team to step into live conversations whenever human intervention is required**. This is especially useful in **complex or sensitive cases** that go beyond what the virtual assistant can handle on its own.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-03 alle 08.48.17.png" alt="" width="294"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-03 alle 08.48.17.png" alt="" width="294"><figcaption></figcaption></figure>
 
 AI Agents are great at managing most incoming queries autonomously, but there are always scenarios where **a personal touch is needed**—whether it's to reassure a customer, resolve an edge case, or provide high-priority support.
 
@@ -89,14 +89,14 @@ Once activated, your operators can:
 * View full chat history and user context for a seamless handover.
 
 {% hint style="info" %}
-Interested in enabling Human Takeover? [Contact our team](../../../need-help/our-customer-success-team.md) to activate this feature in your workspace.
+Interested in enabling Human Takeover? [Contact our team](../../../../need-help/our-customer-success-team.md) to activate this feature in your workspace.
 {% endhint %}
 
 ### 🛠 Debugging
 
-The Debugging panel gives you a **detailed, step-by-step breakdown of how a particular message was generated within the platform**. It's an essential tool for anyone building and [testing](../../../build-your-ai-agents/testing-and-debugging.md) AI assistants.
+The Debugging panel gives you a **detailed, step-by-step breakdown of how a particular message was generated within the platform**. It's an essential tool for anyone building and [testing](../../../../build-your-ai-agents/testing-and-debugging.md) AI assistants.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-03 alle 08.53.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-03 alle 08.53.56.png" alt=""><figcaption></figcaption></figure>
 
 When a conversation doesn’t go as expected, Debugging allows you to:
 
@@ -116,9 +116,9 @@ Learn how to make the most of this feature in our dedicated guide: [debugging.md
 The new **Issue Tracker** feature allows you to efficiently **flag conversations needing improvement** directly from the Chats section.&#x20;
 
 {% hint style="info" %}
-Learn more about the new feature here: [issue-tracker-for-tests-and-improvements.md](../../../product-updates/latest-product-releases/issue-tracker-for-tests-and-improvements.md "mention")
+Learn more about the new feature here: [issue-tracker-for-tests-and-improvements.md](../../../../product-updates/latest-product-releases/issue-tracker-for-tests-and-improvements.md "mention")
 
-**Please note:** This feature is currently in beta testing. To request activation, please [contact our Customer Success team](../../../need-help/our-customer-success-team.md).
+**Please note:** This feature is currently in beta testing. To request activation, please [contact our Customer Success team](../../../../need-help/our-customer-success-team.md).
 {% endhint %}
 
 Hover over any chat message to flag it as an issue. A dedicated panel appears, enabling you to quickly enter:
@@ -129,7 +129,7 @@ Hover over any chat message to flag it as an issue. A dedicated panel appears, e
 * **Tags**: Categorize the issue clearly (e.g., Bug, Improvement, API Error, Bad Tone of Voice).
 * **Assignee**: Assign the issue to a team member or your indigo.ai Customer Success Manager by default.
 
-<figure><img src="../../../.gitbook/assets/create issue from chat.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/create issue from chat.png" alt=""><figcaption></figcaption></figure>
 
 * **Visual Indicators:** Messages flagged as issues are clearly marked within the conversation view, allowing immediate visibility.
 * **Tracking and Resolution:** All flagged issues are centrally managed within the dedicated Issue Tracker dashboard, offering full visibility into issue status (To Do, In Progress, Done, Review), comments, historical updates, and easy access to debugging information.

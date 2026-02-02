@@ -37,7 +37,7 @@ The Metadata Block:
 
 * Accepts input in **valid JSON format**
 * Metadata are **not printed in chat** and remain invisible to users
-* They are still visible in the [**debugging**](../../workspace-activities/chats/debugging.md) **console**, allowing builders to test and trace their impact
+* They are still visible in the [**debugging**](../../workspace/activities/chats/debugging.md) **console**, allowing builders to test and trace their impact
 * [Variables](../variables/) (e.g., `{{user_email}}`) can be used inside the JSON to make the metadata dynamic
 * Can be conditionally executed if placed within a [**Condition Block**](../logic-blocks/condition-block.md) (N.B.: Metadata Blocks inside unverified conditions will not be processed; only blocks in satisfied conditions are executed)
 
