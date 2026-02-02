@@ -7,6 +7,7 @@
 * [Introduction to indigo.ai](getting-started/introduction-to-indigo.ai/README.md)
   * [Our Platform](getting-started/introduction-to-indigo.ai/our-platform.md)
 * [Workspace Sections](getting-started/workspace-sections/README.md)
+  * [Home](getting-started/workspace-sections/home.md)
   * [Chats](getting-started/workspace-sections/chats/README.md)
     * [Debugging](getting-started/workspace-sections/chats/debugging.md)
   * [Docs & URLs](getting-started/workspace-sections/docs-and-urls.md)
