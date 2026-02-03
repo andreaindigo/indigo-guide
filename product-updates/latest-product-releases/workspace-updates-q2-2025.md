@@ -28,7 +28,7 @@ For use cases where brand identity or compliance rules must be preserved across 
 **Each agent still supports local customization, but now you can decide what should be inherited globally and what should be unique per agent**.
 
 {% hint style="info" %}
-Read the full article → [global-agent-settings.md](../../getting-started/agents-workflows-and-triggers/global-agent-settings.md "mention")
+Read the full article → [agents-settings.md](../../getting-started/workspace/agents-settings.md "mention")
 {% endhint %}
 
 ## 🧪 Collect Block

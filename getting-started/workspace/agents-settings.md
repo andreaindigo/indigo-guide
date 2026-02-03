@@ -1,18 +1,15 @@
 ---
 description: Released in June 2025
+icon: gear-complex
 ---
 
-# Global Agent Settings
+# Agents Settings
 
 When building virtual assistants at scale, there are some things you want **all your agents to have in common**: your company’s tone of voice, core values, communication rules, and even specific links or phrases to mention.
 
-Until June 2025, those shared elements had to be manually copied into each agent’s configuration, which often led to inconsistencies and extra work.
+## What Are Agents Settings?
 
-That’s why we introduced Global Agent Settings: a **centralized way to define the shared DNA of your agents**, ensuring they stay aligned with your brand and strategy while saving time.
-
-## What Are Global Agent Settings?
-
-Global Agent Settings let you define and manage key configuration sections once, and apply them across all agents in your workspace. These include:
+Agents Settings let you define and manage key configuration sections once, and apply them across all agents in your workspace. These include:
 
 * Company Description
 * Tone of Voice
@@ -27,7 +24,7 @@ Global Agent Settings let you define and manage key configuration sections once,
 
 **Existing agents will sync with them unless they’ve already been customized locally** (more on that below).
 
-## When Should You Use Them?
+## When should you use them?
 
 If a setting is meant to be **shared across multiple agents**, define it globally. This ensures brand consistency, simplifies maintenance, and avoids repetitive edits.
 
@@ -39,10 +36,10 @@ Use Global Agent Settings when:
 * **Faster onboarding** – new Agents are created pre-filled with approved content.
 
 {% hint style="info" %}
-Still need flexibility? Don’t worry: you can override global settings at the agent level when specific customization is needed. More details on configuring agents can be found here: [how-to-create-an-agent.md](how-to-create-an-agent.md "mention")
+Still need flexibility? Don’t worry: you can override global settings at the agent level when specific customization is needed. More details on configuring agents can be found here: [how-to-create-an-agent.md](../agents-workflows-and-triggers/how-to-create-an-agent.md "mention")
 {% endhint %}
 
-## How Global and Local Settings Work Together
+## How global and local settings work together
 
 Each agent will **inherit** global settings **unless** it has already been edited locally. Here’s how it works:
 
@@ -121,7 +118,7 @@ Define default AI configuration, including:
 * Fallback message for errors
 
 {% hint style="info" %}
-You can find a more detailed explanation of these settings here: [#id-4-agent-settings](how-to-create-an-agent.md#id-4-agent-settings "mention")
+You can find a more detailed explanation of these settings here: [#id-4-agent-settings](../agents-workflows-and-triggers/how-to-create-an-agent.md#id-4-agent-settings "mention")
 {% endhint %}
 
 ## How to Access Global Settings

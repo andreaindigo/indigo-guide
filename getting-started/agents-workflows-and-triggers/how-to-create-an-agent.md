@@ -5,7 +5,7 @@ In this article, we will walk you through the process of configuring an agent on
 As mentioned in the previous article [.](./ "mention"), from a technical perspective, the Agent Block is essentially a templated prompt that you can easily configure through the platform’s user-friendly interface. This structured configuration ensures that the agent performs optimally, leveraging the pre-designed framework by indigo.ai for the best possible outcomes. &#x20;
 
 {% hint style="warning" %}
-In June 2025, we introduced a powerful new feature: [Global Agent Settings](global-agent-settings.md). This allows you to **centrally define and manage common configuration sections**, like tone of voice, company description, brand rules, and more, **across all your agents**.&#x20;
+In June 2025, we introduced a powerful new feature: [Global Agent Settings](../workspace/agents-settings.md). This allows you to **centrally define and manage common configuration sections**, like tone of voice, company description, brand rules, and more, **across all your agents**.&#x20;
 
 When these settings are meant to stay consistent, managing them globally ensures better alignment, reduces duplication, and saves time. Check out the dedicated article to learn more.
 {% endhint %}
@@ -301,7 +301,7 @@ The "Overwritten Alert" alert appears when the number of tokens is too high, sug
 The **Settings button**, located at the **top right** of the Agent Block, allows you to configure various options that influence the agent’s performance and response generation.
 
 {% hint style="info" %}
-These settings, except for “Documents to use”, can also be centrally managed through the [Global Agent Settings](global-agent-settings.md) panel for easier maintenance and consistency across all your agents.
+These settings, except for “Documents to use”, can also be centrally managed through the [Global Agent Settings](../workspace/agents-settings.md) panel for easier maintenance and consistency across all your agents.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-24 alle 16.03.51.png" alt=""><figcaption><p>Agent Settings - part 1</p></figcaption></figure>
