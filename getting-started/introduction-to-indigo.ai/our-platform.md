@@ -44,7 +44,7 @@ Designed to empower teams, adapt to your goals, and protect your data, the platf
 
 ## 🖥️ Workspaces
 
-Our platform is built around **Workspaces**—dedicated digital environments where you build and manage your AI-powered workforce.&#x20;
+Our platform is built around [**Workspaces**](../workspace/)—dedicated digital environments where you build and manage your AI-powered workforce.&#x20;
 
 Each Workspace represents a **specific virtual assistant**, designed for a particular use case within a single communication channel.
 
