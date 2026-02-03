@@ -136,7 +136,7 @@ The platform includes a built-in **user management interface** that allows you t
 This ensures that only authorized personnel can make changes or access critical components—enhancing both security and governance.
 
 {% hint style="info" %}
-To know more about managing workspace access and roles, visit this page for detailed instructions: [settings](../getting-started/workspace/settings/ "mention")
+To know more about managing workspace access and roles, visit this page for detailed instructions: [settings-and-installation](../getting-started/workspace/settings-and-installation/ "mention")
 {% endhint %}
 
 ## FAQs

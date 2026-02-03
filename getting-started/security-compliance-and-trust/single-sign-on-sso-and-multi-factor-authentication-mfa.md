@@ -43,7 +43,7 @@ With MFA, users must provide more than just a password to access their accounts.
 When logging into Indigo.ai, users will first enter their password, then receive a verification code via their phone or email. This code must be entered to complete the login process, providing an added layer of protection.
 
 {% hint style="info" %}
-For details on how to enable Multi-Factor Authentication (MFA), check out this page: [settings](../workspace/settings/ "mention").
+For details on how to enable Multi-Factor Authentication (MFA), check out this page: [settings-and-installation](../workspace/settings-and-installation/ "mention").
 {% endhint %}
 
 **Advanced Security Features**

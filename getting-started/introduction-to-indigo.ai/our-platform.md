@@ -131,4 +131,4 @@ The Variables section provides centralized control of all variables used by your
 
 The Settings & Installations section allows you to customize the web chat widget, manage workspace access and user roles, access workspace information and virtual assistant installation details, and more.&#x20;
 
-> _Find more details about Workspace settings here:_ [settings](../workspace/settings/ "mention")_._&#x20;
+> _Find more details about Workspace settings here:_ [settings-and-installation](../workspace/settings-and-installation/ "mention")_._&#x20;

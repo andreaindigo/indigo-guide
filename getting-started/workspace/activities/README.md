@@ -31,7 +31,7 @@ Currently, this feature is in beta testing with selected clients.
 👉 For more info, please refer to this page [issue-tracker-for-tests-and-improvements.md](../../../product-updates/latest-product-releases/issue-tracker-for-tests-and-improvements.md "mention").
 {% endhint %}
 
-[⚙️ **Settings**](../settings/)
+[⚙️ **Settings**](../settings-and-installation/)
 
 The Settings section enables you to manage workspace configurations, user roles, security settings, and web chat customization. Control access and ensure your virtual assistant aligns perfectly with your organizational standards.
 
