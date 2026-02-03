@@ -20,23 +20,23 @@ The left-side menu is organized into three main blocks, each grouping sections w
 
 This block includes sections related to day-to-day workspace activity, content management, and analysis:
 
-* Chats
-* Docs and URLs
-* Analytics
-* Utilities
+* [Chats](activities/chats/)
+* [Docs and URLs](activities/docs-and-urls.md)
+* [Analytics](activities/analytics.md)
+* [Utilities](activities/utilities/)
 
 ### Agent and workflow creation
 
 This block is dedicated to building and organizing your solution. It is divided into Live and Draft areas and allows you to create and manage:
 
-* Agents
-* Workflows
+* [Agents](../agents-workflows-and-triggers/how-to-create-an-agent.md)
+* [Workflows](../agents-workflows-and-triggers/workflows.md)
 * Folders
 
 ### Workspace configuration
 
 This block provides access to shared configuration settings that apply across the entire workspace:
 
-* Agent Settings
-* Variables
-* Settings & Installation
+* [Agent Settings](agents-settings.md)
+* [Variables](variables/)
+* [Settings & Installation](settings-and-installation/)
