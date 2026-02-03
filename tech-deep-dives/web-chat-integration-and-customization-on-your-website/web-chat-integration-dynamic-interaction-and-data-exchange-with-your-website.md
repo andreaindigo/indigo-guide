@@ -274,3 +274,19 @@ If necessary, you can manually override the default user ID, useful for aligning
 
 This approach is particularly beneficial for integrating chat interactions with existing user databases, allowing for a unified user experience across platforms.
 
+### Customizing the User Reference
+
+In addition to overriding the displayed username, it is also possible to **customize the internal user reference (`user_ref`)**.\
+This feature, recently introduced, is particularly useful for customers who need to align chat users with identifiers coming from external systems (such as CRM, authentication systems, or internal databases).
+
+By passing the `uid` parameter when loading the widget, you can explicitly set the `user_ref` associated with the user session.
+
+Example:
+
+```html
+<script defer
+  src="http://localhost:4001/widget.js?token=f1f18a18-ea8a-481b-a3f0-9c6dbd8b0d4f&v=3&uid=user_ref_custom">
+</script>
+```
+
+When provided, the value of `uid` will be used as the user’s unique reference instead of the automatically generated one.
