@@ -7,7 +7,7 @@ icon: puzzle-piece
 
 Integrating your AI assistant with your existing business systems is key to unlocking its full potential. indigo.ai offers a comprehensive suite of integration options, enabling connections with Customer Relationship Management (CRM) platforms, e-commerce systems, Enterprise Resource Planning (ERP) tools, and other essential applications. These integrations facilitate real-time data exchange, streamline operations, and enhance both user and operator interactions.
 
-All integrations are managed through our powerful [**API Block**](../blocks-and-variables/action-blocks/api-block.md), a core component in the conversational flow builder. This feature allows your assistant to **read from and write to third-party systems**, enabling **real-time data exchange and dynamic responses**.
+All integrations are managed through our powerful [**API Block**](../blocks/action-blocks/api-block.md), a core component in the conversational flow builder. This feature allows your assistant to **read from and write to third-party systems**, enabling **real-time data exchange and dynamic responses**.
 
 ## Available Integrations
 

@@ -48,7 +48,7 @@ Another useful addition is the Mail Block, which simplifies the process of **sen
 * **Streamlined Setup**: This new feature removes the need for complex API configurations, saving you time and effort while making email functionality much more accessible.
 
 {% hint style="info" %}
-For more details about the new block, check out the full article here: [mail-block.md](../../getting-started/blocks-and-variables/action-blocks/mail-block.md "mention").&#x20;
+For more details about the new block, check out the full article here: [mail-block.md](../../getting-started/blocks/action-blocks/mail-block.md "mention").&#x20;
 {% endhint %}
 
 ## 3. Upload Block
@@ -60,7 +60,7 @@ The Upload Block **allows users to upload files**—such as documents, images, o
 #### Key Features
 
 * **Easy File Upload**\
-  Users will see a **simple interface** within the chat where they can upload files. **Uploaded files become** [**variables**](../../getting-started/blocks-and-variables/variables/) within your workflow, allowing you to store them, use them in logic flows, or forward them to external systems.
+  Users will see a **simple interface** within the chat where they can upload files. **Uploaded files become** [**variables**](../../getting-started/workspace/variables/) within your workflow, allowing you to store them, use them in logic flows, or forward them to external systems.
 * **Custom Workflow Placement**\
   You can insert the Upload Block at any point in your workflow, customizing the moment and context in which file sharing is enabled to match your business logic.
 * **File Access & Reuse**\
@@ -71,7 +71,7 @@ The Upload Block **allows users to upload files**—such as documents, images, o
 The Upload Block is already being used successfully in customer support and other workflows that require file sharing.&#x20;
 
 {% hint style="info" %}
-For more details and how to implement it, check out our deep dive article here: [upload-block.md](../../getting-started/blocks-and-variables/action-blocks/upload-block.md "mention").&#x20;
+For more details and how to implement it, check out our deep dive article here: [upload-block.md](../../getting-started/blocks/action-blocks/upload-block.md "mention").&#x20;
 {% endhint %}
 
 ## 4. Copy-Paste Blocks

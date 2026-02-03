@@ -85,7 +85,7 @@ Customization Features:
   * **Layout Options**: Choose from five predefined grid layouts, allowing you to display between **1 and 4 images** in various formats depending on your design needs.
   * **Image Upload**: You can upload **static images or short videos** (following the same format and size rules as the avatar upload described earlier). Once uploaded, each image can be edited or removed at any time.
   * **Text Overlay**: Add a **short text label** above each image to describe its purpose. We recommend using **concise and action-oriented titles** to improve clarity and encourage user interaction (e.g., “Book an Appointment” or “Explore Products”).
-  * **Optional Clickable Actions**: Each image can be configured as a [**quick reply**](../getting-started/blocks-and-variables/action-blocks/quick-reply-block.md), offering the following interaction types:
+  * **Optional Clickable Actions**: Each image can be configured as a [**quick reply**](../getting-started/blocks/action-blocks/quick-reply-block.md), offering the following interaction types:
     * **Start a Conversation**: Trigger a specific **Agent** or **Workflow**. In this case, assigning a text label is mandatory, as it will be used as the message sent in chat.
       * **Open an External Link**: Redirect users to an external webpage in a new browser tab. The text label is optional in this case.
       * **No Action**: Leave the image static, simply for visual or informative purposes.

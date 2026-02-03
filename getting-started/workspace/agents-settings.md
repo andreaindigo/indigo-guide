@@ -97,7 +97,7 @@ Inside each Agent block:
 Create reusable content snippets (e.g., disclaimers, legal notes).
 
 {% hint style="info" %}
-Custom Sections behave like [variables](../blocks-and-variables/variables/), but are hidden from the regular \{{variables\}} picker.
+Custom Sections behave like [variables](variables/), but are hidden from the regular \{{variables\}} picker.
 
 * **Create**: Agent settings → **Add section** → give it a name and content.
 * **Insert**: In any multiline text field inside an Agent, type **“/”** and pick the section from the dropdown (or keep typing its name).

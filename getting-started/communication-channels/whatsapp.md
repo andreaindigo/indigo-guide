@@ -13,7 +13,7 @@ WhatsApp is a great choice for **providing immediate support** to your users. As
   * You cannot modify the appearance of buttons, including size, color, or icons.
   * Carousels (image sliders) are supported for interactive content.
   * There is no visual indicator (e.g., typing dots) when the assistant is preparing a response.
-  * The typebar cannot be disabled when using [quick replies](../blocks-and-variables/action-blocks/quick-reply-block.md), so users may type their responses instead of clicking the buttons.
+  * The typebar cannot be disabled when using [quick replies](../blocks/action-blocks/quick-reply-block.md), so users may type their responses instead of clicking the buttons.
   * Button text has a limit of 20 characters, with a maximum of 3 buttons supported per message.
   * Links must be written out in full as WhatsApp doesn’t support hyperlinks.
   * Captions cannot be used for buttons or images.

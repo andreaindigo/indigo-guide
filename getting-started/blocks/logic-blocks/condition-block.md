@@ -5,7 +5,7 @@ Not all conversation flows follow a linear path. Often, different paths need to 
 The Condition Block uses conditional logic to **determine how the conversation should proceed based on certain conditions being met**. By combining logical operators and variables, this block enables specific parts of the conversation flow to be activated, allowing for **dynamic responses tailored to user inputs**. This helps in creating intelligent and adaptable conversational paths that are based on real-time data or information shared during the conversation.&#x20;
 
 {% hint style="info" %}
-The functionality of this block is driven by [variables](../variables/ "mention"): check out the article for detailed guidance.
+The functionality of this block is driven by [variables](../../workspace/variables/ "mention"): check out the article for detailed guidance.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-27 alle 09.30.29.png" alt=""><figcaption><p>The Condition Block</p></figcaption></figure>

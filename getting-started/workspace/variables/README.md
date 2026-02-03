@@ -1,3 +1,7 @@
+---
+icon: brackets-curly
+---
+
 # Variables
 
 Variables play a central role in **shaping the flow of a conversation** with your virtual assistant.
@@ -19,10 +23,10 @@ They can be populated in different ways:
 
 * **External Data via APIs**: Variables can be filled with data retrieved from external systems through API calls.
 * **User Input**: Information extracted from user messages can be used to populate variables.
-  * [**Capture Block**](../logic-blocks/capture-block.md): Values are extracted from user messages and stored within a variable.
-  * [**Prompt Block**](../utility-blocks/prompt-block.md): JSON data returned by a Prompt Block fills the variable with the required values.
+  * [**Capture Block**](../../blocks/logic-blocks/capture-block.md): Values are extracted from user messages and stored within a variable.
+  * [**Prompt Block**](../../blocks/utility-blocks/prompt-block.md): JSON data returned by a Prompt Block fills the variable with the required values.
 * **Manual Configuration**: You can set the value of a variable manually during the workflow configuration process.
-  * [**Set Values Block**](../logic-blocks/set-values-block.md): The value of a variable can be manually set during the workflow configuration.
+  * [**Set Values Block**](../../blocks/logic-blocks/set-values-block.md): The value of a variable can be manually set during the workflow configuration.
   * **Fallback Value**: A default value can be assigned to a variable during its creation or modification (as explained below), ensuring the variable has an initial value if no other value is provided.
 
 Once a variable is populated, it influences the conversation by helping determine the next step in the workflow or the response provided to the user.
@@ -30,7 +34,7 @@ Once a variable is populated, it influences the conversation by helping determin
 {% hint style="info" %}
 A variable can either contain a value or be considered "empty." In our platform, a variable without a value may be represented as either **`null`** or `empty` , both of which indicate that the variable currently holds no usable content.
 
-Both states allow you to reset or validate variables during the conversation flow, especially when configuring logic with the [Set Values](../logic-blocks/set-values-block.md) or [Condition](../logic-blocks/condition-block.md) blocks.
+Both states allow you to reset or validate variables during the conversation flow, especially when configuring logic with the [Set Values](../../blocks/logic-blocks/set-values-block.md) or [Condition](../../blocks/logic-blocks/condition-block.md) blocks.
 {% endhint %}
 
 ## Variable Categories
@@ -115,7 +119,7 @@ Map variables must be updated by **overwriting the entire map**; individual fiel
 * An **API block** (via capture variable)
 
 {% hint style="danger" %}
-You cannot assign values to a Map variable directly from a [Capture block](../logic-blocks/capture-block.md).
+You cannot assign values to a Map variable directly from a [Capture block](../../blocks/logic-blocks/capture-block.md).
 {% endhint %}
 
 **Example update:**
@@ -134,7 +138,7 @@ Use **dot notation** to retrieve values:
 * `{{mappa.key1}}` → returns "value1"
 * Nested access is supported: `{{mappa.nested1.nested2}}`
 
-#### Using Map Variables in [Condition Blocks](../logic-blocks/condition-block.md)
+#### Using Map Variables in [Condition Blocks](../../blocks/logic-blocks/condition-block.md)
 
 Map variables support the following conditions:
 
@@ -234,4 +238,4 @@ For detailed instructions on setting this up, refer to this article: [web-chat-i
 
 ### Variables in Chats
 
-Variables can also be used in the [Chats](../../workspace/activities/chats/) section as filters, allowing you to quickly find conversations based on their values.
+Variables can also be used in the [Chats](../activities/chats/) section as filters, allowing you to quickly find conversations based on their values.

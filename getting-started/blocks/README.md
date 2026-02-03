@@ -2,7 +2,7 @@
 icon: share-nodes
 ---
 
-# Blocks & Variables
+# Blocks
 
 ## Workflow Blocks
 
@@ -24,5 +24,5 @@ Below is an overview of the available blocks, along with links to dedicated arti
 Variables are the foundation of most workflow blocks. They allow your assistant to **store, recall, and act on data—enabling everything from dynamic conversations to API-based responses**. Whether you're capturing user input, setting conditions, or generating structured outputs, variables power the logic behind your assistant’s behavior.
 
 {% hint style="info" %}
-Learn more about how variables work in the next section: [variables](variables/ "mention").
+Learn more about how variables work in the next section: [variables](../workspace/variables/ "mention").
 {% endhint %}

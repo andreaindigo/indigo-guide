@@ -58,7 +58,7 @@ To support complex payloads passed via external triggers, we've introduced two n
 These let your AI handle structured data cleanly and efficiently, perfect for use cases like parsing event data, looping through ticket fields, or mapping complex CRM records.
 
 {% hint style="info" %}
-All the details on the new variables are available here: [#deep-dive-map-and-list-variables](../../getting-started/blocks-and-variables/variables/#deep-dive-map-and-list-variables "mention")
+All the details on the new variables are available here: [#deep-dive-map-and-list-variables](../../getting-started/workspace/variables/#deep-dive-map-and-list-variables "mention")
 {% endhint %}
 
 ### 🔗 Updated API Documentation

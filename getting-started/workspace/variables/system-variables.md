@@ -1,6 +1,6 @@
 # System Variables
 
-System variables are **predefined, read-only variables** that are automatically managed by the indigo.ai platform. Unlike custom variables, they **cannot be edited** using blocks like [Set Value](../logic-blocks/set-values-block.md) or [Capture](../logic-blocks/capture-block.md). Instead, they provide **real-time context** about the user, session, platform environment, and conversation history, allowing you to create more intelligent and personalized experiences.
+System variables are **predefined, read-only variables** that are automatically managed by the indigo.ai platform. Unlike custom variables, they **cannot be edited** using blocks like [Set Value](../../blocks/logic-blocks/set-values-block.md) or [Capture](../../blocks/logic-blocks/capture-block.md). Instead, they provide **real-time context** about the user, session, platform environment, and conversation history, allowing you to create more intelligent and personalized experiences.
 
 **They are always identified by the prefix `$`, e.g. `$project_id`.**
 
@@ -84,7 +84,7 @@ If a capture block collects exactly the value of **`$last_user_message`**:
 
 ### ✅ Utility
 
-* **`$true`** – A constant that always returns `true`. Handy for testing or creating unconditional branches in [Condition Blocks](../logic-blocks/condition-block.md).&#x20;
+* **`$true`** – A constant that always returns `true`. Handy for testing or creating unconditional branches in [Condition Blocks](../../blocks/logic-blocks/condition-block.md).&#x20;
 
 {% hint style="info" %}
 It is possible to create **custom variables with the same name as a system variable**, but:

@@ -47,7 +47,7 @@ Ideal for forms, onboarding, bookings, and more: the Collect Block makes data co
 * Choose whether to automatically prompt the user for missing inputs
 
 {% hint style="info" %}
-Explore how it works → [collect-block.md](../../getting-started/blocks-and-variables/logic-blocks/collect-block.md "mention")
+Explore how it works → [collect-block.md](../../getting-started/blocks/logic-blocks/collect-block.md "mention")
 {% endhint %}
 
 ## 🔐 Privacy Settings in Widget
@@ -83,7 +83,7 @@ In addition, you can now manage **short memory settings** directly in the block,
 Use the new format to simulate conversation turns, chain-of-thought reasoning, or step-by-step classification, all while staying fully backward compatible.
 
 {% hint style="info" %}
-Deep dive on the new Prompt Block → [#message-composer](../../getting-started/blocks-and-variables/utility-blocks/prompt-block.md#message-composer "mention")
+Deep dive on the new Prompt Block → [#message-composer](../../getting-started/blocks/utility-blocks/prompt-block.md#message-composer "mention")
 {% endhint %}
 
 ## 🎛 Metadata Block
@@ -99,7 +99,7 @@ This content isn't shown to users but is processed at runtime, enabling actions 
 A powerful block for teams working with complex channel integrations or advanced automation.
 
 {% hint style="info" %}
-Learn how to use the new block → [metadata-block.md](../../getting-started/blocks-and-variables/utility-blocks/metadata-block.md "mention")
+Learn how to use the new block → [metadata-block.md](../../getting-started/blocks/utility-blocks/metadata-block.md "mention")
 {% endhint %}
 
 ## 🌍 Streamlined Multilingual Management

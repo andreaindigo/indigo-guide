@@ -99,7 +99,7 @@ A callback is a function that is executed when a specific event occurs. For inst
 
 * `$message-received` is triggered when a message arrives at the widget from the assistant.
 * `$message-sent` is triggered when a message is sent from the widget to the assistant. This event also occurs for invisible system messages, which can be filtered by checking if the event data contains a _system_ field.
-* `$answer` is triggered each time a user input leads through an answer on the platform. If there are [reroute](../../getting-started/blocks-and-variables/logic-blocks/reroute-block.md) blocks within an answer, multiple events are triggered.
+* `$answer` is triggered each time a user input leads through an answer on the platform. If there are [reroute](../../getting-started/blocks/logic-blocks/reroute-block.md) blocks within an answer, multiple events are triggered.
 * `$user-data-sent` is triggered when user data is updated.
 * `$set-open` is triggered when the widget is opened or closed (does not apply if the chat is installed full screen).
 

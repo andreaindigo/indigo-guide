@@ -8,7 +8,7 @@ icon: '3'
 ​Configuring AI Agents on the indigo.ai platform is a streamlined process designed to be accessible to users without requiring advanced technical skills. By leveraging the platform's intuitive interface, you can design, customize, and deploy AI Agents that elevate customer interactions and optimize business operations.&#x20;
 
 {% hint style="info" %}
-This article offers practical guidance to help you get started. For a complete reference on each configuration field and the functionality of all workflow blocks, refer to this detailed pages of the guide: [Broken link](/broken/pages/DQeY10e3ZGK3N4RsW0lq "mention"), [blocks-and-variables](../getting-started/blocks-and-variables/ "mention").&#x20;
+This article offers practical guidance to help you get started. For a complete reference on each configuration field and the functionality of all workflow blocks, refer to this detailed pages of the guide: [Broken link](/broken/pages/DQeY10e3ZGK3N4RsW0lq "mention"), [blocks](../getting-started/blocks/ "mention").&#x20;
 {% endhint %}
 
 ## Getting Started in Your Workspace
@@ -113,12 +113,12 @@ As mentioned in [agents-workflows-and-triggers](../getting-started/agents-workfl
 
 #### Set Initial Variables
 
-At the beginning of each workflow, use the [Set Values](../getting-started/blocks-and-variables/logic-blocks/set-values-block.md) block to initialize variables. This avoids accidentally carrying over values from previous user sessions.
+At the beginning of each workflow, use the [Set Values](../getting-started/blocks/logic-blocks/set-values-block.md) block to initialize variables. This avoids accidentally carrying over values from previous user sessions.
 
 #### Define a Clear End
 
 * For agents, define what happens after their response using the Connection section.
-* For workflows, always end with a [Reroute Block](../getting-started/blocks-and-variables/logic-blocks/reroute-block.md) that redirects the flow to another agent or process.
+* For workflows, always end with a [Reroute Block](../getting-started/blocks/logic-blocks/reroute-block.md) that redirects the flow to another agent or process.
 * Also consider resetting variables at the end of a flow, unless you explicitly need to retain their values for subsequent steps.
 
 #### Streamline User Journeys

@@ -56,7 +56,7 @@ For detailed guidance, refer to this section: [integrations](../../getting-start
 * Set up a **Prompt block** in your workflow to extract the specific information needed from the user’s query. This data should be structured in a **JSON format** (e.g., customer details, product information) and saved in **variables** for use in subsequent steps.
 
 {% hint style="info" %}
-For more detailed instructions on creating Prompts, see [prompt-block.md](../../getting-started/blocks-and-variables/utility-blocks/prompt-block.md "mention"), and for using Variables, refer to [variables](../../getting-started/blocks-and-variables/variables/ "mention").&#x20;
+For more detailed instructions on creating Prompts, see [prompt-block.md](../../getting-started/blocks/utility-blocks/prompt-block.md "mention"), and for using Variables, refer to [variables](../../getting-started/workspace/variables/ "mention").&#x20;
 {% endhint %}
 {% endstep %}
 
@@ -67,7 +67,7 @@ For more detailed instructions on creating Prompts, see [prompt-block.md](../../
 * Save the response of the **API SQL query** in a new variable for further processing.
 
 {% hint style="info" %}
-Instructions for configuring the API block are available here: [api-block.md](../../getting-started/blocks-and-variables/action-blocks/api-block.md "mention").
+Instructions for configuring the API block are available here: [api-block.md](../../getting-started/blocks/action-blocks/api-block.md "mention").
 {% endhint %}
 {% endstep %}
 
@@ -83,7 +83,7 @@ For more information on setting up AI agents, refer to [how-to-create-an-agent.m
 * If additional checks or data manipulations are required before the agent provides a final response, the variables containing the API-fetched data can be used in any other workflows.&#x20;
 
 {% hint style="info" %}
-Here you can find more information about workflows, blocks and variables: [blocks-and-variables](../../getting-started/blocks-and-variables/ "mention").&#x20;
+Here you can find more information about workflows, blocks and variables: [blocks](../../getting-started/blocks/ "mention").&#x20;
 
 Additionally, in the [next article](../configure-your-ai-agents.md) of this practical guide to building AI agents, you will find detailed guidance on configuring conversational flows.
 {% endhint %}
@@ -143,7 +143,7 @@ Here’s a detailed overview of this service.
 * **Customize the SQL query** based on the workflow's requirements to fetch only **relevant information** for specific tasks (e.g., fetching product details when a customer asks about a particular item).&#x20;
 
 {% hint style="info" %}
-For more info on configuring a API call to connect with a Google Sheet, refer to this article: [api-block.md](../../getting-started/blocks-and-variables/action-blocks/api-block.md "mention").
+For more info on configuring a API call to connect with a Google Sheet, refer to this article: [api-block.md](../../getting-started/blocks/action-blocks/api-block.md "mention").
 {% endhint %}
 {% endstep %}
 {% endstepper %}

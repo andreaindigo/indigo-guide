@@ -27,9 +27,9 @@ Learn more about how to use the debugging feature in detail in the next article:
 
 **Incorporating testing mechanisms directly into your workflow design** can streamline the debugging process. Consider implementing the following best practices:​
 
-* **Conditional Debugging Messages** - Use the [Condition Block](../getting-started/blocks-and-variables/logic-blocks/condition-block.md) to **check if the environment is set to "test."** If true, configure the workflow to **display specific variable values or fixed text messages** during the conversation. This approach helps validate variable values and ensures that the workflow behaves as expected in the test environment.​
+* **Conditional Debugging Messages** - Use the [Condition Block](../getting-started/blocks/logic-blocks/condition-block.md) to **check if the environment is set to "test."** If true, configure the workflow to **display specific variable values or fixed text messages** during the conversation. This approach helps validate variable values and ensures that the workflow behaves as expected in the test environment.​
 * **Prompt Blocks with Reasoning Variables** - When using prompts that return JSON to extract information from user input, it’s helpful to include a "reasoning" key in the response. This key offers visibility into how the AI agent made its decision. To make debugging easier during testing, you can add a Text Block that displays the value of the `reasoning` variable—just condition it to show only in the test environment. This gives you a clearer view of what’s happening behind the scenes and helps troubleshoot unexpected behavior.\
-  For detailed guidance on utilizing reasoning in prompts, refer to this article: [prompt-block.md](../getting-started/blocks-and-variables/utility-blocks/prompt-block.md "mention").&#x20;
+  For detailed guidance on utilizing reasoning in prompts, refer to this article: [prompt-block.md](../getting-started/blocks/utility-blocks/prompt-block.md "mention").&#x20;
 
 ## 3. Testing in a Staging Environment
 
@@ -64,8 +64,8 @@ If you want to gather feedback from users during their interaction with the virt
 
 **How it works:**
 
-1. **Feedback Workflow**: Create a feedback request workflow composed of a [quick reply block](../getting-started/blocks-and-variables/action-blocks/quick-reply-block.md) asking users to rate the interaction with a 👍 or 👎. If the user selects 👎, ask them to provide additional details about what didn’t work or what they were expecting instead.&#x20;
-2. **Feedback Workflow Routing**: At the end of the conversation flow you wish to evaluate, include a [reroute block](../getting-started/blocks-and-variables/logic-blocks/reroute-block.md) to direct users to the feedback collection workflow.​
+1. **Feedback Workflow**: Create a feedback request workflow composed of a [quick reply block](../getting-started/blocks/action-blocks/quick-reply-block.md) asking users to rate the interaction with a 👍 or 👎. If the user selects 👎, ask them to provide additional details about what didn’t work or what they were expecting instead.&#x20;
+2. **Feedback Workflow Routing**: At the end of the conversation flow you wish to evaluate, include a [reroute block](../getting-started/blocks/logic-blocks/reroute-block.md) to direct users to the feedback collection workflow.​
 3. **Data Integration**: Utilize integrations with tools like Zapier (note: requires an account) to **automatically save feedback data** into a Google Sheet or another database. Zapier can capture various parameters, including the conversation transcript, timestamp, and user-provided feedback, compiling them into a structured format for analysis.​&#x20;
 
 {% hint style="warning" %}

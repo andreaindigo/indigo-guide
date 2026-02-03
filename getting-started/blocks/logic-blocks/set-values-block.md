@@ -1,6 +1,6 @@
 # 🔧 Set Values Block
 
-The Set Values Block allows you to **assign values to specific** [**variables**](../variables/) during a conversation. It’s an essential tool for **customizing the assistant’s behavior based on conditions, inputs, or internal logic**.
+The Set Values Block allows you to **assign values to specific** [**variables**](../../workspace/variables/) during a conversation. It’s an essential tool for **customizing the assistant’s behavior based on conditions, inputs, or internal logic**.
 
 You can use it to:
 

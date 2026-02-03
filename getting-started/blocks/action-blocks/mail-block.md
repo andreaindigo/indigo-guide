@@ -13,11 +13,11 @@ This block is perfect for sending structured, static emails at specific points i
 The Mail Block allows users to easily customize several key email elements:
 
 1. **Destination**:\
-   Specify the recipient's email address (single or multiple, separated by commas). The destination field also supports the use of [variables](../variables/) to dynamically personalize the email address.
+   Specify the recipient's email address (single or multiple, separated by commas). The destination field also supports the use of [variables](../../workspace/variables/) to dynamically personalize the email address.
 2. **Sender**:\
    Define the display name of the sender. This can be customized to show the name of the virtual assistant, a company name, or another desired identifier. The actual email address will still be from @indigo.ai.
 3. **Subject**:\
-   The subject line of the email can be customized to suit the context of the message. You can also use [variables](../variables/) in the subject line to make it more dynamic and relevant.&#x20;
+   The subject line of the email can be customized to suit the context of the message. You can also use [variables](../../workspace/variables/) in the subject line to make it more dynamic and relevant.&#x20;
 4. **Reply To** (optional):\
    This field specifies the email address where replies should be directed. It only accepts a single address.
 5. **Body**:\
@@ -49,7 +49,7 @@ Once the email is sent, the system can handle different outcomes:
 
 #### Sending Conversational Summaries
 
-After a web chat interaction, the user may receive an email with a summary of the conversation. This could include shared information or useful links. For example, you can use the [variable](../variables/) **$conversation** in the body of the email to include a summary of the last 100 interactions, formatted in JSON and HTML-encoded.
+After a web chat interaction, the user may receive an email with a summary of the conversation. This could include shared information or useful links. For example, you can use the [variable](../../workspace/variables/) **$conversation** in the body of the email to include a summary of the last 100 interactions, formatted in JSON and HTML-encoded.
 
 `[{"sender": "bot", "text": "..."}, {"sender": "user", "text": "..."}, ...]`
 

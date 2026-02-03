@@ -20,7 +20,7 @@ The Prompt Block is ideal for tasks like:
 The **most common use case** is configuring the model to **return a JSON structure**, so you can **capture specific values and use them throughout the conversation**.
 
 {% hint style="info" %}
-Make sure to read the article [variables](../variables/ "mention") for guidance on defining, populating, and referencing variables in your workflow.
+Make sure to read the article [variables](../../workspace/variables/ "mention") for guidance on defining, populating, and referencing variables in your workflow.
 {% endhint %}
 
 ## Configuration and Customization Options
@@ -102,7 +102,7 @@ Include any relevant background that might influence the assistant’s output.
 > Example: Company description, sector, product categories, known customer intents.
 
 {% hint style="info" %}
-💡 Best Practice: If you have multiple prompts and agents and want to reuse these settings, consider storing company description and tone of voice as [variables](../variables/) for centralized management.&#x20;
+💡 Best Practice: If you have multiple prompts and agents and want to reuse these settings, consider storing company description and tone of voice as [variables](../../workspace/variables/) for centralized management.&#x20;
 {% endhint %}
 
 #### **# General Instructions**
@@ -145,7 +145,7 @@ Example:
 
 **# User Message**
 
-You can insert the latest user message here referring [system variables](../variables/system-variables.md) like `{{$last_user_message}}` or `{{message_from_mother}}`.
+You can insert the latest user message here referring [system variables](../../workspace/variables/system-variables.md) like `{{$last_user_message}}` or `{{message_from_mother}}`.
 
 #### **# Output Format**
 

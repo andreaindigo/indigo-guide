@@ -28,7 +28,7 @@ In your workspace, you can easily **drag and drop** workflow components from the
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-24 alle 15.32.39.png" alt=""><figcaption><p>The Workflow Area and Its Building Blocks</p></figcaption></figure>
 
 {% hint style="info" %}
-Find detailed information about workflow building blocks here: [blocks-and-variables](../blocks-and-variables/ "mention")
+Find detailed information about workflow building blocks here: [blocks](../blocks/ "mention")
 {% endhint %}
 
 
@@ -37,7 +37,7 @@ Find detailed information about workflow building blocks here: [blocks-and-varia
 
 The workflow trigger functions similarly to an agent trigger, determining **when the workflow should begin (entry point)**. This ensures smooth integration with other parts of your bot.&#x20;
 
-As mentioned in [.](./ "mention"), a trigger should only be configured if the workflow is a primary process that the mother agent should delegate user requests to. For secondary workflows or those supporting other processes, triggers are unnecessary; these workflows can be activated in an alternative way, using a [reroute block](../blocks-and-variables/logic-blocks/reroute-block.md).
+As mentioned in [.](./ "mention"), a trigger should only be configured if the workflow is a primary process that the mother agent should delegate user requests to. For secondary workflows or those supporting other processes, triggers are unnecessary; these workflows can be activated in an alternative way, using a [reroute block](../blocks/logic-blocks/reroute-block.md).
 
 {% hint style="info" %}
 For detailed guidance on creating workflows and building your virtual assistant, refer to this article: [Broken link](/broken/pages/DQeY10e3ZGK3N4RsW0lq "mention").

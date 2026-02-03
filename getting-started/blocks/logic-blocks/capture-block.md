@@ -14,7 +14,7 @@ Customize the prompt to clearly request the information you need.
 
 #### 2. **Store the Response**
 
-Assign a [variable](../variables/) where the user's response will be saved. Once selected, the block automatically recognizes the variable’s data type.
+Assign a [variable](../../workspace/variables/) where the user's response will be saved. Once selected, the block automatically recognizes the variable’s data type.
 
 #### 3. **Choose the Expected Data Type**
 

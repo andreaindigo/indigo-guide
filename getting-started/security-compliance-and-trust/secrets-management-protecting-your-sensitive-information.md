@@ -27,7 +27,7 @@ For example, rather than storing an integration token for services like Zendesk 
 
 ### **Creating a Secret**
 
-The Secrets Creation and Management feature is integrated into the platform’s [**Variables**](../blocks-and-variables/variables/) **Management Panel**, where it functions as a special type of variable designed to be more secure. Here’s how it works:
+The Secrets Creation and Management feature is integrated into the platform’s [**Variables**](../workspace/variables/) **Management Panel**, where it functions as a special type of variable designed to be more secure. Here’s how it works:
 
 * **Admin/Owner Role**: Only users with an Admin or Owner role can create, edit, or delete secrets.
 * **Editor Role**: Editors can view secrets but cannot create or edit them.
@@ -41,7 +41,7 @@ Once created, the value of the secret will be obfuscated (replaced with dots), e
 
 ### Using Secrets in API Calls
 
-The use of secrets within the platform is exclusively limited to the [**API Block**](../blocks-and-variables/action-blocks/api-block.md).&#x20;
+The use of secrets within the platform is exclusively limited to the [**API Block**](../blocks/action-blocks/api-block.md).&#x20;
 
 You can add secrets to your API calls, making it easy to securely pass authentication tokens or other sensitive data within requests. Here’s how it works:
 

@@ -19,7 +19,7 @@ Here are a few examples of what you can achieve with the API Block:
 * Validate discount codes or vouchers in real time.&#x20;
 
 {% hint style="info" %}
-💡Before using the API Block, we recommend reading the [variables](../variables/ "mention") article. Variables are essential for capturing, storing, and reusing the data returned from your API calls.
+💡Before using the API Block, we recommend reading the [variables](../../workspace/variables/ "mention") article. Variables are essential for capturing, storing, and reusing the data returned from your API calls.
 {% endhint %}
 
 ## Block Layout and Key Components

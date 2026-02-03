@@ -16,7 +16,7 @@ With the Reroute Block, you can precisely specify the destination where the conv
 
 * An **agent**: Sending the user to another AI agent.
 * A **workflow**: Redirecting the conversation to another workflow for further action.
-* A [**variable**](../variables/): Using variables to influence the conversation path dynamically.
+* A [**variable**](../../workspace/variables/): Using variables to influence the conversation path dynamically.
 
 ### “Resume from Here” Option
 

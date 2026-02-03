@@ -112,7 +112,7 @@ To test and deploy your virtual assistant, use the buttons in the top-right corn
 
 > _For detailed guidance, explore these dedicated resources:_
 >
-> * _Understand core concepts and functionalities essential for virtual assistant configuration in these two fundamental guides:_ [agents-workflows-and-triggers](../agents-workflows-and-triggers/ "mention")_,_ [blocks-and-variables](../blocks-and-variables/ "mention")_._&#x20;
+> * _Understand core concepts and functionalities essential for virtual assistant configuration in these two fundamental guides:_ [agents-workflows-and-triggers](../agents-workflows-and-triggers/ "mention")_,_ [blocks](../blocks/ "mention")_._&#x20;
 > * _Get practical, hands-on guidance for building your digital agents independently (applying the concepts covered in the articles above) here:_ [Broken link](/broken/pages/DQeY10e3ZGK3N4RsW0lq "mention")_._
 
 ### 🤖 Agents Settings
@@ -125,7 +125,7 @@ This section allows you to centrally manage settings for all agents, including f
 
 The Variables section provides centralized control of all variables used by your agents. These variables help create dynamic conversational flows and connect to external data sources via APIs.
 
-> _This article provides an in-depth explanation of variables and how to use them effectively:_ [variables](../blocks-and-variables/variables/ "mention")_._
+> _This article provides an in-depth explanation of variables and how to use them effectively:_ [variables](../workspace/variables/ "mention")_._
 
 ### 🛠️ Settings & Installations
 

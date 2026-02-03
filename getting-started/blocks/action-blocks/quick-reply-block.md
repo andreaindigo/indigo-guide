@@ -22,7 +22,7 @@ The **maximum number of buttons supported** per response is **10**. Quick Replie
 * **An Agent or Workflow**: This helps create a smooth, intuitive navigation flow in the conversation.
 * **A Phone Number**: For instance, to connect users to customer support contacts. Example: "Call Customer Support" (links to a phone number).
 * **An External Web Page**: You can create buttons that redirect users to external websites for more detailed resources. Example: "Visit Our FAQ" (links to an FAQ page).
-* **A** [**Variable**](../variables/) <mark style="color:$danger;">**of Agent or Workflow type**</mark>: can reference dynamic content such as an Agent or Workflow, making actions flexible and context-dependent.
+* **A** [**Variable**](../../workspace/variables/) <mark style="color:$danger;">**of Agent or Workflow type**</mark>: can reference dynamic content such as an Agent or Workflow, making actions flexible and context-dependent.
 * **An Email Address**: For sharing an email. You would set the button to the link format: `mailto://emailaddress@domain.xxx`. Example: "Email Us" (links to the support team’s email).
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2025-03-25 alle 18.03.30.png" alt="" width="375"><figcaption><p>Quick Reply Connection Options</p></figcaption></figure>

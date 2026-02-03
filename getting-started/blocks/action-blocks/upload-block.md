@@ -10,7 +10,7 @@ This block provides flexibility by defining file size limits, customizing messag
 
 *   **Easy File Upload**
 
-    Users see a simple, intuitive interface within the chat to upload files. Once uploaded, each file is automatically saved as a [**variable**](../variables/) in your workflow. You can then:
+    Users see a simple, intuitive interface within the chat to upload files. Once uploaded, each file is automatically saved as a [**variable**](../../workspace/variables/) in your workflow. You can then:
 
     * Store and track the file,
     * Reuse files in downstream workflows for follow-up actions or further automation (e.g., checking if a file was provided),
@@ -34,7 +34,7 @@ The Upload Block is designed to be simple to configure and easy for users to int
 
 * **Optional Message**: This text can be displayed in the chat to provide instructions or context for the user before they upload a file.
 * **Caption (optional)**: A caption can be shown alongside the uploaded file as additional context.
-* **File Variable**: The uploaded file is saved in a [variable](../variables/). By default, a standard value is defined in the block’s configuration. However, the user can select a custom variable via a dropdown menu if needed.
+* **File Variable**: The uploaded file is saved in a [variable](../../workspace/variables/). By default, a standard value is defined in the block’s configuration. However, the user can select a custom variable via a dropdown menu if needed.
 
 **File Size Limit (Toggle)**
 

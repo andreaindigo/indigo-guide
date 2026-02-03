@@ -73,7 +73,7 @@ Like the trigger, setting up a connection is optional. **A connection allows the
 {% hint style="info" %}
 Saving the agent’s generated response in a **variable** can be highly beneficial for reusing it in later interactions. For instance, if the agent suggests opening a support ticket, you can provide a call-to-action button to initiate the process. Similarly, if the agent recommends a set of products, you can connect it to a workflow that utilizes this output to display a carousel of product cards, enhancing user engagement.
 
-For more information on variables and how to use them, you can refer to this article: [variables](../blocks-and-variables/variables/ "mention").
+For more information on variables and how to use them, you can refer to this article: [variables](../workspace/variables/ "mention").
 {% endhint %}
 
 <details>
@@ -196,7 +196,7 @@ The AI assistant for Lumine Jewels maintains a warm, elegant, and expert tone. I
 </details>
 
 {% hint style="info" %}
-💡 Best Practice: If you have multiple agents and want to reuse these settings, consider storing company description and tone of voice as variables for centralized management. Learn more about variables here: [variables](../blocks-and-variables/variables/ "mention").
+💡 Best Practice: If you have multiple agents and want to reuse these settings, consider storing company description and tone of voice as variables for centralized management. Learn more about variables here: [variables](../workspace/variables/ "mention").
 {% endhint %}
 
 #### Brand Rules
@@ -402,7 +402,7 @@ Purpose & Functionality:&#x20;
 You can create variables for company description (`{{company_description}}`) and tone of voice (`{{tov}}`). This allows you to refer to these variables in the configuration of other specialized agents within the workspace. This approach eliminates the need to manually copy and paste information. Moreover, if you update the company description or tone of voice, the changes will automatically apply across all agents without needing to modify each section individually.
 
 {% hint style="info" %}
-You can find more information about variables in this article: [variables](../blocks-and-variables/variables/ "mention").
+You can find more information about variables in this article: [variables](../workspace/variables/ "mention").
 {% endhint %}
 
 2. **General Rules**
