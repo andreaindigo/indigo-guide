@@ -10,6 +10,8 @@ A workspace is the main operational area where you manage and monitor your virtu
 
 When you access a workspace, you are taken to the Home section by default.
 
+<figure><img src="../../.gitbook/assets/indigo home vuota.png" alt=""><figcaption></figcaption></figure>
+
 ## Left-side menu structure
 
 The left-side menu is organized into three main blocks, each grouping sections with a specific role within the workspace.
