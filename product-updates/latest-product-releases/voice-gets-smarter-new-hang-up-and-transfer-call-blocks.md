@@ -1,19 +1,5 @@
 ---
 description: Released in September 2025
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Voice gets smarter: new Hang up and Transfer Call Blocks

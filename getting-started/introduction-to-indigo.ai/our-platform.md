@@ -73,7 +73,7 @@ In the Chats section, you can explore all conversations the virtual assistant ha
 * **Human Takeover**: Join live chats and communicate directly with users, pausing the agent's responses.
 * **Debugging Insights**: View detailed debugging information for each agent reply, helping you understand its reasoning—especially useful during testing.
 
-> _For more information, check out our detailed guide here:_ [chats](../workspace/activities/chats/ "mention")_._&#x20;
+> _For more information, check out our detailed guide here:_ [chats](../workspace/chats/ "mention")_._&#x20;
 
 ### 📄 Docs & URLs
 
@@ -88,13 +88,13 @@ The Docs & URLs section allows you to upload documents and links to enrich your 
 
 The Analytics section provides comprehensive metrics to evaluate your virtual assistant's performance over specific time frames. These include basic metrics, such as total number of chats and unique users, and detailed insights like user satisfaction ratings, button clicks, and other engagement indicators.
 
-> _Learn more about our built-in Analytics and how to gain valuable insights into your agents' performance and user behavior here:_ [analytics.md](../workspace/activities/analytics.md "mention")_._
+> _Learn more about our built-in Analytics and how to gain valuable insights into your agents' performance and user behavior here:_ [analytics.md](../workspace/analytics.md "mention")_._
 
 ### 📏Utilities
 
 The Utilities section gives you access to advanced tools that help you analyze, evaluate, and optimize your virtual assistant. It is designed for teams who need deeper insights into conversations and effective ways to improve performance.
 
-> _Learn more about Conversation Logs, Evaluators and Guardrails and Issue Tracker here:_ [utilities](../workspace/activities/utilities/ "mention")_._
+> _Learn more about Conversation Logs, Evaluators and Guardrails and Issue Tracker here:_ [utilities](../workspace/utilities/ "mention")_._
 
 ### ⚙️ Configuration Area
 

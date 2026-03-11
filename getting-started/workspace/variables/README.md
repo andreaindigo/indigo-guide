@@ -238,4 +238,4 @@ For detailed instructions on setting this up, refer to this article: [web-chat-i
 
 ### Variables in Chats
 
-Variables can also be used in the [Chats](../activities/chats/) section as filters, allowing you to quickly find conversations based on their values.
+Variables can also be used in the [Chats](../chats/) section as filters, allowing you to quickly find conversations based on their values.

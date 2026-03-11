@@ -20,10 +20,10 @@ The left-side menu is organized into three main blocks, each grouping sections w
 
 This block includes sections related to day-to-day workspace activity, content management, and analysis:
 
-* [Chats](activities/chats/)
-* [Docs and URLs](activities/docs-and-urls.md)
-* [Analytics](activities/analytics.md)
-* [Utilities](activities/utilities/)
+* [Chats](chats/)
+* [Docs and URLs](docs-and-urls.md)
+* [Analytics](analytics.md)
+* [Utilities](utilities/)
 
 ### Agent and workflow creation
 
