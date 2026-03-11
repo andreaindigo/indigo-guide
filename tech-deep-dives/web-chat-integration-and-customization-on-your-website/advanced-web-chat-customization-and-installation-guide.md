@@ -110,7 +110,7 @@ For direct page installation (full page or mobile through web view) add the comp
     <div id="chat">
         <div id="chat-content"></div>
     </div>
-    <script id="iaw-script" src="https://platform.indigo.ai/widget_standalone.js?token={{TOKEN}}&v=3&fullpage=on&fullpage_close=off&node=chat-content"></script>
+    `<script id="iaw-script" src="https://platform.indigo.ai/widget_standalone.js?token={{TOKEN}}&v=3&fullpage=on&fullpage_close=off&node=chat-content&autostart=on"></script>
 </body>
 </html>
 ```
