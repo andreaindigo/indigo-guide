@@ -17,7 +17,7 @@ This way, the call doesn’t just end: it becomes the starting point for valuabl
 <figure><img src="../../.gitbook/assets/Screenshot 2025-10-02 alle 08.42.51.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Want to learn how to configure it? Check out the full guide: [hang-up-block.md](../../getting-started/blocks/action-blocks/hang-up-block.md "mention")
+Want to learn how to configure it? Check out the full guide: [hang-up-block.md](../../getting-started/agents-workflows-and-triggers/blocks/action-blocks/hang-up-block.md "mention")
 {% endhint %}
 
 ### Transfer Call Block
@@ -34,7 +34,7 @@ The Transfer Call Block lets you redirect a call to an external number while kee
 <figure><img src="../../.gitbook/assets/Screenshot 2025-10-02 alle 08.41.01.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Want to learn how to configure it? Check out the full guide: [transfer-call-block.md](../../getting-started/blocks/action-blocks/transfer-call-block.md "mention")
+Want to learn how to configure it? Check out the full guide: [transfer-call-block.md](../../getting-started/agents-workflows-and-triggers/blocks/action-blocks/transfer-call-block.md "mention")
 {% endhint %}
 
 With these two new blocks, the Voice channel becomes even more performant, flexible, and aligned with your customers’ needs—from customer support to internal business processes.

@@ -6,7 +6,7 @@ icon: phone-arrow-right
 
 The Transfer Call block allows you to **hand over a voice call from the virtual assistant to an external phone number.** It manages not only the redirection itself, but also the user experience during the waiting time and the fallback behaviors in case of errors or unavailability.
 
-<figure><img src="../../../.gitbook/assets/kb_transfer 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/kb_transfer 1.png" alt=""><figcaption></figcaption></figure>
 
 This block is designed to provide operational flexibility, a customizable experience, and complete handling of common use cases.
 
@@ -30,12 +30,12 @@ This block is designed to provide operational flexibility, a customizable experi
     * Availability rules follow the same logic as the Handover block: the system applies the union of all defined time slots.
     * Predefined closure days can be managed through the workspace settings.
 
-<figure><img src="../../../.gitbook/assets/kb_transfer_availability2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/kb_transfer_availability2.png" alt=""><figcaption></figcaption></figure>
 
 * **Error handling:**
   * If the transfer fails (e.g., due to invalid number, unreachable line, or system error), the block can trigger an alternative reroute.<br>
 
-<figure><img src="../../../.gitbook/assets/kb_transfer 4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/kb_transfer 4.png" alt=""><figcaption></figcaption></figure>
 
 * File formats: Only valid and pre-approved formats can be used for background music files.
 

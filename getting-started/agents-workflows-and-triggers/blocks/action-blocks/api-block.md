@@ -6,7 +6,7 @@ The API Block is one of the most powerful and flexible tools available on the in
 Want to see what kind of systems you can connect to? Learn more about all available integrations here: [integrations](../../integrations/ "mention").&#x20;
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-02 alle 10.50.02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-02 alle 10.50.02.png" alt=""><figcaption></figcaption></figure>
 
 This block plays a key role in **enabling dynamic, data-driven responses** and **automating complex business workflows** within your assistant.
 
@@ -19,7 +19,7 @@ Here are a few examples of what you can achieve with the API Block:
 * Validate discount codes or vouchers in real time.&#x20;
 
 {% hint style="info" %}
-💡Before using the API Block, we recommend reading the [variables](../../workspace/variables/ "mention") article. Variables are essential for capturing, storing, and reusing the data returned from your API calls.
+💡Before using the API Block, we recommend reading the [variables](../../../workspace/variables/ "mention") article. Variables are essential for capturing, storing, and reusing the data returned from your API calls.
 {% endhint %}
 
 ## Block Layout and Key Components
@@ -48,15 +48,15 @@ At the top of the block, you can define:
   * **OPTIONS** – Returns allowed methods and CORS settings for an endpoint.\
     &#xNAN;_&#x50;rimarily used in API testing and setup._
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-02 alle 10.55.05.png" alt="" width="210"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-02 alle 10.55.05.png" alt="" width="210"><figcaption></figcaption></figure>
 
 * The **URL** of the **API endpoint**. You can insert the url directly, or insert a variable containing the URL endpoint.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-02 alle 10.57.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-02 alle 10.57.41.png" alt=""><figcaption></figcaption></figure>
 
 #### 2. **Headers and Body**
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-02 alle 11.00.09.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-02 alle 11.00.09.png" alt=""><figcaption></figcaption></figure>
 
 This section is where you define the format and structure of your API request. It includes:
 
@@ -78,7 +78,7 @@ Use headers to define metadata or authorization info for your request. Common he
 Each header field has two parts: **Key** (e.g., `content-type`, `authorization`) and **Value** (e.g., `application/json`, `Bearer your-token-here`).&#x20;
 
 {% hint style="info" %}
-To protect sensitive information—such as API keys or authentication tokens—you can use **Secrets**. These are securely stored values that you define in advance and reference within your API block using a protected syntax. This approach ensures that confidential credentials are never exposed in your workflow configuration, keeping your setup both clean and secure. Learn more about how to manage and use secrets here:[secrets-management-protecting-your-sensitive-information.md](../../security-compliance-and-trust/secrets-management-protecting-your-sensitive-information.md "mention").&#x20;
+To protect sensitive information—such as API keys or authentication tokens—you can use **Secrets**. These are securely stored values that you define in advance and reference within your API block using a protected syntax. This approach ensures that confidential credentials are never exposed in your workflow configuration, keeping your setup both clean and secure. Learn more about how to manage and use secrets here:[secrets-management-protecting-your-sensitive-information.md](../../../security-compliance-and-trust/secrets-management-protecting-your-sensitive-information.md "mention").&#x20;
 {% endhint %}
 
 #### 4. **Capture Variables**
@@ -88,7 +88,7 @@ This section allows you to **extract and store values from the API response into
 * Choose the variable you want to populate
 * Specify the key from the response JSON (e.g., `order_status`, `user_id`, etc.) This makes the returned data usable in the next steps of your flow.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-02 at 14.44.13 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-02 at 14.44.13 (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 When **testing** with "Send Request," simply click on the field you want to capture, and it will automatically copy the corresponding **path**. You can then **paste this path into the variable field** to capture the data.
@@ -103,11 +103,11 @@ At the bottom, configure what happens next based on the outcome of the API call:
 
 If you don’t define either a success or error path, the flow will simply continue with the next block in the workflow.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-02 alle 11.07.33.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-02 alle 11.07.33.png" alt=""><figcaption></figcaption></figure>
 
 #### "Send request" Button
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-02 alle 11.14.21.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-02 alle 11.14.21.png" alt=""><figcaption></figcaption></figure>
 
 The Send request button allows you to **test the API call directly from the platform** while you're configuring the block. This is especially useful for checking whether:
 
@@ -119,12 +119,12 @@ The Send request button allows you to **test the API call directly from the plat
 If the Send Request fields are unchanged, click "**Re-send request**" at the bottom of the modal to **ensure the result is updated and not the same as the previous call**.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-02 at 14.52.00.png" alt="" width="232"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-02 at 14.52.00.png" alt="" width="232"><figcaption></figcaption></figure>
 
 ## Best Practices
 
 * **Always test your calls in the preview environment first** to make sure data is being retrieved and stored correctly
-* **Use** [**secrets**](../../security-compliance-and-trust/secrets-management-protecting-your-sensitive-information.md) **for sensitive keys** to keep your configuration secure
+* **Use** [**secrets**](../../../security-compliance-and-trust/secrets-management-protecting-your-sensitive-information.md) **for sensitive keys** to keep your configuration secure
 * **Check error paths** to ensure users are guided properly in case something goes wrong.&#x20;
 
 ## 📊 API Integration with a Google Sheet
@@ -134,7 +134,7 @@ We provide an **internal API** that allows you to run SQL queries on a Google Sh
 It’s also a common and effective way to connect your Knowledge Base to the platform using real-time data.
 
 {% hint style="info" %}
-Learn more about integrating your Knowledge Base in this article: [integrating-your-kb-via-api.md](../../../build-your-ai-agents/create-your-knowledge-base/integrating-your-kb-via-api.md "mention").&#x20;
+Learn more about integrating your Knowledge Base in this article: [integrating-your-kb-via-api.md](../../../../build-your-ai-agents/create-your-knowledge-base/integrating-your-kb-via-api.md "mention").&#x20;
 {% endhint %}
 
 You can choose between:
@@ -142,7 +142,7 @@ You can choose between:
 * **Public Google Sheets** (shared via link with anyone)
 * **Private Google Sheets**, accessed securely via a Google Service Account
 
-<figure><img src="../../../.gitbook/assets/Progetto_senza_titolo_6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Progetto_senza_titolo_6.png" alt=""><figcaption></figcaption></figure>
 
 The integration supports parameters such as:
 
@@ -152,7 +152,7 @@ The integration supports parameters such as:
 * `client_email` and `private_key`: credentials for accessing private sheets through a Google Service Account (added securely using the Secret feature).&#x20;
 
 {% hint style="info" %}
-To access this internal service, please [contact us](../../../need-help/our-customer-success-team.md).
+To access this internal service, please [contact us](../../../../need-help/our-customer-success-team.md).
 {% endhint %}
 
 #### Using Integration Tools in the API Block
@@ -165,6 +165,6 @@ To use them, activate the **Use integrations** toggle inside the API block.
 Once the toggle is on, you can select a **provider** and the **specific action** to execute.\
 Keep in mind that each API block can run **only one action per integration**.
 
-<figure><img src="../../../.gitbook/assets/API (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/API (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

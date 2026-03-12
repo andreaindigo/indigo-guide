@@ -4,7 +4,7 @@ The Mail Block is a powerful feature within the platform that provides a simple,
 
 This block is perfect for sending structured, static emails at specific points in the conversation. Whether you're sending a summary of a conversation, a report, or user data to a relevant department, the Mail Block simplifies the process of sending emails with customizable fields.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-25 alle 17.01.54.png" alt=""><figcaption><p>The Mail Block</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-25 alle 17.01.54.png" alt=""><figcaption><p>The Mail Block</p></figcaption></figure>
 
 ## Key Features
 
@@ -13,11 +13,11 @@ This block is perfect for sending structured, static emails at specific points i
 The Mail Block allows users to easily customize several key email elements:
 
 1. **Destination**:\
-   Specify the recipient's email address (single or multiple, separated by commas). The destination field also supports the use of [variables](../../workspace/variables/) to dynamically personalize the email address.
+   Specify the recipient's email address (single or multiple, separated by commas). The destination field also supports the use of [variables](../../../workspace/variables/) to dynamically personalize the email address.
 2. **Sender**:\
    Define the display name of the sender. This can be customized to show the name of the virtual assistant, a company name, or another desired identifier. The actual email address will still be from @indigo.ai.
 3. **Subject**:\
-   The subject line of the email can be customized to suit the context of the message. You can also use [variables](../../workspace/variables/) in the subject line to make it more dynamic and relevant.&#x20;
+   The subject line of the email can be customized to suit the context of the message. You can also use [variables](../../../workspace/variables/) in the subject line to make it more dynamic and relevant.&#x20;
 4. **Reply To** (optional):\
    This field specifies the email address where replies should be directed. It only accepts a single address.
 5. **Body**:\
@@ -35,7 +35,7 @@ While the **Mail Block** provides a lot of flexibility, there are a few customiz
 * **Modification of the "From" Address**: To send emails from an address other than @indigo.ai, a specific configuration on Postmark is required.
 
 {% hint style="info" %}
-This article contains more information on integrating with the indigo.ai API: [integrating-with-our-platform-api](../../../integrating-with-our-platform-api/ "mention")
+This article contains more information on integrating with the indigo.ai API: [integrating-with-our-platform-api](../../../../integrating-with-our-platform-api/ "mention")
 {% endhint %}
 
 ### Handling Outcomes
@@ -49,7 +49,7 @@ Once the email is sent, the system can handle different outcomes:
 
 #### Sending Conversational Summaries
 
-After a web chat interaction, the user may receive an email with a summary of the conversation. This could include shared information or useful links. For example, you can use the [variable](../../workspace/variables/) **$conversation** in the body of the email to include a summary of the last 100 interactions, formatted in JSON and HTML-encoded.
+After a web chat interaction, the user may receive an email with a summary of the conversation. This could include shared information or useful links. For example, you can use the [variable](../../../workspace/variables/) **$conversation** in the body of the email to include a summary of the last 100 interactions, formatted in JSON and HTML-encoded.
 
 `[{"sender": "bot", "text": "..."}, {"sender": "user", "text": "..."}, ...]`
 

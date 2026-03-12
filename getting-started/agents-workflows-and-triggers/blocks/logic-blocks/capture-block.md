@@ -2,7 +2,7 @@
 
 In any conversational flow, it's often essential to **ask users for specific information**—whether you're collecting contact details, confirming a date, or running a quick survey. The Capture Block lets you **gather user responses in a structured and efficient way** by **saving answers into variables that can be reused throughout your workflow**.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-01 alle 15.44.16.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-01 alle 15.44.16.png" alt=""><figcaption></figcaption></figure>
 
 ## **How Does it Work**
 
@@ -14,7 +14,7 @@ Customize the prompt to clearly request the information you need.
 
 #### 2. **Store the Response**
 
-Assign a [variable](../../workspace/variables/) where the user's response will be saved. Once selected, the block automatically recognizes the variable’s data type.
+Assign a [variable](../../../workspace/variables/) where the user's response will be saved. Once selected, the block automatically recognizes the variable’s data type.
 
 #### 3. **Choose the Expected Data Type**
 

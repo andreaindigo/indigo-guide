@@ -1,14 +1,14 @@
 # 🧠 Prompt Block
 
-The Prompt Block is one of the most powerful tools in the indigo.ai platform. It allows your AI assistant to process and interpret user input using advanced [Large Language Models (LLMs)](../../ai-knowledge-hub/large-language-models-llms-available-on-our-platform.md), enabling smart classification, data extraction, and logic generation.
+The Prompt Block is one of the most powerful tools in the indigo.ai platform. It allows your AI assistant to process and interpret user input using advanced [Large Language Models (LLMs)](../../../ai-knowledge-hub/large-language-models-llms-available-on-our-platform.md), enabling smart classification, data extraction, and logic generation.
 
 While it _can_ be used to generate natural-language replies, its most effective use is for **extracting structured data** or **classifying user messages** for downstream use in your workflow.
 
 {% hint style="warning" %}
-If your goal is to **generate responses for the user**, you should **create an agent** instead. The agent page is designed specifically for reply generation and works as a templatized, optimized prompt tailored to conversational use cases. Learn more about how to configure agents here: [configure-your-ai-agents.md](../../../build-your-ai-agents/configure-your-ai-agents.md "mention").
+If your goal is to **generate responses for the user**, you should **create an agent** instead. The agent page is designed specifically for reply generation and works as a templatized, optimized prompt tailored to conversational use cases. Learn more about how to configure agents here: [configure-your-ai-agents.md](../../../../build-your-ai-agents/configure-your-ai-agents.md "mention").
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-07 alle 15.08.54.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-07-07 alle 15.08.54.png" alt=""><figcaption></figcaption></figure>
 
 The Prompt Block is ideal for tasks like:
 
@@ -20,7 +20,7 @@ The Prompt Block is ideal for tasks like:
 The **most common use case** is configuring the model to **return a JSON structure**, so you can **capture specific values and use them throughout the conversation**.
 
 {% hint style="info" %}
-Make sure to read the article [variables](../../workspace/variables/ "mention") for guidance on defining, populating, and referencing variables in your workflow.
+Make sure to read the article [variables](../../../workspace/variables/ "mention") for guidance on defining, populating, and referencing variables in your workflow.
 {% endhint %}
 
 ## Configuration and Customization Options
@@ -51,7 +51,7 @@ The **Options** panel in the Prompt Block gives you precise control over how you
 * **Model**: Select the LLM you want to use. Example: azure-gpt-4o-mini (EU).
 
 {% hint style="info" %}
-indigo.ai supports a range of language models, giving you the flexibility to balance performance and response speed depending on your use case. Learn more about the available LLMs and how to choose the right model for your assistant in this article: [large-language-models-llms-available-on-our-platform.md](../../ai-knowledge-hub/large-language-models-llms-available-on-our-platform.md "mention").
+indigo.ai supports a range of language models, giving you the flexibility to balance performance and response speed depending on your use case. Learn more about the available LLMs and how to choose the right model for your assistant in this article: [large-language-models-llms-available-on-our-platform.md](../../../ai-knowledge-hub/large-language-models-llms-available-on-our-platform.md "mention").
 {% endhint %}
 
 * **Temperature**: Controls the creativity of the AI’s response.
@@ -102,7 +102,7 @@ Include any relevant background that might influence the assistant’s output.
 > Example: Company description, sector, product categories, known customer intents.
 
 {% hint style="info" %}
-💡 Best Practice: If you have multiple prompts and agents and want to reuse these settings, consider storing company description and tone of voice as [variables](../../workspace/variables/) for centralized management.&#x20;
+💡 Best Practice: If you have multiple prompts and agents and want to reuse these settings, consider storing company description and tone of voice as [variables](../../../workspace/variables/) for centralized management.&#x20;
 {% endhint %}
 
 #### **# General Instructions**
@@ -130,7 +130,7 @@ List the step-by-step logic or classification rules to guide the assistant’s r
 Provide data sources or variables the assistant can rely on (like documents, product tables, FAQs).&#x20;
 
 {% hint style="info" %}
-You can easily refer to specific documents in your knowledge base by using the variable `{{documents}}` to include all documents, or `{{documents_tag}}` to filter by a specific tag. For more details on uploading documents to your knowledge base, check out this article: [uploading-documents-to-your-kb.md](../../../build-your-ai-agents/create-your-knowledge-base/uploading-documents-to-your-kb.md "mention").
+You can easily refer to specific documents in your knowledge base by using the variable `{{documents}}` to include all documents, or `{{documents_tag}}` to filter by a specific tag. For more details on uploading documents to your knowledge base, check out this article: [uploading-documents-to-your-kb.md](../../../../build-your-ai-agents/create-your-knowledge-base/uploading-documents-to-your-kb.md "mention").
 {% endhint %}
 
 #### **# Response Rules**
@@ -145,7 +145,7 @@ Example:
 
 **# User Message**
 
-You can insert the latest user message here referring [system variables](../../workspace/variables/system-variables.md) like `{{$last_user_message}}` or `{{message_from_mother}}`.
+You can insert the latest user message here referring [system variables](../../../workspace/variables/system-variables.md) like `{{$last_user_message}}` or `{{message_from_mother}}`.
 
 #### **# Output Format**
 
@@ -241,9 +241,9 @@ Best Practices:
 
 When your prompt generates a JSON response (e.g., for classification or data extraction), make sure to include a **`reasoning`** field as the **first key in the object**. This enables **chain-of-thought prompting**, **guiding the AI to think step-by-step before delivering the result**.
 
-Adding a "reasoning" field not only enhances the accuracy of the response but also simplifies debugging during [testing](../../../build-your-ai-agents/testing-and-debugging.md). It allows the assistant to explain the logic behind its output, making it easier to validate the reasoning and refine the accuracy, particularly when troubleshooting or improving the model.
+Adding a "reasoning" field not only enhances the accuracy of the response but also simplifies debugging during [testing](../../../../build-your-ai-agents/testing-and-debugging.md). It allows the assistant to explain the logic behind its output, making it easier to validate the reasoning and refine the accuracy, particularly when troubleshooting or improving the model.
 
-_Tip: During_ [_testing_](../../../build-your-ai-agents/testing-and-debugging.md)_, you can show this field using a Text Block conditioned by `env = test` to better understand why the assistant made a particular choice._
+_Tip: During_ [_testing_](../../../../build-your-ai-agents/testing-and-debugging.md)_, you can show this field using a Text Block conditioned by `env = test` to better understand why the assistant made a particular choice._
 
 #### 5. Add a “Step-by-Step” General Instruction
 
@@ -264,4 +264,4 @@ If you're looking to improve how you write prompts for your AI assistant, check 
 
 * [How to write great AI prompts](https://www.notion.so/blog/how-to-write-ai-prompts)
 * [OpenAI Platform / Prompt engineering / Enhance results with prompt engineering strategies.](https://platform.openai.com/docs/guides/prompt-engineering/six-strategies-for-getting-better-results)
-* [Best practices for prompt engineering with the OpenAI API](../../../).&#x20;
+* [Best practices for prompt engineering with the OpenAI API](../../../../).&#x20;

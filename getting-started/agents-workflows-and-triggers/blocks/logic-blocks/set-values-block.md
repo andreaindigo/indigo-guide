@@ -1,6 +1,6 @@
 # 🔧 Set Values Block
 
-The Set Values Block allows you to **assign values to specific** [**variables**](../../workspace/variables/) during a conversation. It’s an essential tool for **customizing the assistant’s behavior based on conditions, inputs, or internal logic**.
+The Set Values Block allows you to **assign values to specific** [**variables**](../../../workspace/variables/) during a conversation. It’s an essential tool for **customizing the assistant’s behavior based on conditions, inputs, or internal logic**.
 
 You can use it to:
 
@@ -8,7 +8,7 @@ You can use it to:
 * Preload or reset variable values at the start of a conversation
 * Modify or clear data stored in the assistant’s memory.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-02 alle 18.49.42 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-02 alle 18.49.42 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## How it Works
 
@@ -27,7 +27,7 @@ Supported operations include:
 
 #### 1. Use it to **initialize variables** at the start of the conversation
 
-We recommend using a Set Values Block in your **Welcome Workflow** to set or reset all the key variables, **ensuring every new session starts fresh**. For more on how to do this, see: [configure-your-ai-agents.md](../../../build-your-ai-agents/configure-your-ai-agents.md "mention").&#x20;
+We recommend using a Set Values Block in your **Welcome Workflow** to set or reset all the key variables, **ensuring every new session starts fresh**. For more on how to do this, see: [configure-your-ai-agents.md](../../../../build-your-ai-agents/configure-your-ai-agents.md "mention").&#x20;
 
 You can clear previous values by setting:
 

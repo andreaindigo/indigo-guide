@@ -5,25 +5,25 @@ Efficiently **handle sensitive requests** by **transferring the conversation to 
 The Handover Block is designed to manage requests that require further support beyond the capabilities of the virtual assistant. It enables a smooth handoff from the AI agent to a human operator, who can directly take over the conversation through the dedicated functionality in the chat section of our platform.&#x20;
 
 {% hint style="info" %}
-To learn more about how to take over conversations, refer to the guide for the chat area in our platform here: [chats](../../workspace/chats/ "mention").
+To learn more about how to take over conversations, refer to the guide for the chat area in our platform here: [chats](../../../workspace/chats/ "mention").
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-25 alle 18.29.50.png" alt=""><figcaption><p>The Handover Block</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-25 alle 18.29.50.png" alt=""><figcaption><p>The Handover Block</p></figcaption></figure>
 
 ## Customizable Sections
 
 * **Waiting Message**: The message displayed by the AI Agent while the operator is about to respond.
 * **Operator Availability**: Inform customers about the availability of the operator. You can add multiple dates and times for availability by clicking the "Add Time" button at the top right.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-25 alle 19.43.28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-25 alle 19.43.28.png" alt=""><figcaption></figcaption></figure>
 
 * **No Operator Available**: A message shown when no operator is online.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-25 alle 19.44.18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-25 alle 19.44.18.png" alt=""><figcaption></figcaption></figure>
 
 * **Contact Center Closed**: A message informing the customer that the support center is closed for the day.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-25 alle 19.39.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-25 alle 19.39.41.png" alt=""><figcaption></figcaption></figure>
 
 ### Quick Replies and Workflow Integration
 
@@ -33,7 +33,7 @@ In cases where no operator is available, or the support center is closed, you ca
 
 The Notification button in the Handover Block opens a dropdown menu where you can add email addresses that will receive notifications whenever the block is activated. Operators will be notified via a **sound alert in the browser tab** and **receive an email** with a call-to-action that takes them directly to the chat needing assistance.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-25 alle 19.38.34.png" alt="" width="226"><figcaption><p>Notification Options</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-25 alle 19.38.34.png" alt="" width="226"><figcaption><p>Notification Options</p></figcaption></figure>
 
 ## Common Use Cases
 
@@ -52,5 +52,5 @@ In our Analytics section, you can track and monitor key metrics related to the H
 * **Chats with Requests**: The number of chats where the user requested human assistance.
 
 {% hint style="info" %}
-For more information on these and other performance metrics, refer to the guide: [analytics.md](../../workspace/analytics.md "mention").
+For more information on these and other performance metrics, refer to the guide: [analytics.md](../../../workspace/analytics.md "mention").
 {% endhint %}

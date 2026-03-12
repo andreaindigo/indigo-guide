@@ -16,12 +16,12 @@ Your virtual assistant can be seamlessly integrated into the web chat interface 
 #### Channel-Specific Features
 
 * **Customization**: The Web Chat widget configuration and customization options are determined by the CRM platform. However, core agent features - such as the ability to create image carousels in chat using the [Card Block](https://indigo-ai.gitbook.io/indigo.ai-guide/getting-started/blocks-and-variables/message-blocks#card-block-structured-and-interactive-content) - are typically supported across various platforms.
-* **Quick Reply Options**: The typebar cannot be disabled when [quick replies](../blocks/action-blocks/quick-reply-block.md) (user response options via buttons) are used. Therefore, it’s important to account for the possibility that users may choose to type a response instead of clicking on the buttons.
+* **Quick Reply Options**: The typebar cannot be disabled when [quick replies](../agents-workflows-and-triggers/blocks/action-blocks/quick-reply-block.md) (user response options via buttons) are used. Therefore, it’s important to account for the possibility that users may choose to type a response instead of clicking on the buttons.
 
 {% hint style="info" %}
 💡 **CRM Integration Options**
 
 * indigo.ai offers a **native integration with Zendesk** for seamless deployment and support within its ecosystem.
 * To integrate your virtual assistant with **other CRM platforms** (such as Salesforce), you can use our **Chat API** for full flexibility.
-* If you also want your assistant to interact with the **CRM's ticketing system or knowledge base**, you'll need to set up an integration with that external system. Learn more about available integrations in this article: [integrations](../integrations/ "mention").
+* If you also want your assistant to interact with the **CRM's ticketing system or knowledge base**, you'll need to set up an integration with that external system. Learn more about available integrations in this article: [integrations](../agents-workflows-and-triggers/integrations/ "mention").
 {% endhint %}

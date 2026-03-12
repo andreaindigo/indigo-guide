@@ -5,10 +5,10 @@ Not all conversation flows follow a linear path. Often, different paths need to 
 The Condition Block uses conditional logic to **determine how the conversation should proceed based on certain conditions being met**. By combining logical operators and variables, this block enables specific parts of the conversation flow to be activated, allowing for **dynamic responses tailored to user inputs**. This helps in creating intelligent and adaptable conversational paths that are based on real-time data or information shared during the conversation.&#x20;
 
 {% hint style="info" %}
-The functionality of this block is driven by [variables](../../workspace/variables/ "mention"): check out the article for detailed guidance.
+The functionality of this block is driven by [variables](../../../workspace/variables/ "mention"): check out the article for detailed guidance.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-27 alle 09.30.29.png" alt=""><figcaption><p>The Condition Block</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-27 alle 09.30.29.png" alt=""><figcaption><p>The Condition Block</p></figcaption></figure>
 
 ## How It Works
 
@@ -24,29 +24,29 @@ The available operators depend on the selected variable type: once you choose a 
 
 * **Text**
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-26 alle 11.59.25.png" alt="" width="370"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-26 alle 11.59.25.png" alt="" width="370"><figcaption></figcaption></figure>
 
 * **Number**
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-26 alle 14.56.21.png" alt="" width="353"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-26 alle 14.56.21.png" alt="" width="353"><figcaption></figcaption></figure>
 
 * **Boolean**
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-26 alle 14.55.05.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-26 alle 14.55.05.png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Date/Time**
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-26 alle 14.59.11.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-26 alle 14.59.11.png" alt="" width="375"><figcaption></figcaption></figure>
 
 * **Agent, workflow or variable**
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-26 alle 16.49.37.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-26 alle 16.49.37.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Multiple conditions
 
 A single Condition Block can evaluate multiple conditions. These are processed **sequentially from top to bottom**. When a condition is true, the corresponding action is executed, and subsequent conditions are skipped. It is important to **arrange the conditions in the desired order**, as the block will execute the first satisfied condition.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-27 alle 09.22.30.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-27 alle 09.22.30.png" alt=""><figcaption></figcaption></figure>
 
 The Condition Block also provides flexibility to combine conditions using logical operators:
 
@@ -75,7 +75,7 @@ For example:
 * If condition2 is true → proceed to action2.
 * Else (if no conditions are true) → proceed to a fallback action.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-27 alle 09.31.40.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-27 alle 09.31.40.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Using Counters and Variables for Dynamic Actions
 
@@ -86,7 +86,7 @@ For example, if a user asks for support, the Condition Block can check a counter
 1. If assistance\_requested = true and counter = 1 → Virtual assistant responds. Add a [Set Value](set-values-block.md) block and set counter = 2.
 2. If assistance\_requested = true and counter = 2 → Handover to a human operator with an Handover block.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-27 alle 09.49.01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-27 alle 09.49.01.png" alt=""><figcaption></figcaption></figure>
 
 ## Action Management
 

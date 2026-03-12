@@ -2,7 +2,7 @@
 
 The Notes Block is a simple yet essential tool designed to enhance organization, communication, and collaboration within your workspace. While it doesn’t interact with end users or influence the flow of conversation, it plays a crucial role in documenting internal logic and keeping your team aligned.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-04-02 alle 19.30.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-04-02 alle 19.30.48.png" alt=""><figcaption></figcaption></figure>
 
 The Notes Block can be inserted at any point in your workflow and is **used exclusively for internal documentation**. It allows you to **add brief comments or reminders directly within your conversation flow**.
 

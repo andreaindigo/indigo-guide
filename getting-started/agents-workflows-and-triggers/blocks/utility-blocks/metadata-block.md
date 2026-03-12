@@ -6,11 +6,11 @@ description: Released in June 2025
 
 The Metadata Block is a Utility Block **designed specifically for voice-enabled virtual assistants**. It allows you to **insert structured metadata into your workflow using JSON format**.&#x20;
 
-**These metadata entries are not visible to the end user, but they play a critical role behind the scenes by enabling advanced, context-aware behavior**, especially in [Voice channels](../../communication-channels/voice.md).
+**These metadata entries are not visible to the end user, but they play a critical role behind the scenes by enabling advanced, context-aware behavior**, especially in [Voice channels](../../../communication-channels/voice.md).
 
 Whether you're integrating with external systems (like CRMs or analytics platforms), coordinating actions with analytics tools, or triggering downstream automations, the Metadata Block gives you a powerful, flexible way to pass key information through your flow.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-07 alle 14.58.16.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-07-07 alle 14.58.16.png" alt=""><figcaption></figcaption></figure>
 
 ## Key Use Cases
 
@@ -37,8 +37,8 @@ The Metadata Block:
 
 * Accepts input in **valid JSON format**
 * Metadata are **not printed in chat** and remain invisible to users
-* They are still visible in the [**debugging**](../../workspace/chats/debugging.md) **console**, allowing builders to test and trace their impact
-* [Variables](../../workspace/variables/) (e.g., `{{user_email}}`) can be used inside the JSON to make the metadata dynamic
+* They are still visible in the [**debugging**](../../../workspace/chats/debugging.md) **console**, allowing builders to test and trace their impact
+* [Variables](../../../workspace/variables/) (e.g., `{{user_email}}`) can be used inside the JSON to make the metadata dynamic
 * Can be conditionally executed if placed within a [**Condition Block**](../logic-blocks/condition-block.md) (N.B.: Metadata Blocks inside unverified conditions will not be processed; only blocks in satisfied conditions are executed)
 
 ### Editor Features

@@ -48,7 +48,7 @@ Another useful addition is the Mail Block, which simplifies the process of **sen
 * **Streamlined Setup**: This new feature removes the need for complex API configurations, saving you time and effort while making email functionality much more accessible.
 
 {% hint style="info" %}
-For more details about the new block, check out the full article here: [mail-block.md](../../getting-started/blocks/action-blocks/mail-block.md "mention").&#x20;
+For more details about the new block, check out the full article here: [mail-block.md](../../getting-started/agents-workflows-and-triggers/blocks/action-blocks/mail-block.md "mention").&#x20;
 {% endhint %}
 
 ## 3. Upload Block
@@ -71,7 +71,7 @@ The Upload Block **allows users to upload files**—such as documents, images, o
 The Upload Block is already being used successfully in customer support and other workflows that require file sharing.&#x20;
 
 {% hint style="info" %}
-For more details and how to implement it, check out our deep dive article here: [upload-block.md](../../getting-started/blocks/action-blocks/upload-block.md "mention").&#x20;
+For more details and how to implement it, check out our deep dive article here: [upload-block.md](../../getting-started/agents-workflows-and-triggers/blocks/action-blocks/upload-block.md "mention").&#x20;
 {% endhint %}
 
 ## 4. Copy-Paste Blocks

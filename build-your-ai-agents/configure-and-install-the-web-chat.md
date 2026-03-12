@@ -85,7 +85,7 @@ Customization Features:
   * **Layout Options**: Choose from five predefined grid layouts, allowing you to display between **1 and 4 images** in various formats depending on your design needs.
   * **Image Upload**: You can upload **static images or short videos** (following the same format and size rules as the avatar upload described earlier). Once uploaded, each image can be edited or removed at any time.
   * **Text Overlay**: Add a **short text label** above each image to describe its purpose. We recommend using **concise and action-oriented titles** to improve clarity and encourage user interaction (e.g., “Book an Appointment” or “Explore Products”).
-  * **Optional Clickable Actions**: Each image can be configured as a [**quick reply**](../getting-started/blocks/action-blocks/quick-reply-block.md), offering the following interaction types:
+  * **Optional Clickable Actions**: Each image can be configured as a [**quick reply**](../getting-started/agents-workflows-and-triggers/blocks/action-blocks/quick-reply-block.md), offering the following interaction types:
     * **Start a Conversation**: Trigger a specific **Agent** or **Workflow**. In this case, assigning a text label is mandatory, as it will be used as the message sent in chat.
       * **Open an External Link**: Redirect users to an external webpage in a new browser tab. The text label is optional in this case.
       * **No Action**: Leave the image static, simply for visual or informative purposes.
@@ -118,12 +118,40 @@ Choose the appropriate format depending on your layout and visual emphasis.
 
 In the Options section, you can fine-tune how users interact with your chatbot by enabling features that enhance engagement and control its visibility.
 
-* Auto-Start Chat: **Start the conversation automatically**, allowing the chatbot to open directly without displaying the homepage first.
-* **Pop-up Message**: Display a customizable pop-up message above the bot’s launcher to invite users to interact. You can:
-  * Personalize the message text
-  * Set the delay time (in milliseconds) before the pop-up appears
-  * Preview the pop-up before saving changes.&#x20;
-* **Disable the Widget**: If needed, you can deactivate the chatbot widget without modifying your website’s code. Once disabled, the chatbot will no longer be visible on the site where it's installed.
+#### **Pop-up Message**
+
+Display a customizable pop-up message above the bot’s launcher to invite users to interact. You can:
+
+* Personalize the message text
+* Set the delay time (in milliseconds) before the pop-up appears
+* Preview the pop-up before saving changes.&#x20;
+
+#### **Disable the Widget**
+
+If needed, you can deactivate the chatbot widget without modifying your website’s code. Once disabled, the chatbot will no longer be visible on the site where it's installed.
+
+#### Progress indicator
+
+The Progress Indicator is a visual element in the chat widget that appears when the bot takes longer than expected to generate a response.
+
+Instead of displaying the default loading animation (the three dots), the widget shows an animated status message such as:
+
+_"I'm gathering my thoughts for you..."_
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-03-11 at 17.15.21.png" alt="" width="188"><figcaption></figcaption></figure>
+
+This message reassures users that the bot is actively working on the response and helps improve the perceived responsiveness of the conversation.
+
+The feature is optional and disabled by default. It can be enabled from the widget settings and includes a configurable delay (in milliseconds) that determines how long the system should wait before replacing the standard loader with the progress indicator.
+
+<figure><img src="../.gitbook/assets/progress indicator.png" alt=""><figcaption></figcaption></figure>
+
+Once enabled, you can choose between two modes:
+
+* **Smart (AI-generated):** the system automatically generates contextual progress messages while the bot is preparing the response.&#x20;
+* **Template**: you can define one or more custom short messages that will be shown while the response is being generated.
+
+<figure><img src="../.gitbook/assets/progress indicator 2 (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Voice
 

@@ -41,7 +41,7 @@ Once created, the value of the secret will be obfuscated (replaced with dots), e
 
 ### Using Secrets in API Calls
 
-The use of secrets within the platform is exclusively limited to the [**API Block**](../blocks/action-blocks/api-block.md).&#x20;
+The use of secrets within the platform is exclusively limited to the [**API Block**](../agents-workflows-and-triggers/blocks/action-blocks/api-block.md).&#x20;
 
 You can add secrets to your API calls, making it easy to securely pass authentication tokens or other sensitive data within requests. Here’s how it works:
 

@@ -4,9 +4,9 @@
 
 The Image Block lets you insert images into the virtual assistant to make interactions more visually appealing and intuitive.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2025-03-05_alle_15.03.30.png" alt="" width="373"><figcaption><p>Image shared within the conversation</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot_2025-03-05_alle_15.03.30.png" alt="" width="373"><figcaption><p>Image shared within the conversation</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2025-03-05_alle_15.03.56.png" alt=""><figcaption><p>Image Block</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot_2025-03-05_alle_15.03.56.png" alt=""><figcaption><p>Image Block</p></figcaption></figure>
 
 Images can be uploaded in two ways:
 

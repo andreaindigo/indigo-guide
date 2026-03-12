@@ -169,7 +169,7 @@ Ensure data consistency and streamlined workflows across your systems by enablin
 Our AI agents are compatible with a wide range of business tools, including Google Workspace, Salesforce, HubSpot, SAP, Shopify, Microsoft Dynamics and more.&#x20;
 
 {% hint style="info" %}
-For a full list of integrations and setup details, check out our dedicated guide: [integrations](../integrations/ "mention").
+For a full list of integrations and setup details, check out our dedicated guide: [integrations](../agents-workflows-and-triggers/integrations/ "mention").
 {% endhint %}
 
 ### 🚀 Ready to Build Your Agents?

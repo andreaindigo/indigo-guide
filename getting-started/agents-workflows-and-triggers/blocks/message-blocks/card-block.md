@@ -10,7 +10,7 @@ Cards displayed in a chat conversation
 
 When you create multiple cards (up to 10), they are displayed in a **carousel** format, allowing users to scroll through them horizontally. You can easily reorder cards using the drag-and-drop functionality, making it simple to customize the presentation order.
 
-<figure><img src="../../../.gitbook/assets/Screenshot_2025-03-05_alle_14.35.57.png" alt=""><figcaption><p>Card Block</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot_2025-03-05_alle_14.35.57.png" alt=""><figcaption><p>Card Block</p></figcaption></figure>
 
 #### Card Configuration Options
 

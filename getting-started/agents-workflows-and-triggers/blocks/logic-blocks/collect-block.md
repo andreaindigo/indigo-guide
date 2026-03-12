@@ -10,7 +10,7 @@ In any intelligent conversation, capturing the right information at the right mo
 
 With just a few configurations, the Collect Block helps you build smarter conversations, enabling your assistant to gather information efficiently while keeping interactions dynamic, natural, and user-friendly.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-07-07 alle 14.36.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-07-07 alle 14.36.41.png" alt=""><figcaption></figcaption></figure>
 
 ### ✅ Why Use the Collect Block?
 
@@ -87,7 +87,7 @@ Each shot represents a sample interaction made up of one or more message exchang
 
 This section helps demonstrate how the model should respond in similar situations, improving consistency and tone in its answers.
 
-<figure><img src="../../../.gitbook/assets/use shots.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/use shots.png" alt=""><figcaption></figcaption></figure>
 
 ### 🛠️ Tips for Building
 

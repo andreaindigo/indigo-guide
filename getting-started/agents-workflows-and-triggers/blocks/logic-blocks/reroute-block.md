@@ -6,7 +6,7 @@ By using this block, you can define specific destinations, guiding the conversat
 
 The Reroute Block helps create dynamic, flexible conversation paths, ensuring that user requests are directed to the right agent or workflow without disrupting the overall flow.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-26 alle 11.17.24.png" alt=""><figcaption><p>The Reroute Block</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-26 alle 11.17.24.png" alt=""><figcaption><p>The Reroute Block</p></figcaption></figure>
 
 ## Key Features
 
@@ -16,7 +16,7 @@ With the Reroute Block, you can precisely specify the destination where the conv
 
 * An **agent**: Sending the user to another AI agent.
 * A **workflow**: Redirecting the conversation to another workflow for further action.
-* A [**variable**](../../workspace/variables/): Using variables to influence the conversation path dynamically.
+* A [**variable**](../../../workspace/variables/): Using variables to influence the conversation path dynamically.
 
 ### “Resume from Here” Option
 
@@ -30,7 +30,7 @@ For example, if you want to return to a certain point in the conversation after 
 
 The Reroute Block is often used within other logical blocks, such as the Condition Block. For instance, if a certain condition is met, the conversation flow can be rerouted accordingly to a designated agent or workflow, enhancing the adaptability of the conversation.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-03-26 alle 11.24.14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2025-03-26 alle 11.24.14.png" alt=""><figcaption></figcaption></figure>
 
 * **Dynamic Testing and Debugging**
 

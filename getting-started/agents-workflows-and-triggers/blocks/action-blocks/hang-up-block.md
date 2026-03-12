@@ -6,14 +6,14 @@ icon: phone-hangup
 
 The Hang up block allows you to end a voice call at specific points in the flow. It is available among the Action blocks and works only in voice workflows (it is skipped in text chats and web calls).
 
-<figure><img src="../../../.gitbook/assets/kb_hangup 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/kb_hangup 1.png" alt=""><figcaption></figcaption></figure>
 
 You can add **multiple Hang up blocks** in the same workflow, but only the first one executed will actually close the call and, if configured, trigger a post-call workflow.
 
 \
 Additionally, the block can be set to start a workflow right after the call ends, enabling follow-up actions such as call classification, API requests, or sending emails.
 
-<figure><img src="../../../.gitbook/assets/kb_hangup 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/kb_hangup 2.png" alt=""><figcaption></figcaption></figure>
 
 ### Hang up Block – Functional Requirements
 

@@ -9,7 +9,7 @@ These blocks don’t always produce visible output in the chat, but they are ess
 * Enabling advanced logic and system integrations
 * Keeping workflows clear, organized, and easy to manage
 * Enhancing collaboration across your team
-* Powering non-conversational use cases, especially in [Voice channels](../../communication-channels/voice.md)
+* Powering non-conversational use cases, especially in [Voice channels](../../../communication-channels/voice.md)
 
 Below are the Utility Blocks available on the indigo.ai platform. Click on each block name to learn more about how it works and how to use it in your assistant workflows:
 
