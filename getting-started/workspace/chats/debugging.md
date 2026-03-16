@@ -80,6 +80,16 @@ Agent Blocks are treated like Prompt Blocks. You’ll see:
 
 Since the Agent block operates like a Prompt Block, this section focuses on understanding how your AI Agent responded and what it based its answer on.
 
+#### Response Time Breakdown
+
+The Debug panel in the Bot Builder now displays a detailed breakdown of response times.
+
+Next to the total end-to-end processing time (for example 1348 ms), hovering over the value shows a tooltip with the execution time of each processing step, grouped by the agent involved in generating the response.
+
+This allows bot builders to quickly identify where latency occurs — whether in prompt processing (prompt assembly and LLM generation), external API calls, or Knowledge Base retrieval.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-03-11 at 17.17.18.png" alt=""><figcaption></figcaption></figure>
+
 ## Problem Solving Made Easy
 
 Debugging is designed to help you troubleshoot autonomously. Whether you're fixing a broken workflow or fine-tuning performance, you can:
