@@ -53,6 +53,42 @@ Use **gpt-4.1** or **gpt-5.1** if: \
 ✔ Your use case involves complex responses (e.g., legal, medical, or technical AI agents). \
 ✔ You’re willing to trade speed for accuracy.
 
+### Model Selector (New)
+
+indigo.ai provides an enhanced model selector panel that helps users choose the most appropriate LLM directly from the interface.
+
+Instead of a simple dropdown, the selector displays key information for each model to support informed decision-making.
+
+<figure><img src="../../.gitbook/assets/model selector.png" alt=""><figcaption></figcaption></figure>
+
+#### What you can see
+
+For each model, the selector shows:
+
+* Pricing → input/output cost per million tokens
+* Context window → maximum supported context size
+* Price tier → Light, Standard, or Premium
+* Deployment region → e.g. EU or US (when available)
+* Recommended label → highlights suggested models
+
+Models are grouped by provider (e.g. OpenAI, Google, Anthropic, Mistral), and can be searched by name.
+
+#### Price tiers
+
+To simplify model selection, each model is categorized into one of three tiers:
+
+* Light → low-cost models, ideal for simple tasks and high-volume usage
+* Standard → balanced models for most use cases
+* Premium → top-tier models for complex and high-performance tasks
+
+#### Where it is available
+
+The model selector is available in all areas where a model can be selected:
+
+* Agent global settings
+* Agent block (Agent Builder)
+* Prompt block (Agent Builder)
+
 ## Best Practices for Choosing an LLM in Prompts
 
 **Impact of Model Selection on Performance**
