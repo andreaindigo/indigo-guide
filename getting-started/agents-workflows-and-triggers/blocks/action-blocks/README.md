@@ -20,5 +20,11 @@ Below are the five types of Action Blocks available in the platform:
   Terminates a voice call and optionally triggers a post-call workflow.
 * 📲 [**Transfer call Block**](transfer-call-block.md)\
   Transfers a voice call to an external number with waiting and fallback management.
+*   **📞** [**Digit Block**](digit-block.md)
+
+    The Digit block allows users to interact during a call.
+*   **📊** [**Event Block**](event-block.md)
+
+    Track an event within a workflow.
 
 Click on each block name to explore its full functionality and discover how to use it effectively in your own assistant workflows.
