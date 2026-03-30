@@ -16,6 +16,7 @@
     * [Conversation Logs](getting-started/workspace/utilities/conversation-logs.md)
     * [Evaluators and Guardrails](getting-started/workspace/utilities/evaluators-and-guardrails.md)
     * [Issue Tracker](getting-started/workspace/utilities/issue-tracker.md)
+    * [Events](getting-started/workspace/utilities/events.md)
   * [Activities](getting-started/workspace/activities.md)
   * [Settings &  Installation](getting-started/workspace/settings-and-installation/README.md)
     * [Team settings](getting-started/workspace/settings-and-installation/team-settings.md)
