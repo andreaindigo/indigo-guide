@@ -42,6 +42,7 @@
       * [Hang up Block](getting-started/agents-workflows-and-triggers/blocks/action-blocks/hang-up-block.md)
       * [Transfer call Block](getting-started/agents-workflows-and-triggers/blocks/action-blocks/transfer-call-block.md)
       * [📘 Digit Block](getting-started/agents-workflows-and-triggers/blocks/action-blocks/digit-block.md)
+      * [Event Block](getting-started/agents-workflows-and-triggers/blocks/action-blocks/event-block.md)
     * [Logic Blocks](getting-started/agents-workflows-and-triggers/blocks/logic-blocks/README.md)
       * [🔀 Reroute Block](getting-started/agents-workflows-and-triggers/blocks/logic-blocks/reroute-block.md)
       * [🔣 Condition Block](getting-started/agents-workflows-and-triggers/blocks/logic-blocks/condition-block.md)
