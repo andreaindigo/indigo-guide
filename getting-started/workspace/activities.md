@@ -14,7 +14,7 @@ Here’s a brief overview of each feature:&#x20;
 
 The Chats section lets you track and review all conversations between users and your virtual assistant. You can monitor real-time interactions, analyze user behavior,  [troubleshoot](chats/debugging.md) issues, and manage chats needing human intervention or flagged for improvement.
 
-📃[**Docs & URLs**](docs-and-urls.md)&#x20;
+📃[**Docs & URLs**](docs-and-urls/)&#x20;
 
 In this section, you can upload documents and add links to enrich your knowledge base. The system will use the content from your uploaded files and URLs to provide more accurate and informed responses.
 

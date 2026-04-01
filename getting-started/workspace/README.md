@@ -21,7 +21,7 @@ The left-side menu is organized into three main blocks, each grouping sections w
 This block includes sections related to day-to-day workspace activity, content management, and analysis:
 
 * [Chats](chats/)
-* [Docs and URLs](docs-and-urls.md)
+* [Docs and URLs](docs-and-urls/)
 * [Analytics](analytics.md)
 * [Utilities](utilities/)
 

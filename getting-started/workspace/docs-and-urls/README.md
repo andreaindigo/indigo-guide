@@ -6,7 +6,7 @@ icon: file-check
 
 In this section, you can upload documents and add links to enrich your knowledge base. The system will use the content from your uploaded files and URLs to provide more accurate and informed responses.
 
-<figure><img src="../../.gitbook/assets/indigo docs &#x26; urls.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/indigo docs &#x26; urls.png" alt=""><figcaption></figcaption></figure>
 
 #### 📄 Uploading Documents
 
@@ -28,11 +28,11 @@ To add a web page:
 
 Once uploaded, you can **assign a Tag** to each document or URL.
 
-<figure><img src="../../.gitbook/assets/indigo add tag to a doc.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/indigo add tag to a doc.png" alt=""><figcaption></figcaption></figure>
 
 Tags allow you to easily reference specific content later, for example when configuring your Agent.
 
-<figure><img src="../../.gitbook/assets/indigo document to use tag.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/indigo document to use tag.png" alt=""><figcaption></figcaption></figure>
 
 #### 🏷️ Using Tags
 
@@ -79,7 +79,7 @@ The modal is divided into two sections:
 * **Left panel:** configure processing parameters (OCR, language, extraction mode, etc.) and start the process
 * **Right panel:** preview of the processed document (available after processing is complete)
 
-<figure><img src="../../.gitbook/assets/nuova rag 1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/nuova rag 1.png" alt=""><figcaption></figcaption></figure>
 
 Once processing is completed, you can:
 
@@ -110,6 +110,6 @@ After processing, the right panel displays a structured preview of the extracted
 * Each section includes full text and character count
 * Sections can be expanded or collapsed
 
-<figure><img src="../../.gitbook/assets/nuova rag 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/nuova rag 3.png" alt=""><figcaption></figcaption></figure>
 
 If the document has not been processed yet, the preview area remains empty with a loading state.
